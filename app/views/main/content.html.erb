@@ -1,0 +1,18 @@
+<div class="page">
+
+  <% unless flash[:notice].nil? %> <p class="flash-msg"> <%= flash[:notice] %> </p> <% end %>
+
+    <div id="news_title">
+      <%= simple_format(@news.title).html_safe %>
+    </div>
+    <div id="create_date">
+      <%= t('posted_on') %> <%= @news.date %>
+    </div>
+    <div id="first" class="firstanimation">
+        <%= image_tag @news.icon_url%>
+    </div>
+      
+    <div id="news_content">
+      <%= simple_format(@news.content).html_safe%>
+    </div>
+</div>

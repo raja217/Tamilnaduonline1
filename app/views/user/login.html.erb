@@ -1,0 +1,46 @@
+<div class="login">
+  <%= form_for :user , :class => 'login' do |f| %>
+
+      <p>
+      <label for="login"><%= t('username') %></label>
+        <div id="login">
+          <%= f.text_field :username %>
+        </div>
+      </p>
+
+       <p>
+      <label for="password"><%= t('password') %></label>
+        <div id="password">
+          <%= f.password_field :password %>
+        </div>
+      </p>
+
+        <div id="notice-box">
+          <% if !flash.empty? %>
+            <div id="notice"><%= flash[:notice] %></div>
+          <% end %>
+        </div>
+
+        <p class="login-submit">
+      <button type="submit" class="login-button">Login</button>
+    </p>
+
+        <label for="forgot_password" class="forgot_password_link">
+          <%#= link_to t('forgot_password'),
+            :controller => "user",
+            :action => "forgot_password" %>
+        </label>
+      </div>
+    </div>
+  <% end %>
+  <div id="help_forgot_pw">
+
+  </div>
+  <div class="clearfooter"></div>
+</div>
+
+
+
+<script type="text/javascript">
+  document.getElementById('user_username').focus();
+</script>

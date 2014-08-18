@@ -1,0 +1,26 @@
+<div class= "page" id = "page">
+    <div class="container">
+	<div id="content-slider">
+	<% @pictures.each do |p| %>
+    	<div id="slider">
+            <ul>
+           	    <li id="first" class="firstanimation">
+                    <%= link_to image_tag(p.icon_url), {:action => 'content', :id => p.id }, :target => "_blank" %>
+                    <div class = "title">
+                        <%= simple_format(p.title).html_safe %>
+                    </div>
+                    <div id = "con">
+                        <%= truncate(simple_format(p.content), :length => 200).html_safe%> 
+                        <div id = "read">
+                        <%= link_to "...Read more", {:action => 'content', :id => p.id}, :target => "_blank" %>
+                        </div>
+                    </div>
+                    
+                </li>
+            </ul>
+        </div>
+    <% end %>
+    </div>
+</div>
+</div>
+<%= will_paginate @pictures%>

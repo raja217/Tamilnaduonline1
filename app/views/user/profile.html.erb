@@ -1,0 +1,37 @@
+<div id="content-header">
+  <h1><%= t('user_profile') %></h1>
+  <h3><%= t('user_information') %></h3>
+
+</div>
+
+<div id="page-yield">
+
+  <% unless flash[:notice].nil? %><p class="flash-msg"> <%= flash[:notice] %> </p><% end %>
+
+  <div id="profile_view">
+
+    <div class="profile_info_label"><%= t('username') %></div>
+    <div class="profile_info_text"> <%= @user.username %> </div>
+
+    <div class="profile_info_label2"><%= t('name') %></div>
+    <div class="profile_info_text2"> <%= @user.fullname %> </div>
+
+
+    <div class="profile_info_label"><%= t('role') %></div>
+    <div class="profile_info_text"> <%= @user.rolename %> </div>
+
+    <div class="profile_info_label2"><%= t('email') %></div>
+    <div class="profile_info_text2"> <%= @user.email %> </div>
+
+
+    <div class="extender"></div>
+  </div>
+    
+
+  <% if @current_user.id == @user.id %>
+    <div class="user_button">
+      <%= link_to t('change_password'), :controller => "user", :action => "change_password" %>
+      <%= link_to t('edit'), :controller => "user", :action => "edit" %>
+    </div>
+  <% end %>
+</div>

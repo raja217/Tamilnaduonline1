@@ -1,0 +1,44 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    actionmailer (2.3.5)
+      actionpack (= 2.3.5)
+    actionpack (2.3.5)
+      activesupport (= 2.3.5)
+      rack (~> 1.0.0)
+    activerecord (2.3.5)
+      activesupport (= 2.3.5)
+    activeresource (2.3.5)
+      activesupport (= 2.3.5)
+    activesupport (2.3.5)
+    cgi_multipart_eof_fix (2.5.0)
+    ckeditor (4.0.11)
+      mime-types
+      orm_adapter (~> 0.5.0)
+    gem_plugin (0.2.3)
+    mime-types (1.25.1)
+    mongrel (1.1.5-x86-mingw32)
+      cgi_multipart_eof_fix (>= 2.4)
+      gem_plugin (>= 0.2.3)
+    mysql (2.8.1-x86-mingw32)
+    orm_adapter (0.5.0)
+    rack (1.0.1)
+    rails (2.3.5)
+      actionmailer (= 2.3.5)
+      actionpack (= 2.3.5)
+      activerecord (= 2.3.5)
+      activeresource (= 2.3.5)
+      activesupport (= 2.3.5)
+      rake (>= 0.8.3)
+    rake (10.3.2)
+    will_paginate (3.0.7)
+
+PLATFORMS
+  x86-mingw32
+
+DEPENDENCIES
+  ckeditor
+  mongrel
+  mysql (= 2.8.1)
+  rails (= 2.3.5)
+  will_paginate (~> 3.0.6)

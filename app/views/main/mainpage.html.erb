@@ -1,0 +1,29 @@
+<div class= "page" id = "page">
+  <ul class = "topics">
+    <% @topics.each do |t| %>
+          <li>
+        <%= link_to t.name, { :controller => 'main', :action => 'news', :id => t.id}, :remote => true, :id => t.id%>
+          </li>
+    <% end %>
+  </ul>  
+    <div id="newslist"><%= render :partial => 'newslist' %></div>
+  
+  </br>
+  </br>   
+
+</div>
+<script type="text/javascript">
+$(".topics li:first").addClass("active");
+   $(".topics > li").click(function(){
+  $(".topics > li").removeClass("active"); // this line will remove class active from every li
+  $(this).addClass("active");
+});
+</script>
+<div id="footer">
+      <div id="footer_logo">
+        <div id="powered_by">
+          <a><%= t('powered_by') %> <%= "'GiNews and Media sevices' and 'HLISE'" %></a><br/>
+          <%= "Copyright © 2014. All rights reserved." %>
+        </div>
+      </div>
+    </div> 

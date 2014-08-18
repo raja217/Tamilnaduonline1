@@ -1,0 +1,29 @@
+<div id="user_options">
+
+  <% if @user.admin? %>
+    <div class="button-box">
+      <%= link_to "", {:controller => "topics", :action => "index"},
+        :class => "option_buttons", :id => "examinations_button",:title => "Add Topics" %>
+      <div class ='button-label'><p>Add Topics</p></div>
+    </div>
+    <div class="button-box">
+      <%= link_to "", {:controller => "news", :action => "select_topic"},
+        :class => "option_buttons", :id => "manage_news_button", :title => 'Add news' %>
+        <div class ='button-label'><p>Add News</p></div>
+    </div>
+    <div class="button-box">
+      <%= link_to "", {:controller => "user", :action => "new"},
+        :class => "option_buttons", :id => "manage_users_button", :title => 'Add users' %>
+        <div class ='button-label'><p>Administrators</p></div>
+      </div>
+  <% elsif @user.conedit? %>
+    <div class="button-box">
+      <%= link_to "", {:controller => "news", :action => "select_topic"},
+        :class => "option_buttons", :id => "manage_news_button", :title => "Add news" %>
+        <div class ='button-label'><p>Add News</p></div>
+      </div>
+  <% end %>
+    
+    
+   
+</div>

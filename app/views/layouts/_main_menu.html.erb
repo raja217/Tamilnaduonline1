@@ -1,0 +1,13 @@
+<ul id="main-menu">
+	<% if @current_user.admin? %>
+    <li class="a"><%= link_to "My dashboard", :controller => "user", :action => "dashboard" %></li>
+    <li class="a"><%= link_to "Add Topics", :controller => "topics", :action => "new" %></li>
+    <li class="a"><%= link_to "Add News", :controller => "news", :action => "select_topic" %></li>
+  	<li class="a"><%= link_to "Administrators", :controller => "user", :action => "new" %></li> 
+  	<% else %>
+  	<li class="a"><%= link_to "My dashboard", :controller => "user", :action => "dashboard" %></li>
+    <li class="a"><%= link_to "Add News", :controller => "news", :action => "select_topic" %></li>
+    <% end %>
+</ul>
+  
+  

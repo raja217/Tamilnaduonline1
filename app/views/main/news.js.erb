@@ -1,0 +1,5 @@
+<% if @topic.video == true %>
+	$(".container").html("<%= escape_javascript(render("newslistv")) %>")
+<% else %>
+	$(".container").html("<%= escape_javascript(render("newslist")) %>")
+<% end %>

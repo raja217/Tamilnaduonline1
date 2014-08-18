@@ -1,0 +1,23 @@
+<div class="container">
+    <div id="content-slider">
+    <% @pictures.each do |p| %>
+        <div id="slider">
+            <ul>
+                <li id="first" class="firstanimation">
+                    <%= raw(youtube_embed(p.link)) %>
+                    <div class = "title">
+                        <%= simple_format(p.title).html_safe %>
+                    </div>
+                    <div id = "con">
+                        <%= truncate(simple_format(p.content), :length => 200).html_safe%> 
+                        <div id = "read">
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class = "progress-bar"></div>
+    <% end %>
+    </div>
+</div>
+

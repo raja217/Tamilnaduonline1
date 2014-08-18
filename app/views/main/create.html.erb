@@ -1,0 +1,7 @@
+<div id="theform">
+	<%= form_for(@user, :remote => true) do |f| %>
+
+	Name: <div="Name"><%= f.text_field :name %></div>
+	Email: <div="Email"><%= f.text_field :email %></div><br/>
+	<%= f.submit "Submit" %>
+</div>

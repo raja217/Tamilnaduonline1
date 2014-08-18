@@ -1,0 +1,27 @@
+<div class="container">
+    <div id = "read">
+    <%= link_to "அனைத்து செய்திகள்", {:action => 'all', :id => @topic.id}, :target => "_blank" %>
+</div>
+	<div id="content-slider">
+	<% @pictures.each do |p| %>
+    	<div id="slider">
+            <ul>
+           	    <li id="first" class="firstanimation">
+                    <%= link_to image_tag(p.icon_url), {:action => 'content', :id => p.id }, :target => "_blank" %>
+                    <div class = "title">
+                        <%= simple_format(p.title).html_safe %>
+                    </div>
+                    <div id = "con">
+                        <%= truncate(simple_format(p.content), :length => 200).html_safe%> 
+                        <div id = "read">
+                        <%= link_to "...மேலும் அறிக", {:action => 'content', :id => p.id}, :target => "_blank" %>
+                        </div>
+                    </div>
+                    
+                </li>
+            </ul>
+        </div>
+        <div class = "progress-bar"></div>
+    <% end %>
+    </div>
+</div>
