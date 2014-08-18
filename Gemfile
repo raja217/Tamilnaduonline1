@@ -1,20 +1,19 @@
 source 'https://rubygems.org'
 
-gem 'rails', '2.3.5'
+gem 'rails', '3.2.18'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 
-gem 'mysql','2.8.1'
+gem 'mysql2','0.3.16'
 
 # Gems used only for assets and not required
 # in production environments by default.
-
+gem 'calendar_date_select'
 gem 'ckeditor'
-
-gem 'mongrel'
+gem 'paperclip'
 gem 'will_paginate', '~> 3.0.6'
-
+gem 'ImageResize'
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
@@ -25,7 +24,7 @@ gem 'will_paginate', '~> 3.0.6'
 # gem 'unicorn'
 
 # Deploy with Capistrano
-# gem 'capistrano'
+gem 'capistrano', '~> 3.2.0'
 
 # To use debugger
 # gem 'debugger'
