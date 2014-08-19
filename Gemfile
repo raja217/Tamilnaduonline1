@@ -1,12 +1,12 @@
 source 'https://rubygems.org'
 
 gem 'rails', '3.2.18'
-gem 'heroku'
+
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 
-gem 'mysql2','0.3.16'
+gem 'mysql','2.8.1'
 
 # Gems used only for assets and not required
 # in production environments by default.
@@ -25,7 +25,7 @@ gem 'ImageResize'
 # gem 'unicorn'
 
 # Deploy with Capistrano
-gem 'capistrano', '~> 3.2.0'
+#gem 'capistrano', '~> 3.2.0'
 
 # To use debugger
 # gem 'debugger'
