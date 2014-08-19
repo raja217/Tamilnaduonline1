@@ -15,7 +15,7 @@ development:
   database: CMS
   pool: 5
   username: root
-  password:
+  password: test
   host: 127.0.0.1
   port: 3006
 
@@ -29,7 +29,7 @@ test:
   database: CMS
   pool: 5
   username: root
-  password:
+  password: test
   host: 127.0.0.1
   port: 3006
 
@@ -41,7 +41,7 @@ production:
   database: CMS
   pool: 5
   username: root
-  password:
+  password: test
   host: 127.0.0.1
   port: 3006
 
