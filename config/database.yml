@@ -12,10 +12,10 @@ development:
   adapter: mysql2
   encoding: utf8
   reconnect: false
-  database: CMS
+  database: test<%= ENV['TEST_ENV_NUMBER'] %>
   pool: 5
-  username: root
-  password: test
+  username: <%= ENV['MYSQL_USER'] %>
+  password: <%= ENV['MYSQL_PASSWORD'] %>
   host: 127.0.0.1
   port: 3006
 
@@ -26,10 +26,10 @@ test:
   adapter: mysql2
   encoding: utf8
   reconnect: false
-  database: CMS
+  database: test<%= ENV['TEST_ENV_NUMBER'] %>
   pool: 5
-  username: root
-  password: test
+ username: <%= ENV['MYSQL_USER'] %>
+  password: <%= ENV['MYSQL_PASSWORD'] %>
   host: 127.0.0.1
   port: 3006
 
@@ -38,10 +38,10 @@ production:
   adapter: mysql2
   encoding: utf8
   reconnect: false
-  database: CMS
+  database: test<%= ENV['TEST_ENV_NUMBER'] %>
   pool: 5
-  username: root
-  password: test
+  username: <%= ENV['MYSQL_USER'] %>
+  password: <%= ENV['MYSQL_PASSWORD'] %>
   host: 127.0.0.1
   port: 3006
 
