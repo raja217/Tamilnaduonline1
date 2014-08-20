@@ -6,4 +6,3 @@ production:
   port:      5432
   password:  N9B5k6pOKr57BSLkrICsBhmYjm
   psql:      heroku pg:psql --app tamilnaduliveonline gold
-  URL:       postgres://wekaeygcqruqzk:N9B5k6pOKr57BSLkrICsBhmYjm@ec2-54-225-103-9.compute-1.amazonaws.com:5432/dbt29f7h55lo9
