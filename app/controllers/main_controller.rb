@@ -10,9 +10,9 @@ class MainController < ApplicationController
 		@topic1 = Topic.find_by_id(2)
 		@pictures = News.find(:all, :conditions => ['topics_id=?', @topic],:order=>'updated_at desc')
 		@pic = News.find(:all, :conditions => ['topics_id=?', @topic1],:order=>'updated_at desc')
-		#@vid = Topic.last
-		#@videos = News.find(:all,:conditions => ['topics_id=?', @vid],:order=>'updated_at asc')
-		#@topics = Topic.find(:all)
+		@vid = Topic.last
+		@videos = News.last(:conditions => ['topics_id=?', @vid],:order=>'updated_at asc')
+		@topics = Topic.find(:all)
 		respond_to do |format|
 			format.html
 		end
