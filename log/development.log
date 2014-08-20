@@ -3561,3 +3561,648 @@ Completed 200 OK in 109.0ms (Views: 52.0ms | ActiveRecord: 22.0ms)
 
 Started GET "/assets/ckeditor/ckeditor.js" for 127.0.0.1 at 2014-08-20 19:52:25 +0530
 Served asset /ckeditor/ckeditor.js - 304 Not Modified (0ms)
+
+
+Started GET "/news" for 127.0.0.1 at 2014-08-20 20:49:24 +0530
+Connecting to database specified by database.yml
+
+PG::Error (FATAL:  password authentication failed for user "Rajasekar"
+FATAL:  no pg_hba.conf entry for host "115.242.250.148", user "Rajasekar", database "ddn9fmmv01cd6o", SSL off
+):
+  activerecord (3.2.18) lib/active_record/connection_adapters/postgresql_adapter.rb:1222:in `initialize'
+  activerecord (3.2.18) lib/active_record/connection_adapters/postgresql_adapter.rb:1222:in `new'
+  activerecord (3.2.18) lib/active_record/connection_adapters/postgresql_adapter.rb:1222:in `connect'
+  activerecord (3.2.18) lib/active_record/connection_adapters/postgresql_adapter.rb:324:in `initialize'
+  activerecord (3.2.18) lib/active_record/connection_adapters/postgresql_adapter.rb:28:in `new'
+  activerecord (3.2.18) lib/active_record/connection_adapters/postgresql_adapter.rb:28:in `postgresql_connection'
+  activerecord (3.2.18) lib/active_record/connection_adapters/abstract/connection_pool.rb:315:in `new_connection'
+  activerecord (3.2.18) lib/active_record/connection_adapters/abstract/connection_pool.rb:325:in `checkout_new_connection'
+  activerecord (3.2.18) lib/active_record/connection_adapters/abstract/connection_pool.rb:247:in `block (2 levels) in checkout'
+  activerecord (3.2.18) lib/active_record/connection_adapters/abstract/connection_pool.rb:242:in `loop'
+  activerecord (3.2.18) lib/active_record/connection_adapters/abstract/connection_pool.rb:242:in `block in checkout'
+  C:/Ruby193/lib/ruby/1.9.1/monitor.rb:211:in `mon_synchronize'
+  activerecord (3.2.18) lib/active_record/connection_adapters/abstract/connection_pool.rb:239:in `checkout'
+  activerecord (3.2.18) lib/active_record/connection_adapters/abstract/connection_pool.rb:102:in `block in connection'
+  C:/Ruby193/lib/ruby/1.9.1/monitor.rb:211:in `mon_synchronize'
+  activerecord (3.2.18) lib/active_record/connection_adapters/abstract/connection_pool.rb:101:in `connection'
+  activerecord (3.2.18) lib/active_record/connection_adapters/abstract/connection_pool.rb:410:in `retrieve_connection'
+  activerecord (3.2.18) lib/active_record/connection_adapters/abstract/connection_specification.rb:171:in `retrieve_connection'
+  activerecord (3.2.18) lib/active_record/connection_adapters/abstract/connection_specification.rb:145:in `connection'
+  activerecord (3.2.18) lib/active_record/query_cache.rb:67:in `rescue in call'
+  activerecord (3.2.18) lib/active_record/query_cache.rb:61:in `call'
+  activerecord (3.2.18) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.18) lib/active_support/callbacks.rb:405:in `_run__640238788__call__190965790__callbacks'
+  activesupport (3.2.18) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.18) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.18) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.18) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.18) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.18) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.18) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.18) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.18) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.18) lib/rails/engine.rb:484:in `call'
+  railties (3.2.18) lib/rails/application.rb:231:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.18) lib/rails/rack/log_tailer.rb:17:in `call'
+  thin (1.6.2) lib/thin/connection.rb:86:in `block in pre_process'
+  thin (1.6.2) lib/thin/connection.rb:84:in `catch'
+  thin (1.6.2) lib/thin/connection.rb:84:in `pre_process'
+  thin (1.6.2) lib/thin/connection.rb:53:in `process'
+  thin (1.6.2) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine-1.0.3-x86 (mingw32) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine-1.0.3-x86 (mingw32) lib/eventmachine.rb:187:in `run'
+  thin (1.6.2) lib/thin/backends/base.rb:73:in `start'
+  thin (1.6.2) lib/thin/server.rb:162:in `start'
+  rack (1.4.5) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.5) lib/rack/server.rb:268:in `start'
+  railties (3.2.18) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.18) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.18) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.18) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+  Rendered C:/Ruby193/lib/ruby/gems/1.9.1/gems/actionpack-3.2.18/lib/action_dispatch/middleware/templates/rescues/_trace.erb (24.0ms)
+  Rendered C:/Ruby193/lib/ruby/gems/1.9.1/gems/actionpack-3.2.18/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (6.0ms)
+  Rendered C:/Ruby193/lib/ruby/gems/1.9.1/gems/actionpack-3.2.18/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (49.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-20 20:49:36 +0530
+
+PG::Error (FATAL:  password authentication failed for user "Rajasekar"
+FATAL:  no pg_hba.conf entry for host "115.242.250.148", user "Rajasekar", database "ddn9fmmv01cd6o", SSL off
+):
+  activerecord (3.2.18) lib/active_record/connection_adapters/postgresql_adapter.rb:1222:in `initialize'
+  activerecord (3.2.18) lib/active_record/connection_adapters/postgresql_adapter.rb:1222:in `new'
+  activerecord (3.2.18) lib/active_record/connection_adapters/postgresql_adapter.rb:1222:in `connect'
+  activerecord (3.2.18) lib/active_record/connection_adapters/postgresql_adapter.rb:324:in `initialize'
+  activerecord (3.2.18) lib/active_record/connection_adapters/postgresql_adapter.rb:28:in `new'
+  activerecord (3.2.18) lib/active_record/connection_adapters/postgresql_adapter.rb:28:in `postgresql_connection'
+  activerecord (3.2.18) lib/active_record/connection_adapters/abstract/connection_pool.rb:315:in `new_connection'
+  activerecord (3.2.18) lib/active_record/connection_adapters/abstract/connection_pool.rb:325:in `checkout_new_connection'
+  activerecord (3.2.18) lib/active_record/connection_adapters/abstract/connection_pool.rb:247:in `block (2 levels) in checkout'
+  activerecord (3.2.18) lib/active_record/connection_adapters/abstract/connection_pool.rb:242:in `loop'
+  activerecord (3.2.18) lib/active_record/connection_adapters/abstract/connection_pool.rb:242:in `block in checkout'
+  C:/Ruby193/lib/ruby/1.9.1/monitor.rb:211:in `mon_synchronize'
+  activerecord (3.2.18) lib/active_record/connection_adapters/abstract/connection_pool.rb:239:in `checkout'
+  activerecord (3.2.18) lib/active_record/connection_adapters/abstract/connection_pool.rb:102:in `block in connection'
+  C:/Ruby193/lib/ruby/1.9.1/monitor.rb:211:in `mon_synchronize'
+  activerecord (3.2.18) lib/active_record/connection_adapters/abstract/connection_pool.rb:101:in `connection'
+  activerecord (3.2.18) lib/active_record/connection_adapters/abstract/connection_pool.rb:410:in `retrieve_connection'
+  activerecord (3.2.18) lib/active_record/connection_adapters/abstract/connection_specification.rb:171:in `retrieve_connection'
+  activerecord (3.2.18) lib/active_record/connection_adapters/abstract/connection_specification.rb:145:in `connection'
+  activerecord (3.2.18) lib/active_record/query_cache.rb:67:in `rescue in call'
+  activerecord (3.2.18) lib/active_record/query_cache.rb:61:in `call'
+  activerecord (3.2.18) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.18) lib/active_support/callbacks.rb:405:in `_run__640238788__call__190965790__callbacks'
+  activesupport (3.2.18) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.18) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.18) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.18) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.18) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.18) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.18) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.18) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.18) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.18) lib/rails/engine.rb:484:in `call'
+  railties (3.2.18) lib/rails/application.rb:231:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.18) lib/rails/rack/log_tailer.rb:17:in `call'
+  thin (1.6.2) lib/thin/connection.rb:86:in `block in pre_process'
+  thin (1.6.2) lib/thin/connection.rb:84:in `catch'
+  thin (1.6.2) lib/thin/connection.rb:84:in `pre_process'
+  thin (1.6.2) lib/thin/connection.rb:53:in `process'
+  thin (1.6.2) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine-1.0.3-x86 (mingw32) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine-1.0.3-x86 (mingw32) lib/eventmachine.rb:187:in `run'
+  thin (1.6.2) lib/thin/backends/base.rb:73:in `start'
+  thin (1.6.2) lib/thin/server.rb:162:in `start'
+  rack (1.4.5) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.5) lib/rack/server.rb:268:in `start'
+  railties (3.2.18) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.18) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.18) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.18) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+  Rendered C:/Ruby193/lib/ruby/gems/1.9.1/gems/actionpack-3.2.18/lib/action_dispatch/middleware/templates/rescues/_trace.erb (30.0ms)
+  Rendered C:/Ruby193/lib/ruby/gems/1.9.1/gems/actionpack-3.2.18/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.0ms)
+  Rendered C:/Ruby193/lib/ruby/gems/1.9.1/gems/actionpack-3.2.18/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (51.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-20 20:49:44 +0530
+
+PG::Error (FATAL:  password authentication failed for user "Rajasekar"
+FATAL:  no pg_hba.conf entry for host "115.242.250.148", user "Rajasekar", database "ddn9fmmv01cd6o", SSL off
+):
+  activerecord (3.2.18) lib/active_record/connection_adapters/postgresql_adapter.rb:1222:in `initialize'
+  activerecord (3.2.18) lib/active_record/connection_adapters/postgresql_adapter.rb:1222:in `new'
+  activerecord (3.2.18) lib/active_record/connection_adapters/postgresql_adapter.rb:1222:in `connect'
+  activerecord (3.2.18) lib/active_record/connection_adapters/postgresql_adapter.rb:324:in `initialize'
+  activerecord (3.2.18) lib/active_record/connection_adapters/postgresql_adapter.rb:28:in `new'
+  activerecord (3.2.18) lib/active_record/connection_adapters/postgresql_adapter.rb:28:in `postgresql_connection'
+  activerecord (3.2.18) lib/active_record/connection_adapters/abstract/connection_pool.rb:315:in `new_connection'
+  activerecord (3.2.18) lib/active_record/connection_adapters/abstract/connection_pool.rb:325:in `checkout_new_connection'
+  activerecord (3.2.18) lib/active_record/connection_adapters/abstract/connection_pool.rb:247:in `block (2 levels) in checkout'
+  activerecord (3.2.18) lib/active_record/connection_adapters/abstract/connection_pool.rb:242:in `loop'
+  activerecord (3.2.18) lib/active_record/connection_adapters/abstract/connection_pool.rb:242:in `block in checkout'
+  C:/Ruby193/lib/ruby/1.9.1/monitor.rb:211:in `mon_synchronize'
+  activerecord (3.2.18) lib/active_record/connection_adapters/abstract/connection_pool.rb:239:in `checkout'
+  activerecord (3.2.18) lib/active_record/connection_adapters/abstract/connection_pool.rb:102:in `block in connection'
+  C:/Ruby193/lib/ruby/1.9.1/monitor.rb:211:in `mon_synchronize'
+  activerecord (3.2.18) lib/active_record/connection_adapters/abstract/connection_pool.rb:101:in `connection'
+  activerecord (3.2.18) lib/active_record/connection_adapters/abstract/connection_pool.rb:410:in `retrieve_connection'
+  activerecord (3.2.18) lib/active_record/connection_adapters/abstract/connection_specification.rb:171:in `retrieve_connection'
+  activerecord (3.2.18) lib/active_record/connection_adapters/abstract/connection_specification.rb:145:in `connection'
+  activerecord (3.2.18) lib/active_record/query_cache.rb:67:in `rescue in call'
+  activerecord (3.2.18) lib/active_record/query_cache.rb:61:in `call'
+  activerecord (3.2.18) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.18) lib/active_support/callbacks.rb:405:in `_run__640238788__call__190965790__callbacks'
+  activesupport (3.2.18) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.18) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.18) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.18) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.18) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.18) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.18) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.18) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.18) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.18) lib/rails/engine.rb:484:in `call'
+  railties (3.2.18) lib/rails/application.rb:231:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.18) lib/rails/rack/log_tailer.rb:17:in `call'
+  thin (1.6.2) lib/thin/connection.rb:86:in `block in pre_process'
+  thin (1.6.2) lib/thin/connection.rb:84:in `catch'
+  thin (1.6.2) lib/thin/connection.rb:84:in `pre_process'
+  thin (1.6.2) lib/thin/connection.rb:53:in `process'
+  thin (1.6.2) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine-1.0.3-x86 (mingw32) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine-1.0.3-x86 (mingw32) lib/eventmachine.rb:187:in `run'
+  thin (1.6.2) lib/thin/backends/base.rb:73:in `start'
+  thin (1.6.2) lib/thin/server.rb:162:in `start'
+  rack (1.4.5) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.5) lib/rack/server.rb:268:in `start'
+  railties (3.2.18) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.18) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.18) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.18) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+  Rendered C:/Ruby193/lib/ruby/gems/1.9.1/gems/actionpack-3.2.18/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered C:/Ruby193/lib/ruby/gems/1.9.1/gems/actionpack-3.2.18/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.0ms)
+  Rendered C:/Ruby193/lib/ruby/gems/1.9.1/gems/actionpack-3.2.18/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (27.0ms)
+
+
+Started GET "/news" for 127.0.0.1 at 2014-08-20 20:49:55 +0530
+
+PG::Error (FATAL:  password authentication failed for user "Rajasekar"
+FATAL:  no pg_hba.conf entry for host "115.242.250.148", user "Rajasekar", database "ddn9fmmv01cd6o", SSL off
+):
+  activerecord (3.2.18) lib/active_record/connection_adapters/postgresql_adapter.rb:1222:in `initialize'
+  activerecord (3.2.18) lib/active_record/connection_adapters/postgresql_adapter.rb:1222:in `new'
+  activerecord (3.2.18) lib/active_record/connection_adapters/postgresql_adapter.rb:1222:in `connect'
+  activerecord (3.2.18) lib/active_record/connection_adapters/postgresql_adapter.rb:324:in `initialize'
+  activerecord (3.2.18) lib/active_record/connection_adapters/postgresql_adapter.rb:28:in `new'
+  activerecord (3.2.18) lib/active_record/connection_adapters/postgresql_adapter.rb:28:in `postgresql_connection'
+  activerecord (3.2.18) lib/active_record/connection_adapters/abstract/connection_pool.rb:315:in `new_connection'
+  activerecord (3.2.18) lib/active_record/connection_adapters/abstract/connection_pool.rb:325:in `checkout_new_connection'
+  activerecord (3.2.18) lib/active_record/connection_adapters/abstract/connection_pool.rb:247:in `block (2 levels) in checkout'
+  activerecord (3.2.18) lib/active_record/connection_adapters/abstract/connection_pool.rb:242:in `loop'
+  activerecord (3.2.18) lib/active_record/connection_adapters/abstract/connection_pool.rb:242:in `block in checkout'
+  C:/Ruby193/lib/ruby/1.9.1/monitor.rb:211:in `mon_synchronize'
+  activerecord (3.2.18) lib/active_record/connection_adapters/abstract/connection_pool.rb:239:in `checkout'
+  activerecord (3.2.18) lib/active_record/connection_adapters/abstract/connection_pool.rb:102:in `block in connection'
+  C:/Ruby193/lib/ruby/1.9.1/monitor.rb:211:in `mon_synchronize'
+  activerecord (3.2.18) lib/active_record/connection_adapters/abstract/connection_pool.rb:101:in `connection'
+  activerecord (3.2.18) lib/active_record/connection_adapters/abstract/connection_pool.rb:410:in `retrieve_connection'
+  activerecord (3.2.18) lib/active_record/connection_adapters/abstract/connection_specification.rb:171:in `retrieve_connection'
+  activerecord (3.2.18) lib/active_record/connection_adapters/abstract/connection_specification.rb:145:in `connection'
+  activerecord (3.2.18) lib/active_record/query_cache.rb:67:in `rescue in call'
+  activerecord (3.2.18) lib/active_record/query_cache.rb:61:in `call'
+  activerecord (3.2.18) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.18) lib/active_support/callbacks.rb:405:in `_run__640238788__call__190965790__callbacks'
+  activesupport (3.2.18) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.18) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.18) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.18) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.18) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.18) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.18) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.18) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.18) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.18) lib/rails/engine.rb:484:in `call'
+  railties (3.2.18) lib/rails/application.rb:231:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.18) lib/rails/rack/log_tailer.rb:17:in `call'
+  thin (1.6.2) lib/thin/connection.rb:86:in `block in pre_process'
+  thin (1.6.2) lib/thin/connection.rb:84:in `catch'
+  thin (1.6.2) lib/thin/connection.rb:84:in `pre_process'
+  thin (1.6.2) lib/thin/connection.rb:53:in `process'
+  thin (1.6.2) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine-1.0.3-x86 (mingw32) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine-1.0.3-x86 (mingw32) lib/eventmachine.rb:187:in `run'
+  thin (1.6.2) lib/thin/backends/base.rb:73:in `start'
+  thin (1.6.2) lib/thin/server.rb:162:in `start'
+  rack (1.4.5) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.5) lib/rack/server.rb:268:in `start'
+  railties (3.2.18) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.18) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.18) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.18) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+  Rendered C:/Ruby193/lib/ruby/gems/1.9.1/gems/actionpack-3.2.18/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered C:/Ruby193/lib/ruby/gems/1.9.1/gems/actionpack-3.2.18/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered C:/Ruby193/lib/ruby/gems/1.9.1/gems/actionpack-3.2.18/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (16.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-20 20:50:01 +0530
+
+PG::Error (FATAL:  password authentication failed for user "Rajasekar"
+FATAL:  no pg_hba.conf entry for host "115.242.250.148", user "Rajasekar", database "ddn9fmmv01cd6o", SSL off
+):
+  activerecord (3.2.18) lib/active_record/connection_adapters/postgresql_adapter.rb:1222:in `initialize'
+  activerecord (3.2.18) lib/active_record/connection_adapters/postgresql_adapter.rb:1222:in `new'
+  activerecord (3.2.18) lib/active_record/connection_adapters/postgresql_adapter.rb:1222:in `connect'
+  activerecord (3.2.18) lib/active_record/connection_adapters/postgresql_adapter.rb:324:in `initialize'
+  activerecord (3.2.18) lib/active_record/connection_adapters/postgresql_adapter.rb:28:in `new'
+  activerecord (3.2.18) lib/active_record/connection_adapters/postgresql_adapter.rb:28:in `postgresql_connection'
+  activerecord (3.2.18) lib/active_record/connection_adapters/abstract/connection_pool.rb:315:in `new_connection'
+  activerecord (3.2.18) lib/active_record/connection_adapters/abstract/connection_pool.rb:325:in `checkout_new_connection'
+  activerecord (3.2.18) lib/active_record/connection_adapters/abstract/connection_pool.rb:247:in `block (2 levels) in checkout'
+  activerecord (3.2.18) lib/active_record/connection_adapters/abstract/connection_pool.rb:242:in `loop'
+  activerecord (3.2.18) lib/active_record/connection_adapters/abstract/connection_pool.rb:242:in `block in checkout'
+  C:/Ruby193/lib/ruby/1.9.1/monitor.rb:211:in `mon_synchronize'
+  activerecord (3.2.18) lib/active_record/connection_adapters/abstract/connection_pool.rb:239:in `checkout'
+  activerecord (3.2.18) lib/active_record/connection_adapters/abstract/connection_pool.rb:102:in `block in connection'
+  C:/Ruby193/lib/ruby/1.9.1/monitor.rb:211:in `mon_synchronize'
+  activerecord (3.2.18) lib/active_record/connection_adapters/abstract/connection_pool.rb:101:in `connection'
+  activerecord (3.2.18) lib/active_record/connection_adapters/abstract/connection_pool.rb:410:in `retrieve_connection'
+  activerecord (3.2.18) lib/active_record/connection_adapters/abstract/connection_specification.rb:171:in `retrieve_connection'
+  activerecord (3.2.18) lib/active_record/connection_adapters/abstract/connection_specification.rb:145:in `connection'
+  activerecord (3.2.18) lib/active_record/query_cache.rb:67:in `rescue in call'
+  activerecord (3.2.18) lib/active_record/query_cache.rb:61:in `call'
+  activerecord (3.2.18) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.18) lib/active_support/callbacks.rb:405:in `_run__640238788__call__190965790__callbacks'
+  activesupport (3.2.18) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.18) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.18) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.18) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.18) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.18) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.18) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.18) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.18) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.18) lib/rails/engine.rb:484:in `call'
+  railties (3.2.18) lib/rails/application.rb:231:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.18) lib/rails/rack/log_tailer.rb:17:in `call'
+  thin (1.6.2) lib/thin/connection.rb:86:in `block in pre_process'
+  thin (1.6.2) lib/thin/connection.rb:84:in `catch'
+  thin (1.6.2) lib/thin/connection.rb:84:in `pre_process'
+  thin (1.6.2) lib/thin/connection.rb:53:in `process'
+  thin (1.6.2) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine-1.0.3-x86 (mingw32) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine-1.0.3-x86 (mingw32) lib/eventmachine.rb:187:in `run'
+  thin (1.6.2) lib/thin/backends/base.rb:73:in `start'
+  thin (1.6.2) lib/thin/server.rb:162:in `start'
+  rack (1.4.5) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.5) lib/rack/server.rb:268:in `start'
+  railties (3.2.18) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.18) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.18) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.18) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+  Rendered C:/Ruby193/lib/ruby/gems/1.9.1/gems/actionpack-3.2.18/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered C:/Ruby193/lib/ruby/gems/1.9.1/gems/actionpack-3.2.18/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered C:/Ruby193/lib/ruby/gems/1.9.1/gems/actionpack-3.2.18/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (22.0ms)
+
+
+Started GET "/news" for 127.0.0.1 at 2014-08-20 20:50:19 +0530
+Connecting to database specified by database.yml
+Processing by MainController#mainpage as HTML
+  [1m[36mTopic Load (1.0ms)[0m  [1mSELECT `topics`.* FROM `topics` ORDER BY topics.order, updated_at desc[0m
+  [1m[35mTopic Load (0.0ms)[0m  SELECT `topics`.* FROM `topics` WHERE `topics`.`id` = 1 ORDER BY topics.order LIMIT 1
+  [1m[36mNews Load (1.0ms)[0m  [1mSELECT `news`.* FROM `news` WHERE (topics_id=1) ORDER BY updated_at desc[0m
+  Rendered main/_newslist.html.erb (68.0ms)
+  Rendered main/mainpage.html.erb within layouts/main (96.0ms)
+  Rendered layouts/_main_form.html.erb (1.0ms)
+Completed 200 OK in 221.0ms (Views: 119.0ms | ActiveRecord: 33.0ms)
+
+
+Started GET "/assets/ckeditor/ckeditor.js" for 127.0.0.1 at 2014-08-20 20:50:20 +0530
+Served asset /ckeditor/ckeditor.js - 304 Not Modified (8ms)
+
+
+Started GET "/main/news/2" for 127.0.0.1 at 2014-08-20 20:50:22 +0530
+Processing by MainController#news as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mTopic Load (1.0ms)[0m  SELECT `topics`.* FROM `topics` WHERE `topics`.`id` = 2 ORDER BY topics.order LIMIT 1
+  [1m[36mNews Load (0.0ms)[0m  [1mSELECT `news`.* FROM `news` WHERE (topics_id=2)[0m
+Completed 406 Not Acceptable in 8.0ms (ActiveRecord: 1.0ms)
+
+
+Started GET "/main/news/1" for 127.0.0.1 at 2014-08-20 20:50:24 +0530
+Processing by MainController#news as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mTopic Load (0.0ms)[0m  SELECT `topics`.* FROM `topics` WHERE `topics`.`id` = 1 ORDER BY topics.order LIMIT 1
+  [1m[36mNews Load (1.0ms)[0m  [1mSELECT `news`.* FROM `news` WHERE (topics_id=1)[0m
+Completed 406 Not Acceptable in 3.0ms (ActiveRecord: 1.0ms)
+
+
+Started GET "/main/news/4" for 127.0.0.1 at 2014-08-20 20:50:27 +0530
+Processing by MainController#news as HTML
+  Parameters: {"id"=>"4"}
+  [1m[35mTopic Load (0.0ms)[0m  SELECT `topics`.* FROM `topics` WHERE `topics`.`id` = 4 ORDER BY topics.order LIMIT 1
+  [1m[36mNews Load (0.0ms)[0m  [1mSELECT `news`.* FROM `news` WHERE (topics_id=4)[0m
+Completed 406 Not Acceptable in 3.0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/main/news/3" for 127.0.0.1 at 2014-08-20 20:50:29 +0530
+Processing by MainController#news as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mTopic Load (1.0ms)[0m  SELECT `topics`.* FROM `topics` WHERE `topics`.`id` = 3 ORDER BY topics.order LIMIT 1
+  [1m[36mNews Load (1.0ms)[0m  [1mSELECT `news`.* FROM `news` WHERE (topics_id=3)[0m
+Completed 406 Not Acceptable in 3.0ms (ActiveRecord: 2.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-20 20:54:36 +0530
+Processing by MainController#index as HTML
+  [1m[35mTopic Load (1.0ms)[0m  SELECT `topics`.* FROM `topics` WHERE `topics`.`order` = 1 ORDER BY topics.order LIMIT 1
+  [1m[36mTopic Load (0.0ms)[0m  [1mSELECT `topics`.* FROM `topics` WHERE `topics`.`order` = 2 ORDER BY topics.order LIMIT 1[0m
+  [1m[35mNews Load (1.0ms)[0m  SELECT `news`.* FROM `news` WHERE (topics_id=1) ORDER BY updated_at desc
+  [1m[36mNews Load (1.0ms)[0m  [1mSELECT `news`.* FROM `news` WHERE (topics_id=2) ORDER BY updated_at desc[0m
+  [1m[35mTopic Load (0.0ms)[0m  SELECT `topics`.* FROM `topics` ORDER BY topics.order DESC LIMIT 1
+  [1m[36mNews Load (0.0ms)[0m  [1mSELECT `news`.* FROM `news` WHERE (topics_id=5) ORDER BY updated_at asc[0m
+  [1m[35mTopic Load (1.0ms)[0m  SELECT `topics`.* FROM `topics` ORDER BY topics.order
+  Rendered main/index.html.erb within layouts/main (3.0ms)
+  Rendered layouts/_main_form.html.erb (1.0ms)
+Completed 200 OK in 60.0ms (Views: 9.0ms | ActiveRecord: 18.0ms)
+
+
+Started GET "/assets/ckeditor/ckeditor.js" for 127.0.0.1 at 2014-08-20 20:54:36 +0530
+Served asset /ckeditor/ckeditor.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-20 20:54:46 +0530
+Processing by MainController#index as HTML
+  [1m[36mTopic Load (1.0ms)[0m  [1mSELECT `topics`.* FROM `topics` WHERE `topics`.`order` = 1 ORDER BY topics.order LIMIT 1[0m
+  [1m[35mTopic Load (0.0ms)[0m  SELECT `topics`.* FROM `topics` WHERE `topics`.`order` = 2 ORDER BY topics.order LIMIT 1
+  [1m[36mNews Load (0.0ms)[0m  [1mSELECT `news`.* FROM `news` WHERE (topics_id=1) ORDER BY updated_at desc[0m
+  [1m[35mNews Load (1.0ms)[0m  SELECT `news`.* FROM `news` WHERE (topics_id=2) ORDER BY updated_at desc
+  [1m[36mTopic Load (1.0ms)[0m  [1mSELECT `topics`.* FROM `topics` ORDER BY topics.order DESC LIMIT 1[0m
+  [1m[35mNews Load (1.0ms)[0m  SELECT `news`.* FROM `news` WHERE (topics_id=5) ORDER BY updated_at asc
+  [1m[36mTopic Load (1.0ms)[0m  [1mSELECT `topics`.* FROM `topics` ORDER BY topics.order[0m
+  Rendered main/index.html.erb within layouts/main (2.0ms)
+  Rendered layouts/_main_form.html.erb (1.0ms)
+Completed 200 OK in 17.0ms (Views: 8.0ms | ActiveRecord: 5.0ms)
+
+
+Started GET "/assets/ckeditor/ckeditor.js" for 127.0.0.1 at 2014-08-20 20:54:46 +0530
+Served asset /ckeditor/ckeditor.js - 304 Not Modified (0ms)
+
+
+Started GET "/news" for 127.0.0.1 at 2014-08-20 20:55:16 +0530
+Processing by MainController#mainpage as HTML
+  [1m[35mTopic Load (1.0ms)[0m  SELECT `topics`.* FROM `topics` ORDER BY topics.order, created_at desc
+  [1m[36mTopic Load (1.0ms)[0m  [1mSELECT `topics`.* FROM `topics` WHERE `topics`.`id` = 1 ORDER BY topics.order LIMIT 1[0m
+  [1m[35mNews Load (1.0ms)[0m  SELECT `news`.* FROM `news` WHERE (topics_id=1) ORDER BY updated_at desc
+  Rendered main/_newslist.html.erb (29.0ms)
+  Rendered main/mainpage.html.erb within layouts/main (35.0ms)
+  Rendered layouts/_main_form.html.erb (1.0ms)
+Completed 200 OK in 48.0ms (Views: 41.0ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/assets/ckeditor/ckeditor.js" for 127.0.0.1 at 2014-08-20 20:55:17 +0530
+Served asset /ckeditor/ckeditor.js - 304 Not Modified (0ms)
+
+
+Started GET "/main/news/2" for 127.0.0.1 at 2014-08-20 20:55:18 +0530
+Processing by MainController#news as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mTopic Load (0.0ms)[0m  [1mSELECT `topics`.* FROM `topics` WHERE `topics`.`id` = 2 ORDER BY topics.order LIMIT 1[0m
+  [1m[35mNews Load (1.0ms)[0m  SELECT `news`.* FROM `news` WHERE (topics_id=2)
+Completed 406 Not Acceptable in 3.0ms (ActiveRecord: 1.0ms)
+
+
+Started GET "/main/news/4" for 127.0.0.1 at 2014-08-20 20:55:21 +0530
+Processing by MainController#news as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mTopic Load (1.0ms)[0m  [1mSELECT `topics`.* FROM `topics` WHERE `topics`.`id` = 4 ORDER BY topics.order LIMIT 1[0m
+  [1m[35mNews Load (1.0ms)[0m  SELECT `news`.* FROM `news` WHERE (topics_id=4)
+Completed 406 Not Acceptable in 3.0ms (ActiveRecord: 2.0ms)
+
+
+Started GET "/main/news/2" for 127.0.0.1 at 2014-08-20 21:19:13 +0530
+Processing by MainController#news as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mTopic Load (0.0ms)[0m  [1mSELECT `topics`.* FROM `topics` WHERE `topics`.`id` = 2 ORDER BY topics.order LIMIT 1[0m
+  [1m[35mNews Load (0.0ms)[0m  SELECT `news`.* FROM `news` WHERE (topics_id=2)
+Completed 406 Not Acceptable in 3.0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/news" for 127.0.0.1 at 2014-08-20 21:19:39 +0530
+Processing by MainController#mainpage as HTML
+  [1m[36mTopic Load (1.0ms)[0m  [1mSELECT `topics`.* FROM `topics` ORDER BY topics.order, created_at desc[0m
+  [1m[35mTopic Load (1.0ms)[0m  SELECT `topics`.* FROM `topics` WHERE `topics`.`id` = 1 ORDER BY topics.order LIMIT 1
+  [1m[36mNews Load (1.0ms)[0m  [1mSELECT `news`.* FROM `news` WHERE (topics_id=1) ORDER BY updated_at desc[0m
+  Rendered main/_newslist.html.erb (5.0ms)
+  Rendered main/mainpage.html.erb within layouts/main (8.0ms)
+  Rendered layouts/_main_form.html.erb (0.0ms)
+Completed 200 OK in 19.0ms (Views: 14.0ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/assets/ckeditor/ckeditor.js" for 127.0.0.1 at 2014-08-20 21:19:39 +0530
+Served asset /ckeditor/ckeditor.js - 304 Not Modified (1ms)
+
+
+Started GET "/news" for 127.0.0.1 at 2014-08-20 21:20:37 +0530
+Connecting to database specified by database.yml
+Processing by MainController#mainpage as HTML
+  [1m[36mTopic Load (1.0ms)[0m  [1mSELECT `topics`.* FROM `topics` ORDER BY topics.order, created_at desc[0m
+  [1m[35mTopic Load (1.0ms)[0m  SELECT `topics`.* FROM `topics` WHERE `topics`.`id` = 1 ORDER BY topics.order LIMIT 1
+  [1m[36mNews Load (1.0ms)[0m  [1mSELECT `news`.* FROM `news` WHERE (topics_id=1) ORDER BY updated_at desc[0m
+  Rendered main/_newslist.html.erb (64.0ms)
+  Rendered main/mainpage.html.erb within layouts/main (87.0ms)
+  Rendered layouts/_main_form.html.erb (1.0ms)
+Completed 200 OK in 190.0ms (Views: 111.0ms | ActiveRecord: 17.0ms)
+
+
+Started GET "/assets/ckeditor/ckeditor.js" for 127.0.0.1 at 2014-08-20 21:20:38 +0530
+Served asset /ckeditor/ckeditor.js - 304 Not Modified (8ms)
+
+
+Started GET "/news" for 127.0.0.1 at 2014-08-20 21:20:50 +0530
+Processing by MainController#mainpage as HTML
+  [1m[35mTopic Load (1.0ms)[0m  SELECT `topics`.* FROM `topics` ORDER BY topics.order, created_at desc
+  [1m[36mTopic Load (1.0ms)[0m  [1mSELECT `topics`.* FROM `topics` WHERE `topics`.`id` = 1 ORDER BY topics.order LIMIT 1[0m
+  [1m[35mNews Load (1.0ms)[0m  SELECT `news`.* FROM `news` WHERE (topics_id=1) ORDER BY updated_at desc
+  Rendered main/_newslist.html.erb (5.0ms)
+  Rendered main/mainpage.html.erb within layouts/main (8.0ms)
+  Rendered layouts/_main_form.html.erb (1.0ms)
+Completed 200 OK in 20.0ms (Views: 15.0ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/assets/ckeditor/ckeditor.js" for 127.0.0.1 at 2014-08-20 21:20:50 +0530
+Served asset /ckeditor/ckeditor.js - 304 Not Modified (0ms)
+
+
+Started GET "/main/news/2" for 127.0.0.1 at 2014-08-20 21:20:59 +0530
+Processing by MainController#news as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mTopic Load (1.0ms)[0m  [1mSELECT `topics`.* FROM `topics` WHERE `topics`.`id` = 2 ORDER BY topics.order LIMIT 1[0m
+  [1m[35mNews Load (1.0ms)[0m  SELECT `news`.* FROM `news` WHERE (topics_id=2)
+Completed 406 Not Acceptable in 9.0ms (ActiveRecord: 2.0ms)
+
+
+Started GET "/news" for 127.0.0.1 at 2014-08-20 21:24:36 +0530
+Connecting to database specified by database.yml
+Processing by MainController#mainpage as HTML
+  [1m[36mTopic Load (0.0ms)[0m  [1mSELECT `topics`.* FROM `topics` ORDER BY topics.order, created_at desc[0m
+  [1m[35mTopic Load (0.0ms)[0m  SELECT `topics`.* FROM `topics` WHERE `topics`.`id` = 1 ORDER BY topics.order LIMIT 1
+  [1m[36mNews Load (1.0ms)[0m  [1mSELECT `news`.* FROM `news` WHERE (topics_id=1) ORDER BY updated_at desc[0m
+  Rendered main/_newslist.html.erb (65.0ms)
+  Rendered main/mainpage.html.erb within layouts/main (87.0ms)
+  Rendered layouts/_main_form.html.erb (1.0ms)
+Completed 200 OK in 192.0ms (Views: 113.0ms | ActiveRecord: 15.0ms)
+
+
+Started GET "/assets/ckeditor/ckeditor.js" for 127.0.0.1 at 2014-08-20 21:24:37 +0530
+Served asset /ckeditor/ckeditor.js - 304 Not Modified (9ms)
+
+
+Started GET "/main/news/1" for 127.0.0.1 at 2014-08-20 21:24:40 +0530
+Processing by MainController#news as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mTopic Load (0.0ms)[0m  SELECT `topics`.* FROM `topics` WHERE `topics`.`id` = 1 ORDER BY topics.order LIMIT 1
+  [1m[36mNews Load (1.0ms)[0m  [1mSELECT `news`.* FROM `news` WHERE (topics_id=1)[0m
+Completed 406 Not Acceptable in 9.0ms (ActiveRecord: 1.0ms)
+
+
+Started GET "/main/news/2" for 127.0.0.1 at 2014-08-20 21:25:06 +0530
+Processing by MainController#news as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mTopic Load (1.0ms)[0m  SELECT `topics`.* FROM `topics` WHERE `topics`.`id` = 2 ORDER BY topics.order LIMIT 1
+  [1m[36mNews Load (0.0ms)[0m  [1mSELECT `news`.* FROM `news` WHERE (topics_id=2)[0m
+Completed 406 Not Acceptable in 4.0ms (ActiveRecord: 1.0ms)
+
+
+Started GET "/news" for 127.0.0.1 at 2014-08-20 21:32:24 +0530
+Connecting to database specified by database.yml
+Processing by MainController#mainpage as HTML
+  [1m[36mTopic Load (0.0ms)[0m  [1mSELECT `topics`.* FROM `topics` ORDER BY topics.order, created_at desc[0m
+  [1m[35mTopic Load (1.0ms)[0m  SELECT `topics`.* FROM `topics` WHERE `topics`.`id` = 1 ORDER BY topics.order LIMIT 1
+  [1m[36mNews Load (1.0ms)[0m  [1mSELECT `news`.* FROM `news` WHERE (topics_id=1) ORDER BY updated_at desc[0m
+  Rendered main/_newslist.html.erb (64.0ms)
+  Rendered main/mainpage.html.erb within layouts/main (88.0ms)
+  Rendered layouts/_main_form.html.erb (1.0ms)
+Completed 200 OK in 170.0ms (Views: 112.0ms | ActiveRecord: 14.0ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2014-08-20 21:32:26 +0530
+Served asset /application.js - 304 Not Modified (13ms)
+
+
+Started GET "/assets/ckeditor/ckeditor.js" for 127.0.0.1 at 2014-08-20 21:32:26 +0530
+Served asset /ckeditor/ckeditor.js - 304 Not Modified (32ms)
+
+
+Started GET "/main/news/2" for 127.0.0.1 at 2014-08-20 21:32:30 +0530
+Processing by MainController#news as JS
+  Parameters: {"id"=>"2"}
+  [1m[35mTopic Load (0.0ms)[0m  SELECT `topics`.* FROM `topics` WHERE `topics`.`id` = 2 ORDER BY topics.order LIMIT 1
+  [1m[36mNews Load (1.0ms)[0m  [1mSELECT `news`.* FROM `news` WHERE (topics_id=2)[0m
+  Rendered main/_newslist.html.erb (5.0ms)
+  Rendered main/news.js.erb (7.0ms)
+Completed 200 OK in 53.0ms (Views: 45.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/main/news/4" for 127.0.0.1 at 2014-08-20 21:32:31 +0530
+Processing by MainController#news as JS
+  Parameters: {"id"=>"4"}
+  [1m[35mTopic Load (1.0ms)[0m  SELECT `topics`.* FROM `topics` WHERE `topics`.`id` = 4 ORDER BY topics.order LIMIT 1
+  [1m[36mNews Load (1.0ms)[0m  [1mSELECT `news`.* FROM `news` WHERE (topics_id=4)[0m
+  Rendered main/_newslist.html.erb (6.0ms)
+  Rendered main/news.js.erb (8.0ms)
+Completed 200 OK in 18.0ms (Views: 14.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/main/news/3" for 127.0.0.1 at 2014-08-20 21:32:31 +0530
+Processing by MainController#news as JS
+  Parameters: {"id"=>"3"}
+  [1m[35mTopic Load (1.0ms)[0m  SELECT `topics`.* FROM `topics` WHERE `topics`.`id` = 3 ORDER BY topics.order LIMIT 1
+  [1m[36mNews Load (1.0ms)[0m  [1mSELECT `news`.* FROM `news` WHERE (topics_id=3)[0m
+  Rendered main/_newslist.html.erb (5.0ms)
+  Rendered main/news.js.erb (6.0ms)
+Completed 200 OK in 17.0ms (Views: 14.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/main/news/5" for 127.0.0.1 at 2014-08-20 21:32:32 +0530
+Processing by MainController#news as JS
+  Parameters: {"id"=>"5"}
+  [1m[35mTopic Load (0.0ms)[0m  SELECT `topics`.* FROM `topics` WHERE `topics`.`id` = 5 ORDER BY topics.order LIMIT 1
+  [1m[36mNews Load (0.0ms)[0m  [1mSELECT `news`.* FROM `news` WHERE (topics_id=5)[0m
+  Rendered main/_newslistv.html.erb (1.0ms)
+  Rendered main/news.js.erb (3.0ms)
+Completed 200 OK in 13.0ms (Views: 10.0ms | ActiveRecord: 0.0ms)

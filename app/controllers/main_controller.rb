@@ -18,7 +18,7 @@ class MainController < ApplicationController
 		end
 	end
 	def mainpage
-		@topics = Topic.find(:all,:order=>'updated_at desc')
+		@topics = Topic.find(:all,:order=>'created_at desc')
 		@topic = Topic.find(1)	
 		@pictures = News.find(:all, :order=>'updated_at desc', :conditions => ['topics_id=?',@topic])	
 	end
