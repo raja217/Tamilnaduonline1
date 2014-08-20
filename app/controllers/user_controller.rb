@@ -1,7 +1,7 @@
 class UserController < ApplicationController
 	layout :choose_layout
-  before_filter :login_required, :only => [:dashboard]
-  before_filter :only_admin_allowed, :only => [:new,:create]
+  #before_filter :login_required, :only => [:dashboard]
+  #before_filter :only_admin_allowed, :only => [:new,:create]
 
 	def choose_layout
 		return 'login' if action_name == 'login' 
