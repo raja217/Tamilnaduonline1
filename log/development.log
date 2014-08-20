@@ -1,0 +1,2547 @@
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-04 15:00:29 +0530
+Processing by MainController#index as HTML
+  [1m[36mTopic Load (1.0ms)[0m  [1mSELECT `topics`.* FROM `topics` WHERE `topics`.`order` = 1 ORDER BY topics.order LIMIT 1[0m
+  [1m[35mTopic Load (0.0ms)[0m  SELECT `topics`.* FROM `topics` WHERE `topics`.`order` = 2 ORDER BY topics.order LIMIT 1
+  [1m[36mNews Load (1.0ms)[0m  [1mSELECT `news`.* FROM `news` WHERE (topics_id=1) ORDER BY updated_at desc[0m
+  [1m[35mNews Load (1.0ms)[0m  SELECT `news`.* FROM `news` WHERE (topics_id=2) ORDER BY updated_at desc
+  [1m[36mTopic Load (1.0ms)[0m  [1mSELECT `topics`.* FROM `topics` ORDER BY topics.order DESC LIMIT 1[0m
+  [1m[35mNews Load (0.0ms)[0m  SELECT `news`.* FROM `news` WHERE (topics_id=5) ORDER BY updated_at asc
+  [1m[36mTopic Load (0.0ms)[0m  [1mSELECT `topics`.* FROM `topics` ORDER BY topics.order[0m
+  Rendered main/index.html.erb within layouts/main (91.0ms)
+  Rendered layouts/_main_form.html.erb (1.0ms)
+Completed 200 OK in 275.0ms (Views: 179.0ms | ActiveRecord: 24.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-04 15:00:30 +0530
+Processing by MainController#index as HTML
+  [1m[35mTopic Load (0.0ms)[0m  SELECT `topics`.* FROM `topics` WHERE `topics`.`order` = 1 ORDER BY topics.order LIMIT 1
+  [1m[36mTopic Load (0.0ms)[0m  [1mSELECT `topics`.* FROM `topics` WHERE `topics`.`order` = 2 ORDER BY topics.order LIMIT 1[0m
+  [1m[35mNews Load (1.0ms)[0m  SELECT `news`.* FROM `news` WHERE (topics_id=1) ORDER BY updated_at desc
+  [1m[36mNews Load (1.0ms)[0m  [1mSELECT `news`.* FROM `news` WHERE (topics_id=2) ORDER BY updated_at desc[0m
+  [1m[35mTopic Load (0.0ms)[0m  SELECT `topics`.* FROM `topics` ORDER BY topics.order DESC LIMIT 1
+  [1m[36mNews Load (0.0ms)[0m  [1mSELECT `news`.* FROM `news` WHERE (topics_id=5) ORDER BY updated_at asc[0m
+  [1m[35mTopic Load (0.0ms)[0m  SELECT `topics`.* FROM `topics` ORDER BY topics.order
+  Rendered main/index.html.erb within layouts/main (3.0ms)
+  Rendered layouts/_main_form.html.erb (1.0ms)
+Completed 200 OK in 18.0ms (Views: 9.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2014-08-04 15:00:30 +0530
+Compiled jquery.js  (4ms)  (pid 1608)
+Compiled jquery_ujs.js  (0ms)  (pid 1608)
+Compiled ckeditor/ckeditor.js  (19ms)  (pid 1608)
+Compiled ckeditor/init.js  (295ms)  (pid 1608)
+Compiled application.js  (575ms)  (pid 1608)
+Served asset /application.js - 304 Not Modified (675ms)
+
+
+Started GET "/assets/ckeditor/ckeditor.js" for 127.0.0.1 at 2014-08-04 15:00:31 +0530
+Served asset /ckeditor/ckeditor.js - 200 OK (45ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-04 15:02:31 +0530
+Processing by MainController#index as HTML
+  [1m[36mTopic Load (1.0ms)[0m  [1mSELECT `topics`.* FROM `topics` WHERE `topics`.`order` = 1 ORDER BY topics.order LIMIT 1[0m
+  [1m[35mTopic Load (0.0ms)[0m  SELECT `topics`.* FROM `topics` WHERE `topics`.`order` = 2 ORDER BY topics.order LIMIT 1
+  [1m[36mNews Load (1.0ms)[0m  [1mSELECT `news`.* FROM `news` WHERE (topics_id=1) ORDER BY updated_at desc[0m
+  [1m[35mNews Load (0.0ms)[0m  SELECT `news`.* FROM `news` WHERE (topics_id=2) ORDER BY updated_at desc
+  [1m[36mTopic Load (0.0ms)[0m  [1mSELECT `topics`.* FROM `topics` ORDER BY topics.order DESC LIMIT 1[0m
+  [1m[35mNews Load (0.0ms)[0m  SELECT `news`.* FROM `news` WHERE (topics_id=5) ORDER BY updated_at asc
+  [1m[36mTopic Load (1.0ms)[0m  [1mSELECT `topics`.* FROM `topics` ORDER BY topics.order[0m
+  Rendered main/index.html.erb within layouts/main (3.0ms)
+  Rendered layouts/_main_form.html.erb (1.0ms)
+Completed 200 OK in 20.0ms (Views: 9.0ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/assets/ckeditor/ckeditor.js" for 127.0.0.1 at 2014-08-04 15:02:31 +0530
+Served asset /ckeditor/ckeditor.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2014-08-04 15:02:32 +0530
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-04 15:02:46 +0530
+Processing by MainController#index as HTML
+  [1m[35mTopic Load (1.0ms)[0m  SELECT `topics`.* FROM `topics` WHERE `topics`.`order` = 1 ORDER BY topics.order LIMIT 1
+  [1m[36mTopic Load (0.0ms)[0m  [1mSELECT `topics`.* FROM `topics` WHERE `topics`.`order` = 2 ORDER BY topics.order LIMIT 1[0m
+  [1m[35mNews Load (0.0ms)[0m  SELECT `news`.* FROM `news` WHERE (topics_id=1) ORDER BY updated_at desc
+  [1m[36mNews Load (1.0ms)[0m  [1mSELECT `news`.* FROM `news` WHERE (topics_id=2) ORDER BY updated_at desc[0m
+  [1m[35mTopic Load (1.0ms)[0m  SELECT `topics`.* FROM `topics` ORDER BY topics.order DESC LIMIT 1
+  [1m[36mNews Load (1.0ms)[0m  [1mSELECT `news`.* FROM `news` WHERE (topics_id=5) ORDER BY updated_at asc[0m
+  [1m[35mTopic Load (1.0ms)[0m  SELECT `topics`.* FROM `topics` ORDER BY topics.order
+  Rendered main/index.html.erb within layouts/main (3.0ms)
+  Rendered layouts/_main_form.html.erb (1.0ms)
+Completed 200 OK in 20.0ms (Views: 10.0ms | ActiveRecord: 5.0ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2014-08-04 15:02:47 +0530
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/ckeditor/ckeditor.js" for 127.0.0.1 at 2014-08-04 15:02:47 +0530
+Served asset /ckeditor/ckeditor.js - 304 Not Modified (1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-04 15:03:20 +0530
+Processing by MainController#index as HTML
+  [1m[36mTopic Load (1.0ms)[0m  [1mSELECT `topics`.* FROM `topics` WHERE `topics`.`order` = 1 ORDER BY topics.order LIMIT 1[0m
+  [1m[35mTopic Load (0.0ms)[0m  SELECT `topics`.* FROM `topics` WHERE `topics`.`order` = 2 ORDER BY topics.order LIMIT 1
+  [1m[36mNews Load (0.0ms)[0m  [1mSELECT `news`.* FROM `news` WHERE (topics_id=1) ORDER BY updated_at desc[0m
+  [1m[35mNews Load (2.0ms)[0m  SELECT `news`.* FROM `news` WHERE (topics_id=2) ORDER BY updated_at desc
+  [1m[36mTopic Load (0.0ms)[0m  [1mSELECT `topics`.* FROM `topics` ORDER BY topics.order DESC LIMIT 1[0m
+  [1m[35mNews Load (0.0ms)[0m  SELECT `news`.* FROM `news` WHERE (topics_id=5) ORDER BY updated_at asc
+  [1m[36mTopic Load (0.0ms)[0m  [1mSELECT `topics`.* FROM `topics` ORDER BY topics.order[0m
+  Rendered main/index.html.erb within layouts/main (2.0ms)
+  Rendered layouts/_main_form.html.erb (0.0ms)
+Completed 200 OK in 25.0ms (Views: 10.0ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-04 15:03:21 +0530
+Processing by MainController#index as HTML
+  [1m[35mTopic Load (6.0ms)[0m  SELECT `topics`.* FROM `topics` WHERE `topics`.`order` = 1 ORDER BY topics.order LIMIT 1
+  [1m[36mTopic Load (0.0ms)[0m  [1mSELECT `topics`.* FROM `topics` WHERE `topics`.`order` = 2 ORDER BY topics.order LIMIT 1[0m
+  [1m[35mNews Load (1.0ms)[0m  SELECT `news`.* FROM `news` WHERE (topics_id=1) ORDER BY updated_at desc
+  [1m[36mNews Load (1.0ms)[0m  [1mSELECT `news`.* FROM `news` WHERE (topics_id=2) ORDER BY updated_at desc[0m
+  [1m[35mTopic Load (0.0ms)[0m  SELECT `topics`.* FROM `topics` ORDER BY topics.order DESC LIMIT 1
+  [1m[36mNews Load (0.0ms)[0m  [1mSELECT `news`.* FROM `news` WHERE (topics_id=5) ORDER BY updated_at asc[0m
+  [1m[35mTopic Load (0.0ms)[0m  SELECT `topics`.* FROM `topics` ORDER BY topics.order
+  Rendered main/index.html.erb within layouts/main (36.0ms)
+  Rendered layouts/_main_form.html.erb (1.0ms)
+Completed 200 OK in 63.0ms (Views: 45.0ms | ActiveRecord: 8.0ms)
+
+
+Started GET "/assets/ckeditor/ckeditor.js" for 127.0.0.1 at 2014-08-04 15:03:21 +0530
+Served asset /ckeditor/ckeditor.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2014-08-04 15:03:21 +0530
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-04 15:07:16 +0530
+Processing by MainController#index as HTML
+  [1m[36mTopic Load (1.0ms)[0m  [1mSELECT `topics`.* FROM `topics` WHERE `topics`.`order` = 1 ORDER BY topics.order LIMIT 1[0m
+  [1m[35mTopic Load (0.0ms)[0m  SELECT `topics`.* FROM `topics` WHERE `topics`.`order` = 2 ORDER BY topics.order LIMIT 1
+  [1m[36mNews Load (0.0ms)[0m  [1mSELECT `news`.* FROM `news` WHERE (topics_id=1) ORDER BY updated_at desc[0m
+  [1m[35mNews Load (1.0ms)[0m  SELECT `news`.* FROM `news` WHERE (topics_id=2) ORDER BY updated_at desc
+  [1m[36mTopic Load (0.0ms)[0m  [1mSELECT `topics`.* FROM `topics` ORDER BY topics.order DESC LIMIT 1[0m
+  [1m[35mNews Load (0.0ms)[0m  SELECT `news`.* FROM `news` WHERE (topics_id=5) ORDER BY updated_at asc
+  [1m[36mTopic Load (0.0ms)[0m  [1mSELECT `topics`.* FROM `topics` ORDER BY topics.order[0m
+  Rendered main/index.html.erb within layouts/main (3.0ms)
+  Rendered layouts/_main_form.html.erb (0.0ms)
+Completed 200 OK in 19.0ms (Views: 9.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/ckeditor/ckeditor.js" for 127.0.0.1 at 2014-08-04 15:07:16 +0530
+Served asset /ckeditor/ckeditor.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2014-08-04 15:07:16 +0530
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-04 15:07:35 +0530
+Processing by MainController#index as HTML
+  [1m[35mTopic Load (1.0ms)[0m  SELECT `topics`.* FROM `topics` WHERE `topics`.`order` = 1 ORDER BY topics.order LIMIT 1
+  [1m[36mTopic Load (0.0ms)[0m  [1mSELECT `topics`.* FROM `topics` WHERE `topics`.`order` = 2 ORDER BY topics.order LIMIT 1[0m
+  [1m[35mNews Load (1.0ms)[0m  SELECT `news`.* FROM `news` WHERE (topics_id=1) ORDER BY updated_at desc
+  [1m[36mNews Load (1.0ms)[0m  [1mSELECT `news`.* FROM `news` WHERE (topics_id=2) ORDER BY updated_at desc[0m
+  [1m[35mTopic Load (0.0ms)[0m  SELECT `topics`.* FROM `topics` ORDER BY topics.order DESC LIMIT 1
+  [1m[36mNews Load (2.0ms)[0m  [1mSELECT `news`.* FROM `news` WHERE (topics_id=5) ORDER BY updated_at asc[0m
+  [1m[35mTopic Load (0.0ms)[0m  SELECT `topics`.* FROM `topics` ORDER BY topics.order
+  Rendered main/index.html.erb within layouts/main (4.0ms)
+  Rendered layouts/_main_form.html.erb (1.0ms)
+Completed 200 OK in 26.0ms (Views: 12.0ms | ActiveRecord: 5.0ms)
+
+
+Started GET "/assets/ckeditor/ckeditor.js" for 127.0.0.1 at 2014-08-04 15:07:36 +0530
+Served asset /ckeditor/ckeditor.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2014-08-04 15:07:36 +0530
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-04 15:09:53 +0530
+Processing by MainController#index as HTML
+  [1m[36mTopic Load (1.0ms)[0m  [1mSELECT `topics`.* FROM `topics` WHERE `topics`.`order` = 1 ORDER BY topics.order LIMIT 1[0m
+  [1m[35mTopic Load (0.0ms)[0m  SELECT `topics`.* FROM `topics` WHERE `topics`.`order` = 2 ORDER BY topics.order LIMIT 1
+  [1m[36mNews Load (0.0ms)[0m  [1mSELECT `news`.* FROM `news` WHERE (topics_id=1) ORDER BY updated_at desc[0m
+  [1m[35mNews Load (1.0ms)[0m  SELECT `news`.* FROM `news` WHERE (topics_id=2) ORDER BY updated_at desc
+  [1m[36mTopic Load (1.0ms)[0m  [1mSELECT `topics`.* FROM `topics` ORDER BY topics.order DESC LIMIT 1[0m
+  [1m[35mNews Load (1.0ms)[0m  SELECT `news`.* FROM `news` WHERE (topics_id=5) ORDER BY updated_at asc
+  [1m[36mTopic Load (1.0ms)[0m  [1mSELECT `topics`.* FROM `topics` ORDER BY topics.order[0m
+  Rendered main/index.html.erb within layouts/main (3.0ms)
+  Rendered layouts/_main_form.html.erb (0.0ms)
+Completed 200 OK in 18.0ms (Views: 10.0ms | ActiveRecord: 5.0ms)
+
+
+Started GET "/assets/ckeditor/ckeditor.js" for 127.0.0.1 at 2014-08-04 15:09:53 +0530
+Served asset /ckeditor/ckeditor.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2014-08-04 15:09:53 +0530
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-04 15:11:36 +0530
+Processing by MainController#index as HTML
+  [1m[35mTopic Load (1.0ms)[0m  SELECT `topics`.* FROM `topics` WHERE `topics`.`order` = 1 ORDER BY topics.order LIMIT 1
+  [1m[36mTopic Load (1.0ms)[0m  [1mSELECT `topics`.* FROM `topics` WHERE `topics`.`order` = 2 ORDER BY topics.order LIMIT 1[0m
+  [1m[35mNews Load (0.0ms)[0m  SELECT `news`.* FROM `news` WHERE (topics_id=1) ORDER BY updated_at desc
+  [1m[36mNews Load (0.0ms)[0m  [1mSELECT `news`.* FROM `news` WHERE (topics_id=2) ORDER BY updated_at desc[0m
+  [1m[35mTopic Load (1.0ms)[0m  SELECT `topics`.* FROM `topics` ORDER BY topics.order DESC LIMIT 1
+  [1m[36mNews Load (0.0ms)[0m  [1mSELECT `news`.* FROM `news` WHERE (topics_id=5) ORDER BY updated_at asc[0m
+  [1m[35mTopic Load (0.0ms)[0m  SELECT `topics`.* FROM `topics` ORDER BY topics.order
+  Rendered main/index.html.erb within layouts/main (4.0ms)
+  Rendered layouts/_main_form.html.erb (1.0ms)
+Completed 200 OK in 80.0ms (Views: 12.0ms | ActiveRecord: 23.0ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2014-08-04 15:11:36 +0530
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ckeditor/ckeditor.js" for 127.0.0.1 at 2014-08-04 15:11:36 +0530
+Served asset /ckeditor/ckeditor.js - 304 Not Modified (1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-04 15:12:08 +0530
+Processing by MainController#index as HTML
+  [1m[36mTopic Load (1.0ms)[0m  [1mSELECT `topics`.* FROM `topics` WHERE `topics`.`order` = 1 ORDER BY topics.order LIMIT 1[0m
+  [1m[35mTopic Load (1.0ms)[0m  SELECT `topics`.* FROM `topics` WHERE `topics`.`order` = 2 ORDER BY topics.order LIMIT 1
+  [1m[36mNews Load (2.0ms)[0m  [1mSELECT `news`.* FROM `news` WHERE (topics_id=1) ORDER BY updated_at desc[0m
+  [1m[35mNews Load (1.0ms)[0m  SELECT `news`.* FROM `news` WHERE (topics_id=2) ORDER BY updated_at desc
+  [1m[36mTopic Load (1.0ms)[0m  [1mSELECT `topics`.* FROM `topics` ORDER BY topics.order DESC LIMIT 1[0m
+  [1m[35mNews Load (0.0ms)[0m  SELECT `news`.* FROM `news` WHERE (topics_id=5) ORDER BY updated_at asc
+  [1m[36mTopic Load (1.0ms)[0m  [1mSELECT `topics`.* FROM `topics` ORDER BY topics.order[0m
+  Rendered main/index.html.erb within layouts/main (3.0ms)
+  Rendered layouts/_main_form.html.erb (1.0ms)
+Completed 200 OK in 28.0ms (Views: 10.0ms | ActiveRecord: 7.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-04 15:12:08 +0530
+Processing by MainController#index as HTML
+  [1m[35mTopic Load (1.0ms)[0m  SELECT `topics`.* FROM `topics` WHERE `topics`.`order` = 1 ORDER BY topics.order LIMIT 1
+  [1m[36mTopic Load (0.0ms)[0m  [1mSELECT `topics`.* FROM `topics` WHERE `topics`.`order` = 2 ORDER BY topics.order LIMIT 1[0m
+  [1m[35mNews Load (0.0ms)[0m  SELECT `news`.* FROM `news` WHERE (topics_id=1) ORDER BY updated_at desc
+  [1m[36mNews Load (1.0ms)[0m  [1mSELECT `news`.* FROM `news` WHERE (topics_id=2) ORDER BY updated_at desc[0m
+  [1m[35mTopic Load (0.0ms)[0m  SELECT `topics`.* FROM `topics` ORDER BY topics.order DESC LIMIT 1
+  [1m[36mNews Load (0.0ms)[0m  [1mSELECT `news`.* FROM `news` WHERE (topics_id=5) ORDER BY updated_at asc[0m
+  [1m[35mTopic Load (0.0ms)[0m  SELECT `topics`.* FROM `topics` ORDER BY topics.order
+  Rendered main/index.html.erb within layouts/main (3.0ms)
+  Rendered layouts/_main_form.html.erb (0.0ms)
+Completed 200 OK in 19.0ms (Views: 9.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2014-08-04 15:12:09 +0530
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ckeditor/ckeditor.js" for 127.0.0.1 at 2014-08-04 15:12:09 +0530
+Served asset /ckeditor/ckeditor.js - 304 Not Modified (0ms)
+
+
+Started GET "/news" for 127.0.0.1 at 2014-08-04 15:13:00 +0530
+Processing by MainController#mainpage as HTML
+  [1m[36mTopic Load (1.0ms)[0m  [1mSELECT `topics`.* FROM `topics` ORDER BY topics.order, updated_at desc[0m
+  [1m[35mTopic Load (0.0ms)[0m  SELECT `topics`.* FROM `topics` WHERE `topics`.`id` = 1 ORDER BY topics.order LIMIT 1
+  [1m[36mNews Load (1.0ms)[0m  [1mSELECT `news`.* FROM `news` WHERE (topics_id=1) ORDER BY updated_at desc[0m
+  Rendered main/_newslist.html.erb (22.0ms)
+  Rendered main/mainpage.html.erb within layouts/main (50.0ms)
+  Rendered layouts/_main_form.html.erb (0.0ms)
+Completed 200 OK in 85.0ms (Views: 79.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/ckeditor/ckeditor.js" for 127.0.0.1 at 2014-08-04 15:13:01 +0530
+Served asset /ckeditor/ckeditor.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2014-08-04 15:13:01 +0530
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-04 15:14:21 +0530
+Processing by MainController#index as HTML
+  [1m[35mTopic Load (1.0ms)[0m  SELECT `topics`.* FROM `topics` WHERE `topics`.`order` = 1 ORDER BY topics.order LIMIT 1
+  [1m[36mTopic Load (1.0ms)[0m  [1mSELECT `topics`.* FROM `topics` WHERE `topics`.`order` = 2 ORDER BY topics.order LIMIT 1[0m
+  [1m[35mNews Load (1.0ms)[0m  SELECT `news`.* FROM `news` WHERE (topics_id=1) ORDER BY updated_at desc
+  [1m[36mNews Load (0.0ms)[0m  [1mSELECT `news`.* FROM `news` WHERE (topics_id=2) ORDER BY updated_at desc[0m
+  [1m[35mTopic Load (0.0ms)[0m  SELECT `topics`.* FROM `topics` ORDER BY topics.order DESC LIMIT 1
+  [1m[36mNews Load (0.0ms)[0m  [1mSELECT `news`.* FROM `news` WHERE (topics_id=5) ORDER BY updated_at asc[0m
+  [1m[35mTopic Load (1.0ms)[0m  SELECT `topics`.* FROM `topics` ORDER BY topics.order
+  Rendered main/index.html.erb within layouts/main (3.0ms)
+  Rendered layouts/_main_form.html.erb (1.0ms)
+Completed 200 OK in 50.0ms (Views: 41.0ms | ActiveRecord: 4.0ms)
+
+
+Started GET "/assets/ckeditor/ckeditor.js" for 127.0.0.1 at 2014-08-04 15:14:21 +0530
+Served asset /ckeditor/ckeditor.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2014-08-04 15:14:21 +0530
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-04 15:14:21 +0530
+Processing by MainController#index as HTML
+  [1m[36mTopic Load (1.0ms)[0m  [1mSELECT `topics`.* FROM `topics` WHERE `topics`.`order` = 1 ORDER BY topics.order LIMIT 1[0m
+  [1m[35mTopic Load (1.0ms)[0m  SELECT `topics`.* FROM `topics` WHERE `topics`.`order` = 2 ORDER BY topics.order LIMIT 1
+  [1m[36mNews Load (1.0ms)[0m  [1mSELECT `news`.* FROM `news` WHERE (topics_id=1) ORDER BY updated_at desc[0m
+  [1m[35mNews Load (0.0ms)[0m  SELECT `news`.* FROM `news` WHERE (topics_id=2) ORDER BY updated_at desc
+  [1m[36mTopic Load (1.0ms)[0m  [1mSELECT `topics`.* FROM `topics` ORDER BY topics.order DESC LIMIT 1[0m
+  [1m[35mNews Load (1.0ms)[0m  SELECT `news`.* FROM `news` WHERE (topics_id=5) ORDER BY updated_at asc
+  [1m[36mTopic Load (0.0ms)[0m  [1mSELECT `topics`.* FROM `topics` ORDER BY topics.order[0m
+  Rendered main/index.html.erb within layouts/main (3.0ms)
+  Rendered layouts/_main_form.html.erb (1.0ms)
+Completed 200 OK in 22.0ms (Views: 9.0ms | ActiveRecord: 5.0ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2014-08-04 15:14:22 +0530
+Served asset /application.js - 200 OK (1ms)
+
+
+Started GET "/assets/ckeditor/ckeditor.js" for 127.0.0.1 at 2014-08-04 15:14:22 +0530
+Served asset /ckeditor/ckeditor.js - 200 OK (0ms)
+
+
+Started GET "/news" for 127.0.0.1 at 2014-08-04 15:14:24 +0530
+Processing by MainController#mainpage as HTML
+  [1m[35mTopic Load (0.0ms)[0m  SELECT `topics`.* FROM `topics` ORDER BY topics.order, updated_at desc
+  [1m[36mTopic Load (0.0ms)[0m  [1mSELECT `topics`.* FROM `topics` WHERE `topics`.`id` = 1 ORDER BY topics.order LIMIT 1[0m
+  [1m[35mNews Load (2.0ms)[0m  SELECT `news`.* FROM `news` WHERE (topics_id=1) ORDER BY updated_at desc
+  Rendered main/_newslist.html.erb (5.0ms)
+  Rendered main/mainpage.html.erb within layouts/main (9.0ms)
+  Rendered layouts/_main_form.html.erb (0.0ms)
+Completed 200 OK in 35.0ms (Views: 16.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/main/all/1" for 127.0.0.1 at 2014-08-04 15:14:28 +0530
+Processing by MainController#all as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTopic Load (1.0ms)[0m  [1mSELECT `topics`.* FROM `topics` WHERE `topics`.`id` = 1 ORDER BY topics.order LIMIT 1[0m
+  [1m[35mNews Load (1.0ms)[0m  SELECT `news`.* FROM `news` WHERE (topics_id=1) ORDER BY updated_at desc
+  [1m[36mNews Load (1.0ms)[0m  [1mSELECT `news`.* FROM `news` WHERE (topics_id=1) ORDER BY updated_at desc LIMIT 3 OFFSET 0[0m
+  [1m[35m (41.0ms)[0m  SELECT COUNT(*) FROM `news` WHERE (topics_id=1)
+  Rendered main/all.html.erb within layouts/main (51.0ms)
+  Rendered layouts/_main_form.html.erb (0.0ms)
+Completed 200 OK in 77.0ms (Views: 28.0ms | ActiveRecord: 44.0ms)
+
+
+Started GET "/main/all/1?page=2" for 127.0.0.1 at 2014-08-04 15:14:40 +0530
+Processing by MainController#all as HTML
+  Parameters: {"page"=>"2", "id"=>"1"}
+  [1m[36mTopic Load (0.0ms)[0m  [1mSELECT `topics`.* FROM `topics` WHERE `topics`.`id` = 1 ORDER BY topics.order LIMIT 1[0m
+  [1m[35mNews Load (0.0ms)[0m  SELECT `news`.* FROM `news` WHERE (topics_id=1) ORDER BY updated_at desc
+  [1m[36mNews Load (1.0ms)[0m  [1mSELECT `news`.* FROM `news` WHERE (topics_id=1) ORDER BY updated_at desc LIMIT 3 OFFSET 3[0m
+  Rendered main/all.html.erb within layouts/main (5.0ms)
+  Rendered layouts/_main_form.html.erb (1.0ms)
+Completed 200 OK in 16.0ms (Views: 12.0ms | ActiveRecord: 1.0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-04 17:19:36 +0530
+Processing by MainController#index as HTML
+  [1m[36mTopic Load (1.0ms)[0m  [1mSELECT `topics`.* FROM `topics` WHERE `topics`.`order` = 1 ORDER BY topics.order LIMIT 1[0m
+  [1m[35mTopic Load (1.0ms)[0m  SELECT `topics`.* FROM `topics` WHERE `topics`.`order` = 2 ORDER BY topics.order LIMIT 1
+  [1m[36mNews Load (0.0ms)[0m  [1mSELECT `news`.* FROM `news` WHERE (topics_id=1) ORDER BY updated_at desc[0m
+  [1m[35mNews Load (1.0ms)[0m  SELECT `news`.* FROM `news` WHERE (topics_id=2) ORDER BY updated_at desc
+  [1m[36mTopic Load (0.0ms)[0m  [1mSELECT `topics`.* FROM `topics` ORDER BY topics.order DESC LIMIT 1[0m
+  [1m[35mNews Load (1.0ms)[0m  SELECT `news`.* FROM `news` WHERE (topics_id=5) ORDER BY updated_at asc
+  [1m[36mTopic Load (0.0ms)[0m  [1mSELECT `topics`.* FROM `topics` ORDER BY topics.order[0m
+  Rendered main/index.html.erb within layouts/main (57.0ms)
+  Rendered layouts/_main_form.html.erb (2.0ms)
+Completed 200 OK in 265.0ms (Views: 181.0ms | ActiveRecord: 25.0ms)
+
+
+Started GET "/assets/ckeditor/ckeditor.js" for 127.0.0.1 at 2014-08-04 17:19:37 +0530
+Served asset /ckeditor/ckeditor.js - 200 OK (38ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2014-08-04 17:19:37 +0530
+Served asset /application.js - 200 OK (15ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-04 17:21:55 +0530
+Processing by MainController#index as HTML
+  [1m[35mTopic Load (0.0ms)[0m  SELECT `topics`.* FROM `topics` WHERE `topics`.`order` = 1 ORDER BY topics.order LIMIT 1
+  [1m[36mTopic Load (0.0ms)[0m  [1mSELECT `topics`.* FROM `topics` WHERE `topics`.`order` = 2 ORDER BY topics.order LIMIT 1[0m
+  [1m[35mNews Load (0.0ms)[0m  SELECT `news`.* FROM `news` WHERE (topics_id=1) ORDER BY updated_at desc
+  [1m[36mNews Load (0.0ms)[0m  [1mSELECT `news`.* FROM `news` WHERE (topics_id=2) ORDER BY updated_at desc[0m
+  [1m[35mTopic Load (15.6ms)[0m  SELECT `topics`.* FROM `topics` ORDER BY topics.order DESC LIMIT 1
+  [1m[36mNews Load (0.0ms)[0m  [1mSELECT `news`.* FROM `news` WHERE (topics_id=5) ORDER BY updated_at asc[0m
+  [1m[35mTopic Load (0.0ms)[0m  SELECT `topics`.* FROM `topics` ORDER BY topics.order
+  Rendered main/index.html.erb within layouts/main (0.0ms)
+  Rendered layouts/_main_form.html.erb (0.0ms)
+Completed 200 OK in 15.6ms (Views: 0.0ms | ActiveRecord: 15.6ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2014-08-04 17:21:55 +0530
+Served asset /application.js - 200 OK (1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-04 17:24:31 +0530
+Processing by MainController#index as HTML
+  [1m[36mTopic Load (0.0ms)[0m  [1mSELECT `topics`.* FROM `topics` WHERE `topics`.`order` = 1 ORDER BY topics.order LIMIT 1[0m
+  [1m[35mTopic Load (0.0ms)[0m  SELECT `topics`.* FROM `topics` WHERE `topics`.`order` = 2 ORDER BY topics.order LIMIT 1
+  [1m[36mNews Load (0.0ms)[0m  [1mSELECT `news`.* FROM `news` WHERE (topics_id=1) ORDER BY updated_at desc[0m
+  [1m[35mNews Load (0.0ms)[0m  SELECT `news`.* FROM `news` WHERE (topics_id=2) ORDER BY updated_at desc
+  [1m[36mTopic Load (0.0ms)[0m  [1mSELECT `topics`.* FROM `topics` ORDER BY topics.order DESC LIMIT 1[0m
+  [1m[35mNews Load (0.0ms)[0m  SELECT `news`.* FROM `news` WHERE (topics_id=5) ORDER BY updated_at asc
+  [1m[36mTopic Load (0.0ms)[0m  [1mSELECT `topics`.* FROM `topics` ORDER BY topics.order[0m
+  Rendered main/index.html.erb within layouts/main (0.0ms)
+  Rendered layouts/_main_form.html.erb (0.0ms)
+Completed 200 OK in 15.6ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2014-08-04 17:24:31 +0530
+Served asset /application.js - 200 OK (0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-05 11:10:40 +0530
+Processing by MainController#index as HTML
+  [1m[36mTopic Load (27.0ms)[0m  [1mSELECT `topics`.* FROM `topics` WHERE `topics`.`order` = 1 ORDER BY topics.order LIMIT 1[0m
+  [1m[35mTopic Load (1.0ms)[0m  SELECT `topics`.* FROM `topics` WHERE `topics`.`order` = 2 ORDER BY topics.order LIMIT 1
+  [1m[36mNews Load (3.0ms)[0m  [1mSELECT `news`.* FROM `news` WHERE (topics_id=1) ORDER BY updated_at desc[0m
+  [1m[35mNews Load (14.0ms)[0m  SELECT `news`.* FROM `news` WHERE (topics_id=2) ORDER BY updated_at desc
+  [1m[36mTopic Load (1.0ms)[0m  [1mSELECT `topics`.* FROM `topics` ORDER BY topics.order DESC LIMIT 1[0m
+  [1m[35mNews Load (1.0ms)[0m  SELECT `news`.* FROM `news` WHERE (topics_id=5) ORDER BY updated_at asc
+  [1m[36mTopic Load (1.0ms)[0m  [1mSELECT `topics`.* FROM `topics` ORDER BY topics.order[0m
+  Rendered main/index.html.erb within layouts/main (172.0ms)
+  Rendered layouts/_main_form.html.erb (2.0ms)
+Completed 200 OK in 3077.4ms (Views: 502.1ms | ActiveRecord: 2413.3ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2014-08-05 11:10:44 +0530
+Served asset /application.js - 200 OK (224ms)
+
+
+Started GET "/assets/ckeditor/ckeditor.js" for 127.0.0.1 at 2014-08-05 11:10:44 +0530
+Served asset /ckeditor/ckeditor.js - 200 OK (38ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-05 11:11:13 +0530
+Processing by MainController#index as HTML
+  [1m[35mTopic Load (1.0ms)[0m  SELECT `topics`.* FROM `topics` WHERE `topics`.`order` = 1 ORDER BY topics.order LIMIT 1
+  [1m[36mTopic Load (0.0ms)[0m  [1mSELECT `topics`.* FROM `topics` WHERE `topics`.`order` = 2 ORDER BY topics.order LIMIT 1[0m
+  [1m[35mNews Load (1.0ms)[0m  SELECT `news`.* FROM `news` WHERE (topics_id=1) ORDER BY updated_at desc
+  [1m[36mNews Load (1.0ms)[0m  [1mSELECT `news`.* FROM `news` WHERE (topics_id=2) ORDER BY updated_at desc[0m
+  [1m[35mTopic Load (1.0ms)[0m  SELECT `topics`.* FROM `topics` ORDER BY topics.order DESC LIMIT 1
+  [1m[36mNews Load (1.0ms)[0m  [1mSELECT `news`.* FROM `news` WHERE (topics_id=5) ORDER BY updated_at asc[0m
+  [1m[35mTopic Load (0.0ms)[0m  SELECT `topics`.* FROM `topics` ORDER BY topics.order
+  Rendered main/index.html.erb within layouts/main (3.0ms)
+  Rendered layouts/_main_form.html.erb (1.0ms)
+Completed 200 OK in 20.0ms (Views: 9.0ms | ActiveRecord: 5.0ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2014-08-05 11:11:18 +0530
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/ckeditor/ckeditor.js" for 127.0.0.1 at 2014-08-05 11:11:18 +0530
+Served asset /ckeditor/ckeditor.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-05 11:16:31 +0530
+Processing by MainController#index as HTML
+  [1m[36mTopic Load (1.0ms)[0m  [1mSELECT `topics`.* FROM `topics` WHERE `topics`.`order` = 1 ORDER BY topics.order LIMIT 1[0m
+  [1m[35mTopic Load (1.0ms)[0m  SELECT `topics`.* FROM `topics` WHERE `topics`.`order` = 2 ORDER BY topics.order LIMIT 1
+  [1m[36mNews Load (1.0ms)[0m  [1mSELECT `news`.* FROM `news` WHERE (topics_id=1) ORDER BY updated_at desc[0m
+  [1m[35mNews Load (0.0ms)[0m  SELECT `news`.* FROM `news` WHERE (topics_id=2) ORDER BY updated_at desc
+  [1m[36mTopic Load (1.0ms)[0m  [1mSELECT `topics`.* FROM `topics` ORDER BY topics.order DESC LIMIT 1[0m
+  [1m[35mNews Load (1.0ms)[0m  SELECT `news`.* FROM `news` WHERE (topics_id=5) ORDER BY updated_at asc
+  [1m[36mTopic Load (1.0ms)[0m  [1mSELECT `topics`.* FROM `topics` ORDER BY topics.order[0m
+  Rendered main/index.html.erb within layouts/main (4.0ms)
+  Rendered layouts/_main_form.html.erb (1.0ms)
+Completed 200 OK in 22.0ms (Views: 11.0ms | ActiveRecord: 6.0ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2014-08-05 11:16:32 +0530
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ckeditor/ckeditor.js" for 127.0.0.1 at 2014-08-05 11:16:32 +0530
+Served asset /ckeditor/ckeditor.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-05 11:17:52 +0530
+Processing by MainController#index as HTML
+  [1m[35mTopic Load (2.0ms)[0m  SELECT `topics`.* FROM `topics` WHERE `topics`.`order` = 1 ORDER BY topics.order LIMIT 1
+  [1m[36mTopic Load (0.0ms)[0m  [1mSELECT `topics`.* FROM `topics` WHERE `topics`.`order` = 2 ORDER BY topics.order LIMIT 1[0m
+  [1m[35mNews Load (2.0ms)[0m  SELECT `news`.* FROM `news` WHERE (topics_id=1) ORDER BY updated_at desc
+  [1m[36mNews Load (1.0ms)[0m  [1mSELECT `news`.* FROM `news` WHERE (topics_id=2) ORDER BY updated_at desc[0m
+  [1m[35mTopic Load (1.0ms)[0m  SELECT `topics`.* FROM `topics` ORDER BY topics.order DESC LIMIT 1
+  [1m[36mNews Load (0.0ms)[0m  [1mSELECT `news`.* FROM `news` WHERE (topics_id=5) ORDER BY updated_at asc[0m
+  [1m[35mTopic Load (0.0ms)[0m  SELECT `topics`.* FROM `topics` ORDER BY topics.order
+  Rendered main/index.html.erb within layouts/main (3.0ms)
+  Rendered layouts/_main_form.html.erb (0.0ms)
+Completed 200 OK in 23.0ms (Views: 10.0ms | ActiveRecord: 6.0ms)
+
+
+Started GET "/assets/ckeditor/ckeditor.js" for 127.0.0.1 at 2014-08-05 11:17:52 +0530
+Served asset /ckeditor/ckeditor.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2014-08-05 11:17:52 +0530
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-05 11:18:31 +0530
+Processing by MainController#index as HTML
+  [1m[36mTopic Load (0.0ms)[0m  [1mSELECT `topics`.* FROM `topics` WHERE `topics`.`order` = 1 ORDER BY topics.order LIMIT 1[0m
+  [1m[35mTopic Load (1.0ms)[0m  SELECT `topics`.* FROM `topics` WHERE `topics`.`order` = 2 ORDER BY topics.order LIMIT 1
+  [1m[36mNews Load (1.0ms)[0m  [1mSELECT `news`.* FROM `news` WHERE (topics_id=1) ORDER BY updated_at desc[0m
+  [1m[35mNews Load (2.0ms)[0m  SELECT `news`.* FROM `news` WHERE (topics_id=2) ORDER BY updated_at desc
+  [1m[36mTopic Load (0.0ms)[0m  [1mSELECT `topics`.* FROM `topics` ORDER BY topics.order DESC LIMIT 1[0m
+  [1m[35mNews Load (1.0ms)[0m  SELECT `news`.* FROM `news` WHERE (topics_id=5) ORDER BY updated_at asc
+  [1m[36mTopic Load (1.0ms)[0m  [1mSELECT `topics`.* FROM `topics` ORDER BY topics.order[0m
+  Rendered main/index.html.erb within layouts/main (3.0ms)
+  Rendered layouts/_main_form.html.erb (0.0ms)
+Completed 200 OK in 23.0ms (Views: 10.0ms | ActiveRecord: 6.0ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2014-08-05 11:18:32 +0530
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ckeditor/ckeditor.js" for 127.0.0.1 at 2014-08-05 11:18:32 +0530
+Served asset /ckeditor/ckeditor.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-05 11:18:57 +0530
+Processing by MainController#index as HTML
+  [1m[35mTopic Load (0.0ms)[0m  SELECT `topics`.* FROM `topics` WHERE `topics`.`order` = 1 ORDER BY topics.order LIMIT 1
+  [1m[36mTopic Load (0.0ms)[0m  [1mSELECT `topics`.* FROM `topics` WHERE `topics`.`order` = 2 ORDER BY topics.order LIMIT 1[0m
+  [1m[35mNews Load (1.0ms)[0m  SELECT `news`.* FROM `news` WHERE (topics_id=1) ORDER BY updated_at desc
+  [1m[36mNews Load (1.0ms)[0m  [1mSELECT `news`.* FROM `news` WHERE (topics_id=2) ORDER BY updated_at desc[0m
+  [1m[35mTopic Load (1.0ms)[0m  SELECT `topics`.* FROM `topics` ORDER BY topics.order DESC LIMIT 1
+  [1m[36mNews Load (1.0ms)[0m  [1mSELECT `news`.* FROM `news` WHERE (topics_id=5) ORDER BY updated_at asc[0m
+  [1m[35mTopic Load (0.0ms)[0m  SELECT `topics`.* FROM `topics` ORDER BY topics.order
+  Rendered main/index.html.erb within layouts/main (4.0ms)
+  Rendered layouts/_main_form.html.erb (0.0ms)
+Completed 200 OK in 23.0ms (Views: 11.0ms | ActiveRecord: 4.0ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2014-08-05 11:18:58 +0530
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ckeditor/ckeditor.js" for 127.0.0.1 at 2014-08-05 11:18:58 +0530
+Served asset /ckeditor/ckeditor.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-05 11:19:37 +0530
+Processing by MainController#index as HTML
+  [1m[36mTopic Load (1.0ms)[0m  [1mSELECT `topics`.* FROM `topics` WHERE `topics`.`order` = 1 ORDER BY topics.order LIMIT 1[0m
+  [1m[35mTopic Load (1.0ms)[0m  SELECT `topics`.* FROM `topics` WHERE `topics`.`order` = 2 ORDER BY topics.order LIMIT 1
+  [1m[36mNews Load (2.0ms)[0m  [1mSELECT `news`.* FROM `news` WHERE (topics_id=1) ORDER BY updated_at desc[0m
+  [1m[35mNews Load (1.0ms)[0m  SELECT `news`.* FROM `news` WHERE (topics_id=2) ORDER BY updated_at desc
+  [1m[36mTopic Load (1.0ms)[0m  [1mSELECT `topics`.* FROM `topics` ORDER BY topics.order DESC LIMIT 1[0m
+  [1m[35mNews Load (0.0ms)[0m  SELECT `news`.* FROM `news` WHERE (topics_id=5) ORDER BY updated_at asc
+  [1m[36mTopic Load (1.0ms)[0m  [1mSELECT `topics`.* FROM `topics` ORDER BY topics.order[0m
+  Rendered main/index.html.erb within layouts/main (4.0ms)
+  Rendered layouts/_main_form.html.erb (0.0ms)
+Completed 200 OK in 26.0ms (Views: 10.0ms | ActiveRecord: 7.0ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2014-08-05 11:19:37 +0530
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ckeditor/ckeditor.js" for 127.0.0.1 at 2014-08-05 11:19:37 +0530
+Served asset /ckeditor/ckeditor.js - 304 Not Modified (0ms)
+
+
+Started GET "/news" for 127.0.0.1 at 2014-08-05 11:19:45 +0530
+Processing by MainController#mainpage as HTML
+  [1m[35mTopic Load (1.0ms)[0m  SELECT `topics`.* FROM `topics` ORDER BY topics.order, updated_at desc
+  [1m[36mTopic Load (0.0ms)[0m  [1mSELECT `topics`.* FROM `topics` WHERE `topics`.`id` = 1 ORDER BY topics.order LIMIT 1[0m
+  [1m[35mNews Load (1.0ms)[0m  SELECT `news`.* FROM `news` WHERE (topics_id=1) ORDER BY updated_at desc
+  Rendered main/_newslist.html.erb (21.0ms)
+  Rendered main/mainpage.html.erb within layouts/main (45.0ms)
+  Rendered layouts/_main_form.html.erb (1.0ms)
+Completed 200 OK in 57.0ms (Views: 51.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2014-08-05 11:19:45 +0530
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ckeditor/ckeditor.js" for 127.0.0.1 at 2014-08-05 11:19:46 +0530
+Served asset /ckeditor/ckeditor.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-05 11:22:40 +0530
+Processing by MainController#index as HTML
+  [1m[36mTopic Load (1.0ms)[0m  [1mSELECT `topics`.* FROM `topics` WHERE `topics`.`order` = 1 ORDER BY topics.order LIMIT 1[0m
+  [1m[35mTopic Load (1.0ms)[0m  SELECT `topics`.* FROM `topics` WHERE `topics`.`order` = 2 ORDER BY topics.order LIMIT 1
+  [1m[36mNews Load (1.0ms)[0m  [1mSELECT `news`.* FROM `news` WHERE (topics_id=1) ORDER BY updated_at desc[0m
+  [1m[35mNews Load (1.0ms)[0m  SELECT `news`.* FROM `news` WHERE (topics_id=2) ORDER BY updated_at desc
+  [1m[36mTopic Load (0.0ms)[0m  [1mSELECT `topics`.* FROM `topics` ORDER BY topics.order DESC LIMIT 1[0m
+  [1m[35mNews Load (0.0ms)[0m  SELECT `news`.* FROM `news` WHERE (topics_id=5) ORDER BY updated_at asc
+  [1m[36mTopic Load (0.0ms)[0m  [1mSELECT `topics`.* FROM `topics` ORDER BY topics.order[0m
+  Rendered main/index.html.erb within layouts/main (4.0ms)
+  Rendered layouts/_main_form.html.erb (0.0ms)
+Completed 200 OK in 21.0ms (Views: 11.0ms | ActiveRecord: 4.0ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2014-08-05 11:22:41 +0530
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ckeditor/ckeditor.js" for 127.0.0.1 at 2014-08-05 11:22:41 +0530
+Served asset /ckeditor/ckeditor.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-05 11:23:11 +0530
+Processing by MainController#index as HTML
+  [1m[35mTopic Load (1.0ms)[0m  SELECT `topics`.* FROM `topics` WHERE `topics`.`order` = 1 ORDER BY topics.order LIMIT 1
+  [1m[36mTopic Load (0.0ms)[0m  [1mSELECT `topics`.* FROM `topics` WHERE `topics`.`order` = 2 ORDER BY topics.order LIMIT 1[0m
+  [1m[35mNews Load (1.0ms)[0m  SELECT `news`.* FROM `news` WHERE (topics_id=1) ORDER BY updated_at desc
+  [1m[36mNews Load (1.0ms)[0m  [1mSELECT `news`.* FROM `news` WHERE (topics_id=2) ORDER BY updated_at desc[0m
+  [1m[35mTopic Load (2.0ms)[0m  SELECT `topics`.* FROM `topics` ORDER BY topics.order DESC LIMIT 1
+  [1m[36mNews Load (1.0ms)[0m  [1mSELECT `news`.* FROM `news` WHERE (topics_id=5) ORDER BY updated_at asc[0m
+  [1m[35mTopic Load (1.0ms)[0m  SELECT `topics`.* FROM `topics` ORDER BY topics.order
+  Rendered main/index.html.erb within layouts/main (3.0ms)
+  Rendered layouts/_main_form.html.erb (1.0ms)
+Completed 200 OK in 23.0ms (Views: 9.0ms | ActiveRecord: 7.0ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2014-08-05 11:23:12 +0530
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ckeditor/ckeditor.js" for 127.0.0.1 at 2014-08-05 11:23:12 +0530
+Served asset /ckeditor/ckeditor.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-05 11:23:47 +0530
+Processing by MainController#index as HTML
+  [1m[36mTopic Load (1.0ms)[0m  [1mSELECT `topics`.* FROM `topics` WHERE `topics`.`order` = 1 ORDER BY topics.order LIMIT 1[0m
+  [1m[35mTopic Load (0.0ms)[0m  SELECT `topics`.* FROM `topics` WHERE `topics`.`order` = 2 ORDER BY topics.order LIMIT 1
+  [1m[36mNews Load (1.0ms)[0m  [1mSELECT `news`.* FROM `news` WHERE (topics_id=1) ORDER BY updated_at desc[0m
+  [1m[35mNews Load (0.0ms)[0m  SELECT `news`.* FROM `news` WHERE (topics_id=2) ORDER BY updated_at desc
+  [1m[36mTopic Load (1.0ms)[0m  [1mSELECT `topics`.* FROM `topics` ORDER BY topics.order DESC LIMIT 1[0m
+  [1m[35mNews Load (1.0ms)[0m  SELECT `news`.* FROM `news` WHERE (topics_id=5) ORDER BY updated_at asc
+  [1m[36mTopic Load (0.0ms)[0m  [1mSELECT `topics`.* FROM `topics` ORDER BY topics.order[0m
+  Rendered main/index.html.erb within layouts/main (4.0ms)
+  Rendered layouts/_main_form.html.erb (1.0ms)
+Completed 200 OK in 53.0ms (Views: 42.0ms | ActiveRecord: 4.0ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2014-08-05 11:23:47 +0530
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ckeditor/ckeditor.js" for 127.0.0.1 at 2014-08-05 11:23:47 +0530
+Served asset /ckeditor/ckeditor.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-05 11:26:07 +0530
+Processing by MainController#index as HTML
+  [1m[35mTopic Load (3.0ms)[0m  SELECT `topics`.* FROM `topics` WHERE `topics`.`order` = 1 ORDER BY topics.order LIMIT 1
+  [1m[36mTopic Load (1.0ms)[0m  [1mSELECT `topics`.* FROM `topics` WHERE `topics`.`order` = 2 ORDER BY topics.order LIMIT 1[0m
+  [1m[35mNews Load (1.0ms)[0m  SELECT `news`.* FROM `news` WHERE (topics_id=1) ORDER BY updated_at desc
+  [1m[36mNews Load (1.0ms)[0m  [1mSELECT `news`.* FROM `news` WHERE (topics_id=2) ORDER BY updated_at desc[0m
+  [1m[35mTopic Load (0.0ms)[0m  SELECT `topics`.* FROM `topics` ORDER BY topics.order DESC LIMIT 1
+  [1m[36mNews Load (1.0ms)[0m  [1mSELECT `news`.* FROM `news` WHERE (topics_id=5) ORDER BY updated_at asc[0m
+  [1m[35mTopic Load (0.0ms)[0m  SELECT `topics`.* FROM `topics` ORDER BY topics.order
+  Rendered main/index.html.erb within layouts/main (5.0ms)
+  Rendered layouts/_main_form.html.erb (0.0ms)
+Completed 200 OK in 26.0ms (Views: 11.0ms | ActiveRecord: 7.0ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2014-08-05 11:26:08 +0530
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ckeditor/ckeditor.js" for 127.0.0.1 at 2014-08-05 11:26:08 +0530
+Served asset /ckeditor/ckeditor.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-05 11:26:57 +0530
+Processing by MainController#index as HTML
+  [1m[36mTopic Load (1.0ms)[0m  [1mSELECT `topics`.* FROM `topics` WHERE `topics`.`order` = 1 ORDER BY topics.order LIMIT 1[0m
+  [1m[35mTopic Load (1.0ms)[0m  SELECT `topics`.* FROM `topics` WHERE `topics`.`order` = 2 ORDER BY topics.order LIMIT 1
+  [1m[36mNews Load (2.0ms)[0m  [1mSELECT `news`.* FROM `news` WHERE (topics_id=1) ORDER BY updated_at desc[0m
+  [1m[35mNews Load (1.0ms)[0m  SELECT `news`.* FROM `news` WHERE (topics_id=2) ORDER BY updated_at desc
+  [1m[36mTopic Load (1.0ms)[0m  [1mSELECT `topics`.* FROM `topics` ORDER BY topics.order DESC LIMIT 1[0m
+  [1m[35mNews Load (1.0ms)[0m  SELECT `news`.* FROM `news` WHERE (topics_id=5) ORDER BY updated_at asc
+  [1m[36mTopic Load (1.0ms)[0m  [1mSELECT `topics`.* FROM `topics` ORDER BY topics.order[0m
+  Rendered main/index.html.erb within layouts/main (3.0ms)
+  Rendered layouts/_main_form.html.erb (1.0ms)
+Completed 200 OK in 25.0ms (Views: 12.0ms | ActiveRecord: 8.0ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2014-08-05 11:26:57 +0530
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ckeditor/ckeditor.js" for 127.0.0.1 at 2014-08-05 11:26:58 +0530
+Served asset /ckeditor/ckeditor.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-05 11:27:21 +0530
+Processing by MainController#index as HTML
+  [1m[35mTopic Load (1.0ms)[0m  SELECT `topics`.* FROM `topics` WHERE `topics`.`order` = 1 ORDER BY topics.order LIMIT 1
+  [1m[36mTopic Load (1.0ms)[0m  [1mSELECT `topics`.* FROM `topics` WHERE `topics`.`order` = 2 ORDER BY topics.order LIMIT 1[0m
+  [1m[35mNews Load (1.0ms)[0m  SELECT `news`.* FROM `news` WHERE (topics_id=1) ORDER BY updated_at desc
+  [1m[36mNews Load (5.0ms)[0m  [1mSELECT `news`.* FROM `news` WHERE (topics_id=2) ORDER BY updated_at desc[0m
+  [1m[35mTopic Load (1.0ms)[0m  SELECT `topics`.* FROM `topics` ORDER BY topics.order DESC LIMIT 1
+  [1m[36mNews Load (1.0ms)[0m  [1mSELECT `news`.* FROM `news` WHERE (topics_id=5) ORDER BY updated_at asc[0m
+  [1m[35mTopic Load (0.0ms)[0m  SELECT `topics`.* FROM `topics` ORDER BY topics.order
+  Rendered main/index.html.erb within layouts/main (4.0ms)
+  Rendered layouts/_main_form.html.erb (0.0ms)
+Completed 200 OK in 25.0ms (Views: 10.0ms | ActiveRecord: 10.0ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2014-08-05 11:27:21 +0530
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ckeditor/ckeditor.js" for 127.0.0.1 at 2014-08-05 11:27:21 +0530
+Served asset /ckeditor/ckeditor.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-05 11:28:00 +0530
+Processing by MainController#index as HTML
+  [1m[36mTopic Load (1.0ms)[0m  [1mSELECT `topics`.* FROM `topics` WHERE `topics`.`order` = 1 ORDER BY topics.order LIMIT 1[0m
+  [1m[35mTopic Load (2.0ms)[0m  SELECT `topics`.* FROM `topics` WHERE `topics`.`order` = 2 ORDER BY topics.order LIMIT 1
+  [1m[36mNews Load (3.0ms)[0m  [1mSELECT `news`.* FROM `news` WHERE (topics_id=1) ORDER BY updated_at desc[0m
+  [1m[35mNews Load (1.0ms)[0m  SELECT `news`.* FROM `news` WHERE (topics_id=2) ORDER BY updated_at desc
+  [1m[36mTopic Load (1.0ms)[0m  [1mSELECT `topics`.* FROM `topics` ORDER BY topics.order DESC LIMIT 1[0m
+  [1m[35mNews Load (2.0ms)[0m  SELECT `news`.* FROM `news` WHERE (topics_id=5) ORDER BY updated_at asc
+  [1m[36mTopic Load (1.0ms)[0m  [1mSELECT `topics`.* FROM `topics` ORDER BY topics.order[0m
+  Rendered main/index.html.erb within layouts/main (6.0ms)
+  Rendered layouts/_main_form.html.erb (1.0ms)
+Completed 200 OK in 42.0ms (Views: 13.0ms | ActiveRecord: 11.0ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2014-08-05 11:28:00 +0530
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ckeditor/ckeditor.js" for 127.0.0.1 at 2014-08-05 11:28:00 +0530
+Served asset /ckeditor/ckeditor.js - 304 Not Modified (1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-05 11:29:02 +0530
+Processing by MainController#index as HTML
+  [1m[35mTopic Load (1.0ms)[0m  SELECT `topics`.* FROM `topics` WHERE `topics`.`order` = 1 ORDER BY topics.order LIMIT 1
+  [1m[36mTopic Load (0.0ms)[0m  [1mSELECT `topics`.* FROM `topics` WHERE `topics`.`order` = 2 ORDER BY topics.order LIMIT 1[0m
+  [1m[35mNews Load (1.0ms)[0m  SELECT `news`.* FROM `news` WHERE (topics_id=1) ORDER BY updated_at desc
+  [1m[36mNews Load (0.0ms)[0m  [1mSELECT `news`.* FROM `news` WHERE (topics_id=2) ORDER BY updated_at desc[0m
+  [1m[35mTopic Load (1.0ms)[0m  SELECT `topics`.* FROM `topics` ORDER BY topics.order DESC LIMIT 1
+  [1m[36mNews Load (1.0ms)[0m  [1mSELECT `news`.* FROM `news` WHERE (topics_id=5) ORDER BY updated_at asc[0m
+  [1m[35mTopic Load (1.0ms)[0m  SELECT `topics`.* FROM `topics` ORDER BY topics.order
+  Rendered main/index.html.erb within layouts/main (3.0ms)
+  Rendered layouts/_main_form.html.erb (1.0ms)
+Completed 200 OK in 21.0ms (Views: 10.0ms | ActiveRecord: 5.0ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2014-08-05 11:29:02 +0530
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ckeditor/ckeditor.js" for 127.0.0.1 at 2014-08-05 11:29:03 +0530
+Served asset /ckeditor/ckeditor.js - 304 Not Modified (0ms)
+
+
+Started GET "/news" for 127.0.0.1 at 2014-08-05 11:30:51 +0530
+Processing by MainController#mainpage as HTML
+  [1m[36mTopic Load (1.0ms)[0m  [1mSELECT `topics`.* FROM `topics` ORDER BY topics.order, updated_at desc[0m
+  [1m[35mTopic Load (1.0ms)[0m  SELECT `topics`.* FROM `topics` WHERE `topics`.`id` = 1 ORDER BY topics.order LIMIT 1
+  [1m[36mNews Load (2.0ms)[0m  [1mSELECT `news`.* FROM `news` WHERE (topics_id=1) ORDER BY updated_at desc[0m
+  Rendered main/_newslist.html.erb (5.0ms)
+  Rendered main/mainpage.html.erb within layouts/main (8.0ms)
+  Rendered layouts/_main_form.html.erb (0.0ms)
+Completed 200 OK in 22.0ms (Views: 15.0ms | ActiveRecord: 4.0ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2014-08-05 11:30:52 +0530
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/ckeditor/ckeditor.js" for 127.0.0.1 at 2014-08-05 11:30:52 +0530
+Served asset /ckeditor/ckeditor.js - 304 Not Modified (1ms)
+
+
+Started GET "/news" for 127.0.0.1 at 2014-08-05 11:31:43 +0530
+Processing by MainController#mainpage as HTML
+  [1m[35mTopic Load (1.0ms)[0m  SELECT `topics`.* FROM `topics` ORDER BY topics.order, updated_at desc
+  [1m[36mTopic Load (1.0ms)[0m  [1mSELECT `topics`.* FROM `topics` WHERE `topics`.`id` = 1 ORDER BY topics.order LIMIT 1[0m
+  [1m[35mNews Load (1.0ms)[0m  SELECT `news`.* FROM `news` WHERE (topics_id=1) ORDER BY updated_at desc
+  Rendered main/_newslist.html.erb (5.0ms)
+  Rendered main/mainpage.html.erb within layouts/main (8.0ms)
+  Rendered layouts/_main_form.html.erb (1.0ms)
+Completed 200 OK in 23.0ms (Views: 16.0ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2014-08-05 11:31:43 +0530
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ckeditor/ckeditor.js" for 127.0.0.1 at 2014-08-05 11:31:44 +0530
+Served asset /ckeditor/ckeditor.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-05 11:31:52 +0530
+Processing by MainController#index as HTML
+  [1m[36mTopic Load (1.0ms)[0m  [1mSELECT `topics`.* FROM `topics` WHERE `topics`.`order` = 1 ORDER BY topics.order LIMIT 1[0m
+  [1m[35mTopic Load (1.0ms)[0m  SELECT `topics`.* FROM `topics` WHERE `topics`.`order` = 2 ORDER BY topics.order LIMIT 1
+  [1m[36mNews Load (1.0ms)[0m  [1mSELECT `news`.* FROM `news` WHERE (topics_id=1) ORDER BY updated_at desc[0m
+  [1m[35mNews Load (1.0ms)[0m  SELECT `news`.* FROM `news` WHERE (topics_id=2) ORDER BY updated_at desc
+  [1m[36mTopic Load (1.0ms)[0m  [1mSELECT `topics`.* FROM `topics` ORDER BY topics.order DESC LIMIT 1[0m
+  [1m[35mNews Load (1.0ms)[0m  SELECT `news`.* FROM `news` WHERE (topics_id=5) ORDER BY updated_at asc
+  [1m[36mTopic Load (0.0ms)[0m  [1mSELECT `topics`.* FROM `topics` ORDER BY topics.order[0m
+  Rendered main/index.html.erb within layouts/main (3.0ms)
+  Rendered layouts/_main_form.html.erb (0.0ms)
+Completed 200 OK in 19.0ms (Views: 10.0ms | ActiveRecord: 6.0ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2014-08-05 11:31:52 +0530
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/assets/ckeditor/ckeditor.js" for 127.0.0.1 at 2014-08-05 11:31:52 +0530
+Served asset /ckeditor/ckeditor.js - 200 OK (0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-05 11:33:56 +0530
+Processing by MainController#index as HTML
+  [1m[36mTopic Load (1.0ms)[0m  [1mSELECT `topics`.* FROM `topics` WHERE `topics`.`order` = 1 ORDER BY topics.order LIMIT 1[0m
+  [1m[35mTopic Load (1.0ms)[0m  SELECT `topics`.* FROM `topics` WHERE `topics`.`order` = 2 ORDER BY topics.order LIMIT 1
+  [1m[36mNews Load (1.0ms)[0m  [1mSELECT `news`.* FROM `news` WHERE (topics_id=1) ORDER BY updated_at desc[0m
+  [1m[35mNews Load (2.0ms)[0m  SELECT `news`.* FROM `news` WHERE (topics_id=2) ORDER BY updated_at desc
+  [1m[36mTopic Load (1.0ms)[0m  [1mSELECT `topics`.* FROM `topics` ORDER BY topics.order DESC LIMIT 1[0m
+  [1m[35mNews Load (1.0ms)[0m  SELECT `news`.* FROM `news` WHERE (topics_id=5) ORDER BY updated_at asc
+  [1m[36mTopic Load (1.0ms)[0m  [1mSELECT `topics`.* FROM `topics` ORDER BY topics.order[0m
+  Rendered main/index.html.erb within layouts/main (99.0ms)
+  Rendered layouts/_main_form.html.erb (2.0ms)
+Completed 200 OK in 297.0ms (Views: 141.0ms | ActiveRecord: 58.0ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2014-08-05 11:33:56 +0530
+Served asset /application.js - 200 OK (12ms)
+
+
+Started GET "/assets/ckeditor/ckeditor.js" for 127.0.0.1 at 2014-08-05 11:33:56 +0530
+Served asset /ckeditor/ckeditor.js - 200 OK (35ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-05 11:34:16 +0530
+Processing by MainController#index as HTML
+  [1m[35mTopic Load (0.0ms)[0m  SELECT `topics`.* FROM `topics` WHERE `topics`.`order` = 1 ORDER BY topics.order LIMIT 1
+  [1m[36mTopic Load (1.0ms)[0m  [1mSELECT `topics`.* FROM `topics` WHERE `topics`.`order` = 2 ORDER BY topics.order LIMIT 1[0m
+  [1m[35mNews Load (1.0ms)[0m  SELECT `news`.* FROM `news` WHERE (topics_id=1) ORDER BY updated_at desc
+  [1m[36mNews Load (1.0ms)[0m  [1mSELECT `news`.* FROM `news` WHERE (topics_id=2) ORDER BY updated_at desc[0m
+  [1m[35mTopic Load (0.0ms)[0m  SELECT `topics`.* FROM `topics` ORDER BY topics.order DESC LIMIT 1
+  [1m[36mNews Load (0.0ms)[0m  [1mSELECT `news`.* FROM `news` WHERE (topics_id=5) ORDER BY updated_at asc[0m
+  [1m[35mTopic Load (1.0ms)[0m  SELECT `topics`.* FROM `topics` ORDER BY topics.order
+  Rendered main/index.html.erb within layouts/main (3.0ms)
+  Rendered layouts/_main_form.html.erb (1.0ms)
+Completed 200 OK in 21.0ms (Views: 9.0ms | ActiveRecord: 4.0ms)
+
+
+Started GET "/assets/ckeditor/ckeditor.js" for 127.0.0.1 at 2014-08-05 11:34:17 +0530
+Served asset /ckeditor/ckeditor.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2014-08-05 11:34:17 +0530
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-05 11:35:44 +0530
+Processing by MainController#index as HTML
+  [1m[36mTopic Load (1.0ms)[0m  [1mSELECT `topics`.* FROM `topics` WHERE `topics`.`order` = 1 ORDER BY topics.order LIMIT 1[0m
+  [1m[35mTopic Load (1.0ms)[0m  SELECT `topics`.* FROM `topics` WHERE `topics`.`order` = 2 ORDER BY topics.order LIMIT 1
+  [1m[36mNews Load (1.0ms)[0m  [1mSELECT `news`.* FROM `news` WHERE (topics_id=1) ORDER BY updated_at desc[0m
+  [1m[35mNews Load (1.0ms)[0m  SELECT `news`.* FROM `news` WHERE (topics_id=2) ORDER BY updated_at desc
+  [1m[36mTopic Load (1.0ms)[0m  [1mSELECT `topics`.* FROM `topics` ORDER BY topics.order DESC LIMIT 1[0m
+  [1m[35mNews Load (1.0ms)[0m  SELECT `news`.* FROM `news` WHERE (topics_id=5) ORDER BY updated_at asc
+  [1m[36mTopic Load (0.0ms)[0m  [1mSELECT `topics`.* FROM `topics` ORDER BY topics.order[0m
+  Rendered main/index.html.erb within layouts/main (4.0ms)
+  Rendered layouts/_main_form.html.erb (1.0ms)
+Completed 200 OK in 28.0ms (Views: 12.0ms | ActiveRecord: 6.0ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2014-08-05 11:35:44 +0530
+Served asset /application.js - 200 OK (1ms)
+
+
+Started GET "/news" for 127.0.0.1 at 2014-08-05 11:36:28 +0530
+Processing by MainController#mainpage as HTML
+  [1m[35mTopic Load (1.0ms)[0m  SELECT `topics`.* FROM `topics` ORDER BY topics.order, updated_at desc
+  [1m[36mTopic Load (1.0ms)[0m  [1mSELECT `topics`.* FROM `topics` WHERE `topics`.`id` = 1 ORDER BY topics.order LIMIT 1[0m
+  [1m[35mNews Load (2.0ms)[0m  SELECT `news`.* FROM `news` WHERE (topics_id=1) ORDER BY updated_at desc
+  Rendered main/_newslist.html.erb (18.0ms)
+  Rendered main/mainpage.html.erb within layouts/main (23.0ms)
+  Rendered layouts/_main_form.html.erb (1.0ms)
+Completed 200 OK in 36.0ms (Views: 29.0ms | ActiveRecord: 4.0ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2014-08-05 11:36:29 +0530
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/main/all/1" for 127.0.0.1 at 2014-08-05 11:36:32 +0530
+Processing by MainController#all as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTopic Load (2.0ms)[0m  [1mSELECT `topics`.* FROM `topics` WHERE `topics`.`id` = 1 ORDER BY topics.order LIMIT 1[0m
+  [1m[35mNews Load (1.0ms)[0m  SELECT `news`.* FROM `news` WHERE (topics_id=1) ORDER BY updated_at desc
+  [1m[36mNews Load (1.0ms)[0m  [1mSELECT `news`.* FROM `news` WHERE (topics_id=1) ORDER BY updated_at desc LIMIT 3 OFFSET 0[0m
+  [1m[35m (12.0ms)[0m  SELECT COUNT(*) FROM `news` WHERE (topics_id=1)
+  Rendered main/all.html.erb within layouts/main (22.0ms)
+  Rendered layouts/_main_form.html.erb (1.0ms)
+Completed 200 OK in 50.0ms (Views: 31.0ms | ActiveRecord: 16.0ms)
+
+
+Started GET "/assets/ckeditor/ckeditor.js" for 127.0.0.1 at 2014-08-05 11:36:33 +0530
+Served asset /ckeditor/ckeditor.js - 200 OK (1ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2014-08-05 11:36:33 +0530
+Served asset /application.js - 200 OK (1ms)
+
+
+Started GET "/content/16" for 127.0.0.1 at 2014-08-05 11:36:34 +0530
+Processing by MainController#content as HTML
+  Parameters: {"id"=>"16"}
+  [1m[36mNews Load (1.0ms)[0m  [1mSELECT `news`.* FROM `news` WHERE `news`.`id` = 16 LIMIT 1[0m
+  Rendered main/content.html.erb within layouts/main (2.0ms)
+  Rendered layouts/_main_form.html.erb (1.0ms)
+Completed 200 OK in 25.0ms (Views: 22.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-05 11:59:51 +0530
+Processing by MainController#index as HTML
+  [1m[35mTopic Load (1.0ms)[0m  SELECT `topics`.* FROM `topics` WHERE `topics`.`order` = 1 ORDER BY topics.order LIMIT 1
+  [1m[36mTopic Load (0.0ms)[0m  [1mSELECT `topics`.* FROM `topics` WHERE `topics`.`order` = 2 ORDER BY topics.order LIMIT 1[0m
+  [1m[35mNews Load (2.0ms)[0m  SELECT `news`.* FROM `news` WHERE (topics_id=1) ORDER BY updated_at desc
+  [1m[36mNews Load (1.0ms)[0m  [1mSELECT `news`.* FROM `news` WHERE (topics_id=2) ORDER BY updated_at desc[0m
+  [1m[35mTopic Load (1.0ms)[0m  SELECT `topics`.* FROM `topics` ORDER BY topics.order DESC LIMIT 1
+  [1m[36mNews Load (1.0ms)[0m  [1mSELECT `news`.* FROM `news` WHERE (topics_id=5) ORDER BY updated_at asc[0m
+  [1m[35mTopic Load (1.0ms)[0m  SELECT `topics`.* FROM `topics` ORDER BY topics.order
+  Rendered main/index.html.erb within layouts/main (4.0ms)
+  Rendered layouts/_main_form.html.erb (0.0ms)
+Completed 200 OK in 24.0ms (Views: 10.0ms | ActiveRecord: 7.0ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2014-08-05 11:59:51 +0530
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/assets/ckeditor/ckeditor.js" for 127.0.0.1 at 2014-08-05 11:59:51 +0530
+Served asset /ckeditor/ckeditor.js - 200 OK (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-05 12:01:18 +0530
+Processing by MainController#index as HTML
+  [1m[36mTopic Load (1.0ms)[0m  [1mSELECT `topics`.* FROM `topics` WHERE `topics`.`order` = 1 ORDER BY topics.order LIMIT 1[0m
+  [1m[35mTopic Load (1.0ms)[0m  SELECT `topics`.* FROM `topics` WHERE `topics`.`order` = 2 ORDER BY topics.order LIMIT 1
+  [1m[36mNews Load (1.0ms)[0m  [1mSELECT `news`.* FROM `news` WHERE (topics_id=1) ORDER BY updated_at desc[0m
+  [1m[35mNews Load (1.0ms)[0m  SELECT `news`.* FROM `news` WHERE (topics_id=2) ORDER BY updated_at desc
+  [1m[36mTopic Load (0.0ms)[0m  [1mSELECT `topics`.* FROM `topics` ORDER BY topics.order DESC LIMIT 1[0m
+  [1m[35mNews Load (1.0ms)[0m  SELECT `news`.* FROM `news` WHERE (topics_id=5) ORDER BY updated_at asc
+  [1m[36mTopic Load (1.0ms)[0m  [1mSELECT `topics`.* FROM `topics` ORDER BY topics.order[0m
+  Rendered main/index.html.erb within layouts/main (7.0ms)
+  Rendered layouts/_main_form.html.erb (0.0ms)
+Completed 200 OK in 108.0ms (Views: 93.0ms | ActiveRecord: 6.0ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2014-08-05 12:01:19 +0530
+Served asset /application.js - 200 OK (1ms)
+
+
+Started GET "/assets/ckeditor/ckeditor.js" for 127.0.0.1 at 2014-08-05 12:01:19 +0530
+Served asset /ckeditor/ckeditor.js - 200 OK (0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-05 13:16:12 +0530
+Processing by MainController#index as HTML
+  [1m[36mTopic Load (1.0ms)[0m  [1mSELECT `topics`.* FROM `topics` WHERE `topics`.`order` = 1 ORDER BY topics.order LIMIT 1[0m
+  [1m[35mTopic Load (1.0ms)[0m  SELECT `topics`.* FROM `topics` WHERE `topics`.`order` = 2 ORDER BY topics.order LIMIT 1
+  [1m[36mNews Load (1.0ms)[0m  [1mSELECT `news`.* FROM `news` WHERE (topics_id=1) ORDER BY updated_at desc[0m
+  [1m[35mNews Load (2.0ms)[0m  SELECT `news`.* FROM `news` WHERE (topics_id=2) ORDER BY updated_at desc
+  [1m[36mTopic Load (1.0ms)[0m  [1mSELECT `topics`.* FROM `topics` ORDER BY topics.order DESC LIMIT 1[0m
+  [1m[35mNews Load (1.0ms)[0m  SELECT `news`.* FROM `news` WHERE (topics_id=5) ORDER BY updated_at asc
+  [1m[36mTopic Load (1.0ms)[0m  [1mSELECT `topics`.* FROM `topics` ORDER BY topics.order[0m
+  Rendered main/index.html.erb within layouts/main (154.0ms)
+  Rendered layouts/_main_form.html.erb (1.0ms)
+Completed 200 OK in 462.1ms (Views: 238.0ms | ActiveRecord: 84.0ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2014-08-05 13:16:13 +0530
+Compiled jquery.js  (5ms)  (pid 2824)
+Compiled jquery_ujs.js  (0ms)  (pid 2824)
+Compiled ckeditor/ckeditor.js  (74ms)  (pid 2824)
+Compiled ckeditor/init.js  (175ms)  (pid 2824)
+Compiled application.js  (508ms)  (pid 2824)
+Served asset /application.js - 200 OK (651ms)
+
+
+Started GET "/assets/ckeditor/ckeditor.js" for 127.0.0.1 at 2014-08-05 13:16:14 +0530
+Served asset /ckeditor/ckeditor.js - 200 OK (119ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-05 13:17:07 +0530
+Processing by MainController#index as HTML
+  [1m[35mTopic Load (1.0ms)[0m  SELECT `topics`.* FROM `topics` WHERE `topics`.`order` = 1 ORDER BY topics.order LIMIT 1
+  [1m[36mTopic Load (1.0ms)[0m  [1mSELECT `topics`.* FROM `topics` WHERE `topics`.`order` = 2 ORDER BY topics.order LIMIT 1[0m
+  [1m[35mNews Load (1.0ms)[0m  SELECT `news`.* FROM `news` WHERE (topics_id=1) ORDER BY updated_at desc
+  [1m[36mNews Load (1.0ms)[0m  [1mSELECT `news`.* FROM `news` WHERE (topics_id=2) ORDER BY updated_at desc[0m
+  [1m[35mTopic Load (1.0ms)[0m  SELECT `topics`.* FROM `topics` ORDER BY topics.order DESC LIMIT 1
+  [1m[36mNews Load (1.0ms)[0m  [1mSELECT `news`.* FROM `news` WHERE (topics_id=5) ORDER BY updated_at asc[0m
+  [1m[35mTopic Load (0.0ms)[0m  SELECT `topics`.* FROM `topics` ORDER BY topics.order
+  Rendered main/index.html.erb within layouts/main (5.0ms)
+  Rendered layouts/_main_form.html.erb (1.0ms)
+Completed 200 OK in 22.0ms (Views: 11.0ms | ActiveRecord: 6.0ms)
+
+
+Started GET "/assets/ckeditor/ckeditor.js" for 127.0.0.1 at 2014-08-05 13:17:07 +0530
+Served asset /ckeditor/ckeditor.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2014-08-05 13:17:08 +0530
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-05 13:17:22 +0530
+Processing by MainController#index as HTML
+  [1m[36mTopic Load (1.0ms)[0m  [1mSELECT `topics`.* FROM `topics` WHERE `topics`.`order` = 1 ORDER BY topics.order LIMIT 1[0m
+  [1m[35mTopic Load (0.0ms)[0m  SELECT `topics`.* FROM `topics` WHERE `topics`.`order` = 2 ORDER BY topics.order LIMIT 1
+  [1m[36mNews Load (1.0ms)[0m  [1mSELECT `news`.* FROM `news` WHERE (topics_id=1) ORDER BY updated_at desc[0m
+  [1m[35mNews Load (1.0ms)[0m  SELECT `news`.* FROM `news` WHERE (topics_id=2) ORDER BY updated_at desc
+  [1m[36mTopic Load (0.0ms)[0m  [1mSELECT `topics`.* FROM `topics` ORDER BY topics.order DESC LIMIT 1[0m
+  [1m[35mNews Load (1.0ms)[0m  SELECT `news`.* FROM `news` WHERE (topics_id=5) ORDER BY updated_at asc
+  [1m[36mTopic Load (1.0ms)[0m  [1mSELECT `topics`.* FROM `topics` ORDER BY topics.order[0m
+  Rendered main/index.html.erb within layouts/main (3.0ms)
+  Rendered layouts/_main_form.html.erb (3.0ms)
+Completed 200 OK in 24.0ms (Views: 13.0ms | ActiveRecord: 5.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-05 13:17:22 +0530
+Processing by MainController#index as HTML
+  [1m[35mTopic Load (1.0ms)[0m  SELECT `topics`.* FROM `topics` WHERE `topics`.`order` = 1 ORDER BY topics.order LIMIT 1
+  [1m[36mTopic Load (1.0ms)[0m  [1mSELECT `topics`.* FROM `topics` WHERE `topics`.`order` = 2 ORDER BY topics.order LIMIT 1[0m
+  [1m[35mNews Load (1.0ms)[0m  SELECT `news`.* FROM `news` WHERE (topics_id=1) ORDER BY updated_at desc
+  [1m[36mNews Load (1.0ms)[0m  [1mSELECT `news`.* FROM `news` WHERE (topics_id=2) ORDER BY updated_at desc[0m
+  [1m[35mTopic Load (2.0ms)[0m  SELECT `topics`.* FROM `topics` ORDER BY topics.order DESC LIMIT 1
+  [1m[36mNews Load (1.0ms)[0m  [1mSELECT `news`.* FROM `news` WHERE (topics_id=5) ORDER BY updated_at asc[0m
+  [1m[35mTopic Load (0.0ms)[0m  SELECT `topics`.* FROM `topics` ORDER BY topics.order
+  Rendered main/index.html.erb within layouts/main (3.0ms)
+  Rendered layouts/_main_form.html.erb (1.0ms)
+Completed 200 OK in 23.0ms (Views: 10.0ms | ActiveRecord: 7.0ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2014-08-05 13:17:22 +0530
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/ckeditor/ckeditor.js" for 127.0.0.1 at 2014-08-05 13:17:22 +0530
+Served asset /ckeditor/ckeditor.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-05 13:17:33 +0530
+Processing by MainController#index as HTML
+  [1m[36mTopic Load (1.0ms)[0m  [1mSELECT `topics`.* FROM `topics` WHERE `topics`.`order` = 1 ORDER BY topics.order LIMIT 1[0m
+  [1m[35mTopic Load (1.0ms)[0m  SELECT `topics`.* FROM `topics` WHERE `topics`.`order` = 2 ORDER BY topics.order LIMIT 1
+  [1m[36mNews Load (1.0ms)[0m  [1mSELECT `news`.* FROM `news` WHERE (topics_id=1) ORDER BY updated_at desc[0m
+  [1m[35mNews Load (1.0ms)[0m  SELECT `news`.* FROM `news` WHERE (topics_id=2) ORDER BY updated_at desc
+  [1m[36mTopic Load (1.0ms)[0m  [1mSELECT `topics`.* FROM `topics` ORDER BY topics.order DESC LIMIT 1[0m
+  [1m[35mNews Load (0.0ms)[0m  SELECT `news`.* FROM `news` WHERE (topics_id=5) ORDER BY updated_at asc
+  [1m[36mTopic Load (0.0ms)[0m  [1mSELECT `topics`.* FROM `topics` ORDER BY topics.order[0m
+  Rendered main/index.html.erb within layouts/main (4.0ms)
+  Rendered layouts/_main_form.html.erb (1.0ms)
+Completed 200 OK in 22.0ms (Views: 10.0ms | ActiveRecord: 5.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-05 13:17:33 +0530
+Processing by MainController#index as HTML
+  [1m[35mTopic Load (1.0ms)[0m  SELECT `topics`.* FROM `topics` WHERE `topics`.`order` = 1 ORDER BY topics.order LIMIT 1
+  [1m[36mTopic Load (1.0ms)[0m  [1mSELECT `topics`.* FROM `topics` WHERE `topics`.`order` = 2 ORDER BY topics.order LIMIT 1[0m
+  [1m[35mNews Load (1.0ms)[0m  SELECT `news`.* FROM `news` WHERE (topics_id=1) ORDER BY updated_at desc
+  [1m[36mNews Load (1.0ms)[0m  [1mSELECT `news`.* FROM `news` WHERE (topics_id=2) ORDER BY updated_at desc[0m
+  [1m[35mTopic Load (1.0ms)[0m  SELECT `topics`.* FROM `topics` ORDER BY topics.order DESC LIMIT 1
+  [1m[36mNews Load (1.0ms)[0m  [1mSELECT `news`.* FROM `news` WHERE (topics_id=5) ORDER BY updated_at asc[0m
+  [1m[35mTopic Load (0.0ms)[0m  SELECT `topics`.* FROM `topics` ORDER BY topics.order
+  Rendered main/index.html.erb within layouts/main (3.0ms)
+  Rendered layouts/_main_form.html.erb (0.0ms)
+Completed 200 OK in 20.0ms (Views: 8.0ms | ActiveRecord: 6.0ms)
+
+
+Started GET "/assets/ckeditor/ckeditor.js" for 127.0.0.1 at 2014-08-05 13:17:33 +0530
+Served asset /ckeditor/ckeditor.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2014-08-05 13:17:33 +0530
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/content/4" for 127.0.0.1 at 2014-08-05 13:17:58 +0530
+Processing by MainController#content as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mNews Load (1.0ms)[0m  [1mSELECT `news`.* FROM `news` WHERE `news`.`id` = 4 LIMIT 1[0m
+  Rendered main/content.html.erb within layouts/main (2.0ms)
+  Rendered layouts/_main_form.html.erb (0.0ms)
+Completed 200 OK in 20.0ms (Views: 17.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2014-08-05 13:17:59 +0530
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ckeditor/ckeditor.js" for 127.0.0.1 at 2014-08-05 13:17:59 +0530
+Served asset /ckeditor/ckeditor.js - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-05 21:10:23 +0530
+Processing by MainController#index as HTML
+  [1m[36mTopic Load (1.0ms)[0m  [1mSELECT `topics`.* FROM `topics` WHERE `topics`.`order` = 1 ORDER BY topics.order LIMIT 1[0m
+  [1m[35mTopic Load (1.0ms)[0m  SELECT `topics`.* FROM `topics` WHERE `topics`.`order` = 2 ORDER BY topics.order LIMIT 1
+  [1m[36mNews Load (7.0ms)[0m  [1mSELECT `news`.* FROM `news` WHERE (topics_id=1) ORDER BY updated_at desc[0m
+  [1m[35mNews Load (1.0ms)[0m  SELECT `news`.* FROM `news` WHERE (topics_id=2) ORDER BY updated_at desc
+  [1m[36mTopic Load (0.0ms)[0m  [1mSELECT `topics`.* FROM `topics` ORDER BY topics.order DESC LIMIT 1[0m
+  [1m[35mNews Load (2.0ms)[0m  SELECT `news`.* FROM `news` WHERE (topics_id=5) ORDER BY updated_at asc
+  [1m[36mTopic Load (0.0ms)[0m  [1mSELECT `topics`.* FROM `topics` ORDER BY topics.order[0m
+  Rendered main/index.html.erb within layouts/main (109.0ms)
+  Rendered layouts/_main_form.html.erb (2.0ms)
+Completed 200 OK in 340.0ms (Views: 179.0ms | ActiveRecord: 105.0ms)
+
+
+Started GET "/assets/ckeditor/ckeditor.js" for 127.0.0.1 at 2014-08-05 21:10:23 +0530
+Served asset /ckeditor/ckeditor.js - 200 OK (39ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2014-08-05 21:10:24 +0530
+Served asset /application.js - 200 OK (82ms)
+
+
+Started GET "/adminpalet" for 127.0.0.1 at 2014-08-05 21:10:32 +0530
+Processing by UserController#login as HTML
+  Rendered user/login.html.erb within layouts/login (2.0ms)
+Completed 200 OK in 18.0ms (Views: 17.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-05 21:10:43 +0530
+Processing by MainController#index as HTML
+  [1m[35mTopic Load (0.0ms)[0m  SELECT `topics`.* FROM `topics` WHERE `topics`.`order` = 1 ORDER BY topics.order LIMIT 1
+  [1m[36mTopic Load (0.0ms)[0m  [1mSELECT `topics`.* FROM `topics` WHERE `topics`.`order` = 2 ORDER BY topics.order LIMIT 1[0m
+  [1m[35mNews Load (1.0ms)[0m  SELECT `news`.* FROM `news` WHERE (topics_id=1) ORDER BY updated_at desc
+  [1m[36mNews Load (1.0ms)[0m  [1mSELECT `news`.* FROM `news` WHERE (topics_id=2) ORDER BY updated_at desc[0m
+  [1m[35mTopic Load (0.0ms)[0m  SELECT `topics`.* FROM `topics` ORDER BY topics.order DESC LIMIT 1
+  [1m[36mNews Load (0.0ms)[0m  [1mSELECT `news`.* FROM `news` WHERE (topics_id=5) ORDER BY updated_at asc[0m
+  [1m[35mTopic Load (0.0ms)[0m  SELECT `topics`.* FROM `topics` ORDER BY topics.order
+  Rendered main/index.html.erb within layouts/main (3.0ms)
+  Rendered layouts/_main_form.html.erb (1.0ms)
+Completed 200 OK in 19.0ms (Views: 9.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/ckeditor/ckeditor.js" for 127.0.0.1 at 2014-08-05 21:10:43 +0530
+Served asset /ckeditor/ckeditor.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2014-08-05 21:10:43 +0530
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/adminpalet" for 127.0.0.1 at 2014-08-05 21:10:44 +0530
+Processing by UserController#login as HTML
+  Rendered user/login.html.erb within layouts/login (2.0ms)
+Completed 200 OK in 6.0ms (Views: 5.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/defaults.js" for 127.0.0.1 at 2014-08-05 21:10:44 +0530
+Served asset /defaults.js - 404 Not Found (10ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/defaults.js"):
+  actionpack (3.2.18) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.18) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.18) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.18) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.18) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.18) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.18) lib/rails/engine.rb:484:in `call'
+  railties (3.2.18) lib/rails/application.rb:231:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.18) lib/rails/rack/log_tailer.rb:17:in `call'
+  thin (1.6.2) lib/thin/connection.rb:86:in `block in pre_process'
+  thin (1.6.2) lib/thin/connection.rb:84:in `catch'
+  thin (1.6.2) lib/thin/connection.rb:84:in `pre_process'
+  thin (1.6.2) lib/thin/connection.rb:53:in `process'
+  thin (1.6.2) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine-1.0.3-x86 (mingw32) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine-1.0.3-x86 (mingw32) lib/eventmachine.rb:187:in `run'
+  thin (1.6.2) lib/thin/backends/base.rb:73:in `start'
+  thin (1.6.2) lib/thin/server.rb:162:in `start'
+  rack (1.4.5) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.5) lib/rack/server.rb:268:in `start'
+  railties (3.2.18) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.18) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.18) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.18) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+  Rendered C:/Ruby193/lib/ruby/gems/1.9.1/gems/actionpack-3.2.18/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/assets/stylesheets/img/bg.png" for 127.0.0.1 at 2014-08-05 21:10:44 +0530
+Served asset /stylesheets/img/bg.png - 404 Not Found (4ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/stylesheets/img/bg.png"):
+  actionpack (3.2.18) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.18) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.18) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.18) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.18) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.18) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.18) lib/rails/engine.rb:484:in `call'
+  railties (3.2.18) lib/rails/application.rb:231:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.18) lib/rails/rack/log_tailer.rb:17:in `call'
+  thin (1.6.2) lib/thin/connection.rb:86:in `block in pre_process'
+  thin (1.6.2) lib/thin/connection.rb:84:in `catch'
+  thin (1.6.2) lib/thin/connection.rb:84:in `pre_process'
+  thin (1.6.2) lib/thin/connection.rb:53:in `process'
+  thin (1.6.2) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine-1.0.3-x86 (mingw32) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine-1.0.3-x86 (mingw32) lib/eventmachine.rb:187:in `run'
+  thin (1.6.2) lib/thin/backends/base.rb:73:in `start'
+  thin (1.6.2) lib/thin/server.rb:162:in `start'
+  rack (1.4.5) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.5) lib/rack/server.rb:268:in `start'
+  railties (3.2.18) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.18) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.18) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.18) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+  Rendered C:/Ruby193/lib/ruby/gems/1.9.1/gems/actionpack-3.2.18/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started POST "/adminpalet" for 127.0.0.1 at 2014-08-05 21:10:48 +0530
+Processing by UserController#login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"fSJG4lxrcV6TC3pgjVt10Hl5NYLRjS6uAHSKDZwhp1s=", "user"=>{"username"=>"admin", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`username` = 'admin' LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`username` = 'admin' LIMIT 1
+Redirected to http://localhost:3000/user/dashboard
+Completed 302 Found in 173.0ms (ActiveRecord: 150.0ms)
+
+
+Started GET "/user/dashboard" for 127.0.0.1 at 2014-08-05 21:10:49 +0530
+Processing by UserController#dashboard as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  Rendered user/dashboard.html.erb within layouts/dashboard (2.0ms)
+  Rendered layouts/_main_menu.html.erb (2.0ms)
+Completed 200 OK in 66.0ms (Views: 63.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2014-08-05 21:10:49 +0530
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/ckeditor/ckeditor.js" for 127.0.0.1 at 2014-08-05 21:10:49 +0530
+Served asset /ckeditor/ckeditor.js - 304 Not Modified (0ms)
+
+
+Started GET "/images/application/profile.png" for 127.0.0.1 at 2014-08-05 21:10:49 +0530
+
+ActionController::RoutingError (No route matches [GET] "/images/application/profile.png"):
+  actionpack (3.2.18) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.18) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.18) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.18) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.18) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.18) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.18) lib/rails/engine.rb:484:in `call'
+  railties (3.2.18) lib/rails/application.rb:231:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.18) lib/rails/rack/log_tailer.rb:17:in `call'
+  thin (1.6.2) lib/thin/connection.rb:86:in `block in pre_process'
+  thin (1.6.2) lib/thin/connection.rb:84:in `catch'
+  thin (1.6.2) lib/thin/connection.rb:84:in `pre_process'
+  thin (1.6.2) lib/thin/connection.rb:53:in `process'
+  thin (1.6.2) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine-1.0.3-x86 (mingw32) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine-1.0.3-x86 (mingw32) lib/eventmachine.rb:187:in `run'
+  thin (1.6.2) lib/thin/backends/base.rb:73:in `start'
+  thin (1.6.2) lib/thin/server.rb:162:in `start'
+  rack (1.4.5) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.5) lib/rack/server.rb:268:in `start'
+  railties (3.2.18) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.18) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.18) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.18) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+  Rendered C:/Ruby193/lib/ruby/gems/1.9.1/gems/actionpack-3.2.18/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/images/application/logout.png" for 127.0.0.1 at 2014-08-05 21:10:49 +0530
+
+ActionController::RoutingError (No route matches [GET] "/images/application/logout.png"):
+  actionpack (3.2.18) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.18) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.18) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.18) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.18) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.18) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.18) lib/rails/engine.rb:484:in `call'
+  railties (3.2.18) lib/rails/application.rb:231:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.18) lib/rails/rack/log_tailer.rb:17:in `call'
+  thin (1.6.2) lib/thin/connection.rb:86:in `block in pre_process'
+  thin (1.6.2) lib/thin/connection.rb:84:in `catch'
+  thin (1.6.2) lib/thin/connection.rb:84:in `pre_process'
+  thin (1.6.2) lib/thin/connection.rb:53:in `process'
+  thin (1.6.2) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine-1.0.3-x86 (mingw32) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine-1.0.3-x86 (mingw32) lib/eventmachine.rb:187:in `run'
+  thin (1.6.2) lib/thin/backends/base.rb:73:in `start'
+  thin (1.6.2) lib/thin/server.rb:162:in `start'
+  rack (1.4.5) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.5) lib/rack/server.rb:268:in `start'
+  railties (3.2.18) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.18) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.18) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.18) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+  Rendered C:/Ruby193/lib/ruby/gems/1.9.1/gems/actionpack-3.2.18/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started GET "/news/select_topic" for 127.0.0.1 at 2014-08-05 21:10:50 +0530
+Processing by NewsController#select_topic as HTML
+  [1m[35mUser Load (1.0ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  [1m[35mTopic Load (0.0ms)[0m  SELECT `topics`.* FROM `topics` ORDER BY topics.order
+  Rendered news/select_topic.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_main_menu.html.erb (1.0ms)
+Completed 200 OK in 84.0ms (Views: 51.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/ckeditor/ckeditor.js" for 127.0.0.1 at 2014-08-05 21:10:51 +0530
+Served asset /ckeditor/ckeditor.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/calendar_date_select/blue.css" for 127.0.0.1 at 2014-08-05 21:10:51 +0530
+Compiled calendar_date_select/blue.css  (1ms)  (pid 7152)
+Served asset /calendar_date_select/blue.css - 200 OK (39ms)
+
+
+Started GET "/assets/calendar_date_select/calendar_date_select.js" for 127.0.0.1 at 2014-08-05 21:10:51 +0530
+Compiled calendar_date_select/calendar_date_select.js  (1ms)  (pid 7152)
+Served asset /calendar_date_select/calendar_date_select.js - 200 OK (84ms)
+
+
+Started GET "/topics/1/news" for 127.0.0.1 at 2014-08-05 21:10:52 +0530
+Processing by NewsController#index as HTML
+  Parameters: {"topic_id"=>"1"}
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+  [1m[36mTopic Load (1.0ms)[0m  [1mSELECT `topics`.* FROM `topics` WHERE `topics`.`id` = 1 ORDER BY topics.order LIMIT 1[0m
+  [1m[35mNews Load (10.0ms)[0m  SELECT `news`.* FROM `news` WHERE (topics_id=1)
+  [1m[36mNews Load (1.0ms)[0m  [1mSELECT `news`.* FROM `news` WHERE (topics_id=1) LIMIT 5 OFFSET 0[0m
+  Rendered news/index.html.erb within layouts/application (26.0ms)
+  Rendered layouts/_main_menu.html.erb (1.0ms)
+Completed 200 OK in 61.0ms (Views: 44.0ms | ActiveRecord: 13.0ms)
+
+
+Started GET "/assets/ckeditor/ckeditor.js" for 127.0.0.1 at 2014-08-05 21:10:52 +0530
+Served asset /ckeditor/ckeditor.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/calendar_date_select/format_american.js" for 127.0.0.1 at 2014-08-05 21:10:53 +0530
+Compiled calendar_date_select/format_american.js  (1ms)  (pid 7152)
+Served asset /calendar_date_select/format_american.js - 200 OK (57ms)
+
+
+Started GET "/topics/1/news/new" for 127.0.0.1 at 2014-08-05 21:10:55 +0530
+Processing by NewsController#new as HTML
+  Parameters: {"topic_id"=>"1"}
+  [1m[35mUser Load (1.0ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  [1m[35mTopic Load (1.0ms)[0m  SELECT `topics`.* FROM `topics` WHERE `topics`.`id` = 1 ORDER BY topics.order LIMIT 1
+  Rendered news/_form.html.erb (41.0ms)
+  Rendered news/new.html.erb within layouts/application (56.0ms)
+  Rendered layouts/_main_menu.html.erb (1.0ms)
+Completed 200 OK in 77.0ms (Views: 73.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/ckeditor/ckeditor.js" for 127.0.0.1 at 2014-08-05 21:10:56 +0530
+Served asset /ckeditor/ckeditor.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ckeditor/config.js?t=E2PC" for 127.0.0.1 at 2014-08-05 21:10:56 +0530
+Compiled ckeditor/config.js  (0ms)  (pid 7152)
+Served asset /ckeditor/config.js - 200 OK (72ms)
+
+
+Started GET "/assets/ckeditor/styles.js?t=E2PC" for 127.0.0.1 at 2014-08-05 21:10:56 +0530
+Compiled ckeditor/styles.js  (0ms)  (pid 7152)
+Served asset /ckeditor/styles.js - 200 OK (90ms)
+
+
+Started GET "/assets/ckeditor/contents.css?t=E2PC" for 127.0.0.1 at 2014-08-05 21:10:57 +0530
+Compiled ckeditor/contents.css  (0ms)  (pid 7152)
+Served asset /ckeditor/contents.css - 200 OK (46ms)
+Connecting to database specified by database.yml
+  [1m[36m (46.8ms)[0m  [1mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (93.6ms)[0m  CREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)
+  [1m[36m (0.0ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+Migrating to CreateUsers (20140605143146)
+  [1m[35m (93.6ms)[0m  CREATE TABLE `users` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `username` varchar(255), `firstname` varchar(255), `lastname` varchar(255), `email` varchar(255), `admin` tinyint(1), `conedit` tinyint(1), `hashed_password` varchar(255), `password_salt` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+  [1m[36m (15.6ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('20140605143146')[0m
+Migrating to CreateNews (20140606061842)
+  [1m[35m (62.4ms)[0m  CREATE TABLE `news` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `title` text, `content` text, `date` date, `icon_url` varchar(255), `time` time, `topics_id` int(11), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+  [1m[36m (15.6ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('20140606061842')[0m
+Migrating to CreateCkeditorAssets (20140606231151)
+  [1m[35m (46.8ms)[0m  CREATE TABLE `ckeditor_assets` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `data_file_name` varchar(255) NOT NULL, `data_content_type` varchar(255), `data_file_size` int(11), `assetable_id` int(11), `assetable_type` varchar(30), `type` varchar(30), `width` int(11), `height` int(11), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+  [1m[36m (93.6ms)[0m  [1mCREATE INDEX `idx_ckeditor_assetable_type` ON `ckeditor_assets` (`assetable_type`, `type`, `assetable_id`)[0m
+  [1m[35m (78.0ms)[0m  CREATE INDEX `idx_ckeditor_assetable` ON `ckeditor_assets` (`assetable_type`, `assetable_id`)
+  [1m[36m (0.0ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('20140606231151')[0m
+Migrating to CreateTopics (20140609160943)
+  [1m[35m (46.8ms)[0m  CREATE TABLE `topics` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255), `order` varchar(255), `video` tinyint(1), `picture` tinyint(1), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+  [1m[36m (15.6ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('20140609160943')[0m
+Migrating to CreateVideos (20140617084343)
+  [1m[35m (46.8ms)[0m  CREATE TABLE `videos` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `link` varchar(255), `title` varchar(255), `author` varchar(255), `duration` varchar(255), `likes` int(11), `dislikes` int(11), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+  [1m[36m (15.6ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('20140617084343')[0m
+Migrating to AddLinkToNews (20140617085646)
+  [1m[35m (109.2ms)[0m  ALTER TABLE `news` ADD `link` varchar(255)
+  [1m[36m (0.0ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('20140617085646')[0m
+  [1m[35m (0.0ms)[0m  SELECT `schema_migrations`.`version` FROM `schema_migrations` 
+  [1m[36m (0.0ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+  [1m[35mUser Load (0.0ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`admin` = 1 LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO `users` (`admin`, `conedit`, `created_at`, `email`, `firstname`, `hashed_password`, `lastname`, `password_salt`, `updated_at`, `username`) VALUES (1, NULL, '2014-08-07 06:06:45', 'noreply@cms.com', 'Admin', 'ca5bb0ecba0d809ac6fb9559344ebf71863c2b93', 'User', 'yVTBRNhr', '2014-08-07 06:06:45', 'admin')
+  [1m[36m (31.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36m (0.0ms)[0m  [1mROLLBACK[0m
+Connecting to database specified by database.yml
+  [1m[36m (61.0ms)[0m  [1mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+Mysql2::Error: Can't create table '.\cms\schema_migrations.frm' (errno: 121): CREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB
+Connecting to database specified by database.yml
+  [1m[36m (40.0ms)[0m  [1mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (82.0ms)[0m  CREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)
+  [1m[36m (0.0ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+Migrating to CreateUsers (20140605143146)
+  [1m[35m (47.0ms)[0m  CREATE TABLE `users` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `username` varchar(255), `firstname` varchar(255), `lastname` varchar(255), `email` varchar(255), `admin` tinyint(1), `conedit` tinyint(1), `hashed_password` varchar(255), `password_salt` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+  [1m[36m (13.0ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('20140605143146')[0m
+Migrating to CreateNews (20140606061842)
+  [1m[35m (48.0ms)[0m  CREATE TABLE `news` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `title` text, `content` text, `date` date, `icon_url` varchar(255), `time` time, `topics_id` int(11), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+  [1m[36m (16.0ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('20140606061842')[0m
+Migrating to CreateCkeditorAssets (20140606231151)
+  [1m[35m (44.0ms)[0m  CREATE TABLE `ckeditor_assets` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `data_file_name` varchar(255) NOT NULL, `data_content_type` varchar(255), `data_file_size` int(11), `assetable_id` int(11), `assetable_type` varchar(30), `type` varchar(30), `width` int(11), `height` int(11), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+  [1m[36m (96.0ms)[0m  [1mCREATE INDEX `idx_ckeditor_assetable_type` ON `ckeditor_assets` (`assetable_type`, `type`, `assetable_id`)[0m
+  [1m[35m (96.0ms)[0m  CREATE INDEX `idx_ckeditor_assetable` ON `ckeditor_assets` (`assetable_type`, `assetable_id`)
+  [1m[36m (12.0ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('20140606231151')[0m
+Migrating to CreateTopics (20140609160943)
+  [1m[35m (53.0ms)[0m  CREATE TABLE `topics` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255), `order` varchar(255), `video` tinyint(1), `picture` tinyint(1), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+  [1m[36m (13.0ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('20140609160943')[0m
+Migrating to CreateVideos (20140617084343)
+  [1m[35m (40.0ms)[0m  CREATE TABLE `videos` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `link` varchar(255), `title` varchar(255), `author` varchar(255), `duration` varchar(255), `likes` int(11), `dislikes` int(11), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+  [1m[36m (27.0ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('20140617084343')[0m
+Migrating to AddLinkToNews (20140617085646)
+  [1m[35m (102.0ms)[0m  ALTER TABLE `news` ADD `link` varchar(255)
+  [1m[36m (12.0ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('20140617085646')[0m
+  [1m[35m (0.0ms)[0m  SELECT `schema_migrations`.`version` FROM `schema_migrations` 
+  [1m[36m (0.0ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+  [1m[35mUser Load (1.0ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`admin` = 1 LIMIT 1
+  [1m[36m (1.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO `users` (`admin`, `conedit`, `created_at`, `email`, `firstname`, `hashed_password`, `lastname`, `password_salt`, `updated_at`, `username`) VALUES (1, NULL, '2014-08-07 10:47:06', 'noreply@cms.com', 'Admin', 'fb814da37237a2d6132c49f96a47a2f21947082a', 'User', 'm5dXO5uE', '2014-08-07 10:47:06', 'admin')
+  [1m[36m (19.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (1.0ms)[0m  BEGIN
+  [1m[36m (0.0ms)[0m  [1mROLLBACK[0m
+
+
+Started GET "/" for 127.0.0.1 at Tue Aug 12 15:41:00 +0530 2014
+Connecting to database specified by database.yml
+Processing by MainController#index as HTML
+Completed 500 Internal Server Error in 5.0ms
+
+NameError (uninitialized constant ApplicationController::Authorization):
+  app/controllers/application_controller.rb:4:in `_callback_before_15'
+
+
+  Rendered C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.2.18/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.2.18/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.2.18/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (43.0ms)
+Connecting to database specified by database.yml
+  [1m[36m (64.0ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+Migrating to CreateUsers (20140605143146)
+Migrating to CreateNews (20140606061842)
+Migrating to CreateCkeditorAssets (20140606231151)
+Migrating to CreateTopics (20140609160943)
+Migrating to CreateVideos (20140617084343)
+Migrating to AddLinkToNews (20140617085646)
+  [1m[35m (0.0ms)[0m  SELECT `schema_migrations`.`version` FROM `schema_migrations` 
+  [1m[36m (1.0ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+  [1m[35mUser Load (22.0ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`admin` = 1 LIMIT 1
+
+
+Started GET "/" for 127.0.0.1 at Tue Aug 12 15:43:27 +0530 2014
+Connecting to database specified by database.yml
+Processing by MainController#index as HTML
+Completed 500 Internal Server Error in 4.0ms
+
+NameError (uninitialized constant ApplicationController::Authorization):
+  app/controllers/application_controller.rb:4:in `_callback_before_15'
+
+
+  Rendered C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.2.18/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.2.18/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.2.18/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (47.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Aug 12 15:43:29 +0530 2014
+Processing by MainController#index as HTML
+Completed 500 Internal Server Error in 4.0ms
+
+NameError (uninitialized constant ApplicationController::Authorization):
+  app/controllers/application_controller.rb:4:in `_callback_before_15'
+
+
+  Rendered C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.2.18/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.2.18/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.2.18/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (41.0ms)
+
+
+Started GET "/adminpalet" for 127.0.0.1 at Tue Aug 12 15:43:42 +0530 2014
+
+SyntaxError (C:/CMS/app/controllers/user_controller.rb:56: syntax error, unexpected ':', expecting '}'
+...    format.json { render json: @user, status: :created, loca...
+                              ^
+C:/CMS/app/controllers/user_controller.rb:56: syntax error, unexpected ':', expecting '='
+... { render json: @user, status: :created, location: @user }
+                              ^
+C:/CMS/app/controllers/user_controller.rb:61: syntax error, unexpected ':', expecting '}'
+...    format.json { render json: @user, status: :created, loca...
+                              ^
+C:/CMS/app/controllers/user_controller.rb:61: syntax error, unexpected ':', expecting '='
+... { render json: @user, status: :created, location: @user }
+                              ^
+C:/CMS/app/controllers/user_controller.rb:78: syntax error, unexpected ':', expecting '}'
+      format.json { render json: @topic }
+                                ^
+C:/CMS/app/controllers/user_controller.rb:92: syntax error, unexpected ':', expecting '}'
+...    format.json { render json: @user, status: :created, loca...
+                              ^
+C:/CMS/app/controllers/user_controller.rb:92: syntax error, unexpected ':', expecting '='
+... { render json: @user, status: :created, location: @user }
+                              ^):
+  activesupport (3.2.18) lib/active_support/dependencies.rb:469:in `load'
+  activesupport (3.2.18) lib/active_support/dependencies.rb:469:in `load_file'
+  activesupport (3.2.18) lib/active_support/dependencies.rb:639:in `new_constants_in'
+  activesupport (3.2.18) lib/active_support/dependencies.rb:468:in `load_file'
+  activesupport (3.2.18) lib/active_support/dependencies.rb:353:in `require_or_load'
+  activesupport (3.2.18) lib/active_support/dependencies.rb:502:in `load_missing_constant'
+  activesupport (3.2.18) lib/active_support/dependencies.rb:192:in `const_missing'
+  activesupport (3.2.18) lib/active_support/dependencies.rb:190:in `each'
+  activesupport (3.2.18) lib/active_support/dependencies.rb:190:in `const_missing'
+  activesupport (3.2.18) lib/active_support/inflector/methods.rb:219:in `constantize'
+  activesupport (3.2.18) lib/active_support/inflector/methods.rb:218:in `each'
+  activesupport (3.2.18) lib/active_support/inflector/methods.rb:218:in `constantize'
+  activesupport (3.2.18) lib/active_support/dependencies.rb:554:in `get'
+  actionpack (3.2.18) lib/action_dispatch/routing/route_set.rb:69:in `controller_reference'
+  actionpack (3.2.18) lib/action_dispatch/routing/route_set.rb:54:in `controller'
+  actionpack (3.2.18) lib/action_dispatch/routing/route_set.rb:32:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.18) lib/action_dispatch/routing/route_set.rb:608:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.5) lib/rack/etag.rb:23:in `call'
+  rack (1.4.5) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:210:in `context'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:205:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/cookies.rb:341:in `call'
+  activerecord (3.2.18) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.18) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+  activesupport (3.2.18) lib/active_support/callbacks.rb:405:in `_run__748439680__call__4__callbacks'
+  activesupport (3.2.18) lib/active_support/callbacks.rb:405:in `send'
+  activesupport (3.2.18) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.18) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.18) lib/active_support/callbacks.rb:81:in `send'
+  activesupport (3.2.18) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.18) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.18) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.18) lib/rails/rack/logger.rb:16:in `call'
+  activesupport (3.2.18) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.18) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.18) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.18) lib/rails/engine.rb:484:in `call'
+  railties (3.2.18) lib/rails/application.rb:231:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.18) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  rack (1.4.5) lib/rack/handler/webrick.rb:13:in `run'
+  rack (1.4.5) lib/rack/server.rb:268:in `start'
+  railties (3.2.18) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.18) lib/rails/commands.rb:55
+  railties (3.2.18) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.18) lib/rails/commands.rb:50
+  script/rails:6:in `require'
+  script/rails:6
+
+
+  Rendered C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.2.18/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.2.18/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.2.18/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (28.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Aug 12 15:44:54 +0530 2014
+Processing by MainController#index as HTML
+Completed 500 Internal Server Error in 4.0ms
+
+NameError (uninitialized constant ApplicationController::Authorization):
+  app/controllers/application_controller.rb:4:in `_callback_before_21'
+
+
+  Rendered C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.2.18/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.2.18/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.2.18/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (27.0ms)
+
+
+Started GET "/adminpalet" for 127.0.0.1 at Tue Aug 12 15:44:57 +0530 2014
+Processing by UserController#login as HTML
+Completed 500 Internal Server Error in 4.0ms
+
+NameError (uninitialized constant ApplicationController::Authorization):
+  app/controllers/application_controller.rb:4:in `_callback_before_21'
+
+
+  Rendered C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.2.18/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.2.18/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.2.18/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (30.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Aug 12 15:45:11 +0530 2014
+Processing by MainController#index as HTML
+  [1m[36mTopic Load (58.0ms)[0m  [1mSELECT `topics`.* FROM `topics` WHERE `topics`.`order` = 1 ORDER BY topics.order LIMIT 1[0m
+  [1m[35mTopic Load (1.0ms)[0m  SELECT `topics`.* FROM `topics` WHERE `topics`.`order` = 2 ORDER BY topics.order LIMIT 1
+  [1m[36mNews Load (28.0ms)[0m  [1mSELECT `news`.* FROM `news` WHERE (topics_id=1) ORDER BY updated_at desc[0m
+  [1m[35mNews Load (1.0ms)[0m  SELECT `news`.* FROM `news` WHERE (topics_id=2) ORDER BY updated_at desc
+  [1m[36mTopic Load (1.0ms)[0m  [1mSELECT `topics`.* FROM `topics` ORDER BY topics.order DESC LIMIT 1[0m
+  [1m[35mNews Load (1.0ms)[0m  SELECT `news`.* FROM `news` WHERE (topics_id=5) ORDER BY updated_at asc
+  [1m[36mTopic Load (1.0ms)[0m  [1mSELECT `topics`.* FROM `topics` ORDER BY topics.order[0m
+  Rendered main/index.html.erb within layouts/main (137.0ms)
+  Rendered layouts/_main_form.html.erb (3.0ms)
+Completed 200 OK in 432.1ms (Views: 176.0ms | ActiveRecord: 100.0ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at Tue Aug 12 15:45:12 +0530 2014
+Error compiling asset application.js:
+Sprockets::FileNotFound: couldn't find file 'jquery'
+  (in C:/CMS/app/assets/javascripts/application.js:13)
+Served asset /application.js - 500 Internal Server Error
+
+
+
+
+Started GET "/assets/ckeditor/ckeditor.js" for 127.0.0.1 at Tue Aug 12 15:45:12 +0530 2014
+Compiled ckeditor/ckeditor.js  (104ms)  (pid 7828)
+Served asset /ckeditor/ckeditor.js - 200 OK (246ms)
+
+
+Started GET "/news" for 127.0.0.1 at Tue Aug 12 15:45:25 +0530 2014
+Processing by MainController#mainpage as HTML
+  [1m[35mTopic Load (0.0ms)[0m  SELECT `topics`.* FROM `topics` ORDER BY topics.order, updated_at desc
+  [1m[36mTopic Load (10.0ms)[0m  [1mSELECT `topics`.* FROM `topics` WHERE `topics`.`id` = ? ORDER BY topics.order LIMIT 1[0m  [["id", 1]]
+  [1m[35mNews Load (1.0ms)[0m  SELECT `news`.* FROM `news` WHERE (topics_id=1) ORDER BY updated_at desc
+  Rendered main/mainpage.html.erb within layouts/main (50.0ms)
+Completed 500 Internal Server Error in 115.0ms
+
+ActionView::Template::Error (undefined method `partial' for #<#<Class:0x88dbe60>:0x88d8830>):
+    6:           </li>
+    7:     <% end %>
+    8:   </ul>  
+    9:     <div id="newslist"><%= render(partial:'newslist') %></div>
+    10:   
+    11:   </br>
+    12:   </br>   
+  app/views/main/mainpage.html.erb:9:in `_app_views_main_mainpage_html_erb__415476767_71741796'
+
+
+  Rendered C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.2.18/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.2.18/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.2.18/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (35.0ms)
+
+
+Started GET "/news" for 127.0.0.1 at Tue Aug 12 15:46:58 +0530 2014
+Processing by MainController#mainpage as HTML
+  [1m[36mTopic Load (22.0ms)[0m  [1mSELECT `topics`.* FROM `topics` ORDER BY topics.order, updated_at desc[0m
+  [1m[35mTopic Load (0.0ms)[0m  SELECT `topics`.* FROM `topics` WHERE `topics`.`id` = ? ORDER BY topics.order LIMIT 1  [["id", 1]]
+  [1m[36mNews Load (0.0ms)[0m  [1mSELECT `news`.* FROM `news` WHERE (topics_id=1) ORDER BY updated_at desc[0m
+  Rendered main/_newslist.html.erb (8.0ms)
+  Rendered main/mainpage.html.erb within layouts/main (30.0ms)
+  Rendered layouts/_main_form.html.erb (1.0ms)
+Completed 200 OK in 68.0ms (Views: 40.0ms | ActiveRecord: 22.0ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at Tue Aug 12 15:46:58 +0530 2014
+Error compiling asset application.js:
+Sprockets::FileNotFound: couldn't find file 'jquery'
+  (in C:/CMS/app/assets/javascripts/application.js:13)
+Served asset /application.js - 500 Internal Server Error
+
+
+
+
+Started GET "/assets/ckeditor/ckeditor.js" for 127.0.0.1 at Tue Aug 12 15:46:58 +0530 2014
+Served asset /ckeditor/ckeditor.js - 200 OK (0ms)
+
+
+Started GET "/main/news/2" for 127.0.0.1 at Tue Aug 12 15:47:01 +0530 2014
+Processing by MainController#news as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mTopic Load (1.0ms)[0m  SELECT `topics`.* FROM `topics` WHERE `topics`.`id` = 2 ORDER BY topics.order LIMIT 1
+  [1m[36mNews Load (2.0ms)[0m  [1mSELECT `news`.* FROM `news` WHERE (topics_id=2)[0m
+Completed 406 Not Acceptable in 10.0ms (ActiveRecord: 3.0ms)
+
+
+Started GET "/main/news/1" for 127.0.0.1 at Tue Aug 12 15:47:05 +0530 2014
+Processing by MainController#news as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mTopic Load (1.0ms)[0m  SELECT `topics`.* FROM `topics` WHERE `topics`.`id` = 1 ORDER BY topics.order LIMIT 1
+  [1m[36mNews Load (2.0ms)[0m  [1mSELECT `news`.* FROM `news` WHERE (topics_id=1)[0m
+Completed 406 Not Acceptable in 10.0ms (ActiveRecord: 3.0ms)
+
+
+Started GET "/news" for 127.0.0.1 at Tue Aug 12 15:48:32 +0530 2014
+Processing by MainController#mainpage as HTML
+  [1m[35mTopic Load (1.0ms)[0m  SELECT `topics`.* FROM `topics` ORDER BY topics.order, updated_at desc
+  [1m[36mTopic Load (1.0ms)[0m  [1mSELECT `topics`.* FROM `topics` WHERE `topics`.`id` = ? ORDER BY topics.order LIMIT 1[0m  [["id", 1]]
+  [1m[35mNews Load (1.0ms)[0m  SELECT `news`.* FROM `news` WHERE (topics_id=1) ORDER BY updated_at desc
+  Rendered main/_newslist.html.erb (8.0ms)
+  Rendered main/mainpage.html.erb within layouts/main (13.0ms)
+  Rendered layouts/_main_form.html.erb (1.0ms)
+Completed 200 OK in 32.0ms (Views: 24.0ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/assets/ckeditor/ckeditor.js" for 127.0.0.1 at Tue Aug 12 15:48:32 +0530 2014
+Served asset /ckeditor/ckeditor.js - 200 OK (0ms)
+
+
+Started GET "/main/news/2" for 127.0.0.1 at Tue Aug 12 15:48:34 +0530 2014
+Processing by MainController#news as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mTopic Load (1.0ms)[0m  [1mSELECT `topics`.* FROM `topics` WHERE `topics`.`id` = 2 ORDER BY topics.order LIMIT 1[0m
+  [1m[35mNews Load (2.0ms)[0m  SELECT `news`.* FROM `news` WHERE (topics_id=2)
+Completed 406 Not Acceptable in 10.0ms (ActiveRecord: 3.0ms)
+
+
+Started GET "/main/news/1" for 127.0.0.1 at Tue Aug 12 15:48:37 +0530 2014
+Processing by MainController#news as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTopic Load (0.0ms)[0m  [1mSELECT `topics`.* FROM `topics` WHERE `topics`.`id` = 1 ORDER BY topics.order LIMIT 1[0m
+  [1m[35mNews Load (1.0ms)[0m  SELECT `news`.* FROM `news` WHERE (topics_id=1)
+Completed 406 Not Acceptable in 8.0ms (ActiveRecord: 1.0ms)
+
+
+Started GET "/main/news/4" for 127.0.0.1 at Tue Aug 12 15:48:40 +0530 2014
+Processing by MainController#news as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mTopic Load (0.0ms)[0m  [1mSELECT `topics`.* FROM `topics` WHERE `topics`.`id` = 4 ORDER BY topics.order LIMIT 1[0m
+  [1m[35mNews Load (2.0ms)[0m  SELECT `news`.* FROM `news` WHERE (topics_id=4)
+Completed 406 Not Acceptable in 10.0ms (ActiveRecord: 2.0ms)
+
+
+Started GET "/content/2" for 127.0.0.1 at Tue Aug 12 15:48:48 +0530 2014
+Processing by MainController#content as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mNews Load (1.0ms)[0m  [1mSELECT `news`.* FROM `news` WHERE `news`.`id` = 2 LIMIT 1[0m
+  Rendered main/content.html.erb within layouts/main (3.0ms)
+  Rendered layouts/_main_form.html.erb (1.0ms)
+Completed 200 OK in 25.0ms (Views: 22.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/main/news/2" for 127.0.0.1 at Tue Aug 12 15:48:55 +0530 2014
+Processing by MainController#news as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mTopic Load (0.0ms)[0m  SELECT `topics`.* FROM `topics` WHERE `topics`.`id` = 2 ORDER BY topics.order LIMIT 1
+  [1m[36mNews Load (2.0ms)[0m  [1mSELECT `news`.* FROM `news` WHERE (topics_id=2)[0m
+Completed 406 Not Acceptable in 8.0ms (ActiveRecord: 2.0ms)
+
+
+Started GET "/news" for 127.0.0.1 at Tue Aug 12 15:49:56 +0530 2014
+Processing by MainController#mainpage as HTML
+  [1m[35mTopic Load (1.0ms)[0m  SELECT `topics`.* FROM `topics` ORDER BY topics.order, updated_at desc
+  [1m[36mTopic Load (2.0ms)[0m  [1mSELECT `topics`.* FROM `topics` WHERE `topics`.`id` = ? ORDER BY topics.order LIMIT 1[0m  [["id", 1]]
+  [1m[35mNews Load (2.0ms)[0m  SELECT `news`.* FROM `news` WHERE (topics_id=1) ORDER BY updated_at desc
+  Rendered main/_newslist.html.erb (53.0ms)
+  Rendered main/mainpage.html.erb within layouts/main (58.0ms)
+  Rendered layouts/_main_form.html.erb (1.0ms)
+Completed 200 OK in 79.0ms (Views: 68.0ms | ActiveRecord: 5.0ms)
+
+
+Started GET "/assets/ckeditor/ckeditor.js" for 127.0.0.1 at Tue Aug 12 15:49:56 +0530 2014
+Served asset /ckeditor/ckeditor.js - 200 OK (1ms)
+
+
+Started GET "/adminpalet" for 127.0.0.1 at Tue Aug 12 15:50:42 +0530 2014
+Connecting to database specified by database.yml
+Processing by UserController#login as HTML
+  Rendered user/login.html.erb within layouts/login (76.0ms)
+Completed 200 OK in 208.0ms (Views: 207.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/defaults.js" for 127.0.0.1 at Tue Aug 12 15:50:45 +0530 2014
+Served asset /defaults.js - 404 Not Found (8ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/defaults.js"):
+  actionpack (3.2.18) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.18) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.18) lib/rails/rack/logger.rb:16:in `call'
+  activesupport (3.2.18) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.18) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.18) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.18) lib/rails/engine.rb:484:in `call'
+  railties (3.2.18) lib/rails/application.rb:231:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.18) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  rack (1.4.5) lib/rack/handler/webrick.rb:13:in `run'
+  rack (1.4.5) lib/rack/server.rb:268:in `start'
+  railties (3.2.18) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.18) lib/rails/commands.rb:55
+  railties (3.2.18) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.18) lib/rails/commands.rb:50
+  script/rails:6:in `require'
+  script/rails:6
+
+
+  Rendered C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.2.18/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started GET "/assets/stylesheets/img/bg.png" for 127.0.0.1 at Tue Aug 12 15:50:45 +0530 2014
+Served asset /stylesheets/img/bg.png - 404 Not Found (7ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/stylesheets/img/bg.png"):
+  actionpack (3.2.18) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.18) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.18) lib/rails/rack/logger.rb:16:in `call'
+  activesupport (3.2.18) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.18) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.18) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.18) lib/rails/engine.rb:484:in `call'
+  railties (3.2.18) lib/rails/application.rb:231:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.18) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  rack (1.4.5) lib/rack/handler/webrick.rb:13:in `run'
+  rack (1.4.5) lib/rack/server.rb:268:in `start'
+  railties (3.2.18) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.18) lib/rails/commands.rb:55
+  railties (3.2.18) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.18) lib/rails/commands.rb:50
+  script/rails:6:in `require'
+  script/rails:6
+
+
+  Rendered C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.2.18/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Aug 12 15:50:50 +0530 2014
+Processing by MainController#index as HTML
+  [1m[36mTopic Load (7.0ms)[0m  [1mSELECT `topics`.* FROM `topics` WHERE `topics`.`order` = 1 ORDER BY topics.order LIMIT 1[0m
+  [1m[35mTopic Load (1.0ms)[0m  SELECT `topics`.* FROM `topics` WHERE `topics`.`order` = 2 ORDER BY topics.order LIMIT 1
+  [1m[36mNews Load (0.0ms)[0m  [1mSELECT `news`.* FROM `news` WHERE (topics_id=1) ORDER BY updated_at desc[0m
+  [1m[35mNews Load (1.0ms)[0m  SELECT `news`.* FROM `news` WHERE (topics_id=2) ORDER BY updated_at desc
+  [1m[36mTopic Load (0.0ms)[0m  [1mSELECT `topics`.* FROM `topics` ORDER BY topics.order DESC LIMIT 1[0m
+  [1m[35mNews Load (1.0ms)[0m  SELECT `news`.* FROM `news` WHERE (topics_id=5) ORDER BY updated_at asc
+  [1m[36mTopic Load (1.0ms)[0m  [1mSELECT `topics`.* FROM `topics` ORDER BY topics.order[0m
+  Rendered main/index.html.erb within layouts/main (107.0ms)
+  Rendered layouts/_main_form.html.erb (3.0ms)
+Completed 200 OK in 251.0ms (Views: 175.0ms | ActiveRecord: 18.0ms)
+
+
+Started GET "/assets/ckeditor/ckeditor.js" for 127.0.0.1 at Tue Aug 12 15:50:50 +0530 2014
+Served asset /ckeditor/ckeditor.js - 200 OK (98ms)
+
+
+Started GET "/news" for 127.0.0.1 at Tue Aug 12 15:50:55 +0530 2014
+Processing by MainController#mainpage as HTML
+  [1m[35mTopic Load (1.0ms)[0m  SELECT `topics`.* FROM `topics` ORDER BY topics.order, updated_at desc
+  [1m[36mTopic Load (1.0ms)[0m  [1mSELECT `topics`.* FROM `topics` WHERE `topics`.`id` = ? ORDER BY topics.order LIMIT 1[0m  [["id", 1]]
+  [1m[35mNews Load (0.0ms)[0m  SELECT `news`.* FROM `news` WHERE (topics_id=1) ORDER BY updated_at desc
+  Rendered main/_newslist.html.erb (11.0ms)
+  Rendered main/mainpage.html.erb within layouts/main (18.0ms)
+  Rendered layouts/_main_form.html.erb (1.0ms)
+Completed 200 OK in 39.0ms (Views: 28.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/main/news/1" for 127.0.0.1 at Tue Aug 12 15:50:58 +0530 2014
+Processing by MainController#news as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTopic Load (2.0ms)[0m  [1mSELECT `topics`.* FROM `topics` WHERE `topics`.`id` = 1 ORDER BY topics.order LIMIT 1[0m
+  [1m[35mNews Load (1.0ms)[0m  SELECT `news`.* FROM `news` WHERE (topics_id=1)
+Completed 406 Not Acceptable in 8.0ms (ActiveRecord: 3.0ms)
+
+
+Started GET "/main/news/2" for 127.0.0.1 at Tue Aug 12 15:51:01 +0530 2014
+Processing by MainController#news as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mTopic Load (0.0ms)[0m  [1mSELECT `topics`.* FROM `topics` WHERE `topics`.`id` = 2 ORDER BY topics.order LIMIT 1[0m
+  [1m[35mNews Load (1.0ms)[0m  SELECT `news`.* FROM `news` WHERE (topics_id=2)
+Completed 406 Not Acceptable in 7.0ms (ActiveRecord: 1.0ms)
+
+
+Started GET "/news" for 127.0.0.1 at Tue Aug 12 15:52:30 +0530 2014
+Processing by MainController#mainpage as HTML
+  [1m[36mTopic Load (1.0ms)[0m  [1mSELECT `topics`.* FROM `topics` ORDER BY topics.order, updated_at desc[0m
+  [1m[35mTopic Load (1.0ms)[0m  SELECT `topics`.* FROM `topics` WHERE `topics`.`id` = ? ORDER BY topics.order LIMIT 1  [["id", 1]]
+  [1m[36mNews Load (1.0ms)[0m  [1mSELECT `news`.* FROM `news` WHERE (topics_id=1) ORDER BY updated_at desc[0m
+  Rendered main/_newslist.html.erb (8.0ms)
+  Rendered main/mainpage.html.erb within layouts/main (14.0ms)
+  Rendered layouts/_main_form.html.erb (1.0ms)
+Completed 200 OK in 30.0ms (Views: 24.0ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/assets/ckeditor/ckeditor.js" for 127.0.0.1 at Tue Aug 12 15:52:30 +0530 2014
+Served asset /ckeditor/ckeditor.js - 304 Not Modified (0ms)
+
+
+Started GET "/main/news/1" for 127.0.0.1 at Tue Aug 12 15:52:35 +0530 2014
+Processing by MainController#news as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mTopic Load (1.0ms)[0m  SELECT `topics`.* FROM `topics` WHERE `topics`.`id` = 1 ORDER BY topics.order LIMIT 1
+  [1m[36mNews Load (1.0ms)[0m  [1mSELECT `news`.* FROM `news` WHERE (topics_id=1)[0m
+Completed 406 Not Acceptable in 59.0ms (ActiveRecord: 2.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Aug 12 15:52:48 +0530 2014
+Processing by MainController#index as HTML
+  [1m[35mTopic Load (1.0ms)[0m  SELECT `topics`.* FROM `topics` WHERE `topics`.`order` = 1 ORDER BY topics.order LIMIT 1
+  [1m[36mTopic Load (0.0ms)[0m  [1mSELECT `topics`.* FROM `topics` WHERE `topics`.`order` = 2 ORDER BY topics.order LIMIT 1[0m
+  [1m[35mNews Load (0.0ms)[0m  SELECT `news`.* FROM `news` WHERE (topics_id=1) ORDER BY updated_at desc
+  [1m[36mNews Load (1.0ms)[0m  [1mSELECT `news`.* FROM `news` WHERE (topics_id=2) ORDER BY updated_at desc[0m
+  [1m[35mTopic Load (1.0ms)[0m  SELECT `topics`.* FROM `topics` ORDER BY topics.order DESC LIMIT 1
+  [1m[36mNews Load (0.0ms)[0m  [1mSELECT `news`.* FROM `news` WHERE (topics_id=5) ORDER BY updated_at asc[0m
+  [1m[35mTopic Load (1.0ms)[0m  SELECT `topics`.* FROM `topics` ORDER BY topics.order
+  Rendered main/index.html.erb within layouts/main (5.0ms)
+  Rendered layouts/_main_form.html.erb (1.0ms)
+Completed 200 OK in 28.0ms (Views: 14.0ms | ActiveRecord: 4.0ms)
+
+
+Started GET "/assets/ckeditor/ckeditor.js" for 127.0.0.1 at Tue Aug 12 15:52:48 +0530 2014
+Served asset /ckeditor/ckeditor.js - 304 Not Modified (0ms)
+
+
+Started GET "/news" for 127.0.0.1 at Tue Aug 12 15:52:52 +0530 2014
+Processing by MainController#mainpage as HTML
+  [1m[36mTopic Load (1.0ms)[0m  [1mSELECT `topics`.* FROM `topics` ORDER BY topics.order, updated_at desc[0m
+  [1m[35mTopic Load (2.0ms)[0m  SELECT `topics`.* FROM `topics` WHERE `topics`.`id` = ? ORDER BY topics.order LIMIT 1  [["id", 1]]
+  [1m[36mNews Load (2.0ms)[0m  [1mSELECT `news`.* FROM `news` WHERE (topics_id=1) ORDER BY updated_at desc[0m
+  Rendered main/_newslist.html.erb (12.0ms)
+  Rendered main/mainpage.html.erb within layouts/main (19.0ms)
+  Rendered layouts/_main_form.html.erb (1.0ms)
+Completed 200 OK in 61.6ms (Views: 33.0ms | ActiveRecord: 5.0ms)
+
+
+Started GET "/assets/ckeditor/ckeditor.js" for 127.0.0.1 at Tue Aug 12 15:52:52 +0530 2014
+Served asset /ckeditor/ckeditor.js - 304 Not Modified (0ms)
+
+
+Started GET "/main/news/2" for 127.0.0.1 at Tue Aug 12 15:52:54 +0530 2014
+Processing by MainController#news as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mTopic Load (2.0ms)[0m  SELECT `topics`.* FROM `topics` WHERE `topics`.`id` = 2 ORDER BY topics.order LIMIT 1
+  [1m[36mNews Load (1.0ms)[0m  [1mSELECT `news`.* FROM `news` WHERE (topics_id=2)[0m
+Completed 406 Not Acceptable in 23.6ms (ActiveRecord: 3.0ms)
+
+
+Started GET "/news" for 127.0.0.1 at Tue Aug 12 15:53:05 +0530 2014
+Processing by MainController#mainpage as HTML
+  [1m[35mTopic Load (2.0ms)[0m  SELECT `topics`.* FROM `topics` ORDER BY topics.order, updated_at desc
+  [1m[36mTopic Load (1.0ms)[0m  [1mSELECT `topics`.* FROM `topics` WHERE `topics`.`id` = ? ORDER BY topics.order LIMIT 1[0m  [["id", 1]]
+  [1m[35mNews Load (2.0ms)[0m  SELECT `news`.* FROM `news` WHERE (topics_id=1) ORDER BY updated_at desc
+  Rendered main/mainpage.html.erb within layouts/main (47.0ms)
+Completed 500 Internal Server Error in 65.0ms
+
+ActionView::Template::Error (undefined method `partial' for #<#<Class:0x85e6828>:0x86de910>):
+    6:           </li>
+    7:     <% end %>
+    8:   </ul>  
+    9:     <div id="newslist"><%= render(partial:'newslist') %></div>
+    10:   
+    11:   </br>
+    12:   </br>   
+  app/views/main/mainpage.html.erb:9:in `_app_views_main_mainpage_html_erb___522390309_70706268'
+
+
+  Rendered C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.2.18/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.2.18/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.2.18/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (29.0ms)
+
+
+Started GET "/news" for 127.0.0.1 at Tue Aug 12 15:53:21 +0530 2014
+Processing by MainController#mainpage as HTML
+  [1m[36mTopic Load (1.0ms)[0m  [1mSELECT `topics`.* FROM `topics` ORDER BY topics.order, updated_at desc[0m
+  [1m[35mTopic Load (0.0ms)[0m  SELECT `topics`.* FROM `topics` WHERE `topics`.`id` = ? ORDER BY topics.order LIMIT 1  [["id", 1]]
+  [1m[36mNews Load (17.0ms)[0m  [1mSELECT `news`.* FROM `news` WHERE (topics_id=1) ORDER BY updated_at desc[0m
+  Rendered main/_newslist.html.erb (10.0ms)
+  Rendered main/mainpage.html.erb within layouts/main (16.0ms)
+  Rendered layouts/_main_form.html.erb (2.0ms)
+Completed 200 OK in 52.0ms (Views: 27.0ms | ActiveRecord: 18.0ms)
+
+
+Started GET "/assets/ckeditor/ckeditor.js" for 127.0.0.1 at Tue Aug 12 15:53:21 +0530 2014
+Served asset /ckeditor/ckeditor.js - 200 OK (0ms)
+
+
+Started GET "/main/news/5" for 127.0.0.1 at Tue Aug 12 15:53:25 +0530 2014
+Processing by MainController#news as HTML
+  Parameters: {"id"=>"5"}
+  [1m[35mTopic Load (1.0ms)[0m  SELECT `topics`.* FROM `topics` WHERE `topics`.`id` = 5 ORDER BY topics.order LIMIT 1
+  [1m[36mNews Load (1.0ms)[0m  [1mSELECT `news`.* FROM `news` WHERE (topics_id=5)[0m
+Completed 406 Not Acceptable in 10.0ms (ActiveRecord: 2.0ms)
+
+
+Started GET "/main/news/5" for 127.0.0.1 at Tue Aug 12 15:54:47 +0530 2014
+Processing by MainController#news as HTML
+  Parameters: {"id"=>"5"}
+  [1m[35mTopic Load (0.0ms)[0m  SELECT `topics`.* FROM `topics` WHERE `topics`.`id` = 5 ORDER BY topics.order LIMIT 1
+  [1m[36mNews Load (0.0ms)[0m  [1mSELECT `news`.* FROM `news` WHERE (topics_id=5)[0m
+Completed 406 Not Acceptable in 4.0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/news" for 127.0.0.1 at Tue Aug 12 15:54:49 +0530 2014
+Processing by MainController#mainpage as HTML
+  [1m[35mTopic Load (1.0ms)[0m  SELECT `topics`.* FROM `topics` ORDER BY topics.order, updated_at desc
+  [1m[36mTopic Load (1.0ms)[0m  [1mSELECT `topics`.* FROM `topics` WHERE `topics`.`id` = ? ORDER BY topics.order LIMIT 1[0m  [["id", 1]]
+  [1m[35mNews Load (1.0ms)[0m  SELECT `news`.* FROM `news` WHERE (topics_id=1) ORDER BY updated_at desc
+  Rendered main/mainpage.html.erb within layouts/main (8.0ms)
+Completed 500 Internal Server Error in 27.0ms
+
+ActionView::Template::Error (Missing partial main/news, application/news with {:formats=>[:html], :handlers=>[:builder, :erb], :locale=>[:en]}. Searched in:
+  * "C:/CMS/app/views"
+  * "C:/Ruby187/lib/ruby/gems/1.8/gems/ckeditor-4.0.11/app/views"
+):
+    6:           </li>
+    7:     <% end %>
+    8:   </ul>  
+    9:     <div id="newslist"><%= render :partial => 'news' %></div>
+    10:   
+    11:   </br>
+    12:   </br>   
+  app/views/main/mainpage.html.erb:9:in `_app_views_main_mainpage_html_erb___522390309_71198112'
+
+
+  Rendered C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.2.18/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.2.18/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.2.18/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (31.0ms)
+
+
+Started GET "/news" for 127.0.0.1 at Tue Aug 12 15:55:09 +0530 2014
+Processing by MainController#mainpage as HTML
+  [1m[36mTopic Load (1.0ms)[0m  [1mSELECT `topics`.* FROM `topics` ORDER BY topics.order, updated_at desc[0m
+  [1m[35mTopic Load (1.0ms)[0m  SELECT `topics`.* FROM `topics` WHERE `topics`.`id` = ? ORDER BY topics.order LIMIT 1  [["id", 1]]
+  [1m[36mNews Load (2.0ms)[0m  [1mSELECT `news`.* FROM `news` WHERE (topics_id=1) ORDER BY updated_at desc[0m
+  Rendered main/_newslist.html.erb (8.0ms)
+  Rendered main/mainpage.html.erb within layouts/main (15.0ms)
+  Rendered layouts/_main_form.html.erb (1.0ms)
+Completed 200 OK in 35.0ms (Views: 25.0ms | ActiveRecord: 4.0ms)
+
+
+Started GET "/assets/ckeditor/ckeditor.js" for 127.0.0.1 at Tue Aug 12 15:55:09 +0530 2014
+Served asset /ckeditor/ckeditor.js - 200 OK (0ms)
+
+
+Started GET "/main/news/2" for 127.0.0.1 at Tue Aug 12 15:55:11 +0530 2014
+Processing by MainController#news as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mTopic Load (1.0ms)[0m  SELECT `topics`.* FROM `topics` WHERE `topics`.`id` = 2 ORDER BY topics.order LIMIT 1
+  [1m[36mNews Load (1.0ms)[0m  [1mSELECT `news`.* FROM `news` WHERE (topics_id=2)[0m
+Completed 406 Not Acceptable in 9.0ms (ActiveRecord: 2.0ms)
+
+
+Started GET "/content/16" for 127.0.0.1 at Tue Aug 12 15:56:56 +0530 2014
+Processing by MainController#content as HTML
+  Parameters: {"id"=>"16"}
+  [1m[35mNews Load (1.0ms)[0m  SELECT `news`.* FROM `news` WHERE `news`.`id` = 16 LIMIT 1
+  Rendered main/content.html.erb within layouts/main (3.0ms)
+  Rendered layouts/_main_form.html.erb (2.0ms)
+Completed 200 OK in 16.0ms (Views: 12.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/ckeditor/ckeditor.js" for 127.0.0.1 at Tue Aug 12 15:56:57 +0530 2014
+Served asset /ckeditor/ckeditor.js - 304 Not Modified (1ms)
+
+
+Started GET "/main/all/1" for 127.0.0.1 at Tue Aug 12 15:56:59 +0530 2014
+Processing by MainController#all as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTopic Load (0.0ms)[0m  [1mSELECT `topics`.* FROM `topics` WHERE `topics`.`id` = 1 ORDER BY topics.order LIMIT 1[0m
+  [1m[35mNews Load (1.0ms)[0m  SELECT `news`.* FROM `news` WHERE (topics_id=1) ORDER BY updated_at desc
+  [1m[36mNews Load (1.0ms)[0m  [1mSELECT `news`.* FROM `news` WHERE (topics_id=1) ORDER BY updated_at desc LIMIT 3 OFFSET 0[0m
+  [1m[35m (14.0ms)[0m  SELECT COUNT(*) FROM `news` WHERE (topics_id=1)
+  Rendered main/all.html.erb within layouts/main (31.0ms)
+  Rendered layouts/_main_form.html.erb (3.0ms)
+Completed 200 OK in 52.0ms (Views: 30.0ms | ActiveRecord: 16.0ms)
+
+
+Started GET "/assets/ckeditor/ckeditor.js" for 127.0.0.1 at Tue Aug 12 15:56:59 +0530 2014
+Served asset /ckeditor/ckeditor.js - 304 Not Modified (0ms)
+
+
+Started GET "/main/all/1?page=2" for 127.0.0.1 at Tue Aug 12 15:57:01 +0530 2014
+Processing by MainController#all as HTML
+  Parameters: {"page"=>"2", "id"=>"1"}
+  [1m[36mTopic Load (1.0ms)[0m  [1mSELECT `topics`.* FROM `topics` WHERE `topics`.`id` = 1 ORDER BY topics.order LIMIT 1[0m
+  [1m[35mNews Load (7.0ms)[0m  SELECT `news`.* FROM `news` WHERE (topics_id=1) ORDER BY updated_at desc
+  [1m[36mNews Load (1.0ms)[0m  [1mSELECT `news`.* FROM `news` WHERE (topics_id=1) ORDER BY updated_at desc LIMIT 3 OFFSET 3[0m
+  Rendered main/all.html.erb within layouts/main (54.0ms)
+  Rendered layouts/_main_form.html.erb (1.0ms)
+Completed 200 OK in 79.0ms (Views: 66.0ms | ActiveRecord: 9.0ms)
+
+
+Started GET "/assets/ckeditor/ckeditor.js" for 127.0.0.1 at Tue Aug 12 15:57:01 +0530 2014
+Served asset /ckeditor/ckeditor.js - 304 Not Modified (1ms)
+
+
+Started GET "/news" for 127.0.0.1 at Tue Aug 12 15:58:33 +0530 2014
+Processing by MainController#mainpage as HTML
+  [1m[35mTopic Load (0.0ms)[0m  SELECT `topics`.* FROM `topics` ORDER BY topics.order, updated_at desc
+  [1m[36mTopic Load (0.0ms)[0m  [1mSELECT `topics`.* FROM `topics` WHERE `topics`.`id` = ? ORDER BY topics.order LIMIT 1[0m  [["id", 1]]
+  [1m[35mNews Load (1.0ms)[0m  SELECT `news`.* FROM `news` WHERE (topics_id=1) ORDER BY updated_at desc
+  Rendered main/_newslist.html.erb (8.0ms)
+  Rendered main/mainpage.html.erb within layouts/main (14.0ms)
+  Rendered layouts/_main_form.html.erb (1.0ms)
+Completed 200 OK in 71.0ms (Views: 25.0ms | ActiveRecord: 8.0ms)
+
+
+Started GET "/assets/ckeditor/ckeditor.js" for 127.0.0.1 at Tue Aug 12 15:58:33 +0530 2014
+Served asset /ckeditor/ckeditor.js - 200 OK (1ms)
+
+
+Started GET "/main/news/2.js" for 127.0.0.1 at Tue Aug 12 15:58:35 +0530 2014
+Processing by MainController#news as JS
+  Parameters: {"id"=>"2"}
+  [1m[36mTopic Load (1.0ms)[0m  [1mSELECT `topics`.* FROM `topics` WHERE `topics`.`id` = 2 ORDER BY topics.order LIMIT 1[0m
+  [1m[35mNews Load (1.0ms)[0m  SELECT `news`.* FROM `news` WHERE (topics_id=2)
+  Rendered main/_newslist.html.erb (11.0ms)
+  Rendered main/news.js.erb (15.0ms)
+Completed 200 OK in 42.0ms (Views: 36.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/main/news/1.js" for 127.0.0.1 at Tue Aug 12 15:58:43 +0530 2014
+Processing by MainController#news as JS
+  Parameters: {"id"=>"1"}
+  [1m[36mTopic Load (1.0ms)[0m  [1mSELECT `topics`.* FROM `topics` WHERE `topics`.`id` = 1 ORDER BY topics.order LIMIT 1[0m
+  [1m[35mNews Load (1.0ms)[0m  SELECT `news`.* FROM `news` WHERE (topics_id=1)
+  Rendered main/_newslist.html.erb (58.0ms)
+  Rendered main/news.js.erb (62.0ms)
+Completed 200 OK in 88.0ms (Views: 79.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/main/news/4.js" for 127.0.0.1 at Tue Aug 12 15:58:52 +0530 2014
+Processing by MainController#news as JS
+  Parameters: {"id"=>"4"}
+  [1m[36mTopic Load (1.0ms)[0m  [1mSELECT `topics`.* FROM `topics` WHERE `topics`.`id` = 4 ORDER BY topics.order LIMIT 1[0m
+  [1m[35mNews Load (1.0ms)[0m  SELECT `news`.* FROM `news` WHERE (topics_id=4)
+  Rendered main/_newslist.html.erb (11.0ms)
+  Rendered main/news.js.erb (15.0ms)
+Completed 200 OK in 36.0ms (Views: 31.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/news" for 127.0.0.1 at Tue Aug 12 15:59:49 +0530 2014
+Processing by MainController#mainpage as HTML
+  [1m[36mTopic Load (1.0ms)[0m  [1mSELECT `topics`.* FROM `topics` ORDER BY topics.order, updated_at desc[0m
+  [1m[35mTopic Load (1.0ms)[0m  SELECT `topics`.* FROM `topics` WHERE `topics`.`id` = ? ORDER BY topics.order LIMIT 1  [["id", 1]]
+  [1m[36mNews Load (0.0ms)[0m  [1mSELECT `news`.* FROM `news` WHERE (topics_id=1) ORDER BY updated_at desc[0m
+  Rendered main/_newslist.html.erb (8.0ms)
+  Rendered main/mainpage.html.erb within layouts/main (13.0ms)
+  Rendered layouts/_main_form.html.erb (1.0ms)
+Completed 200 OK in 64.0ms (Views: 23.0ms | ActiveRecord: 7.0ms)
+
+
+Started GET "/assets/ckeditor/ckeditor.js" for 127.0.0.1 at Tue Aug 12 15:59:49 +0530 2014
+Served asset /ckeditor/ckeditor.js - 200 OK (0ms)
+
+
+Started GET "/main/news/2" for 127.0.0.1 at Tue Aug 12 15:59:51 +0530 2014
+Processing by MainController#news as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mTopic Load (1.0ms)[0m  SELECT `topics`.* FROM `topics` WHERE `topics`.`id` = 2 ORDER BY topics.order LIMIT 1
+  [1m[36mNews Load (1.0ms)[0m  [1mSELECT `news`.* FROM `news` WHERE (topics_id=2)[0m
+Completed 406 Not Acceptable in 7.0ms (ActiveRecord: 2.0ms)
+
+
+Started GET "/news" for 127.0.0.1 at Tue Aug 12 16:00:03 +0530 2014
+Processing by MainController#mainpage as HTML
+  [1m[35mTopic Load (1.0ms)[0m  SELECT `topics`.* FROM `topics` ORDER BY topics.order, updated_at desc
+  [1m[36mTopic Load (0.0ms)[0m  [1mSELECT `topics`.* FROM `topics` WHERE `topics`.`id` = ? ORDER BY topics.order LIMIT 1[0m  [["id", 1]]
+  [1m[35mNews Load (1.0ms)[0m  SELECT `news`.* FROM `news` WHERE (topics_id=1) ORDER BY updated_at desc
+  Rendered main/_newslist.html.erb (21.0ms)
+  Rendered main/mainpage.html.erb within layouts/main (29.0ms)
+  Rendered layouts/_main_form.html.erb (2.0ms)
+Completed 200 OK in 99.0ms (Views: 46.0ms | ActiveRecord: 10.0ms)
+
+
+Started GET "/assets/ckeditor/ckeditor.js" for 127.0.0.1 at Tue Aug 12 16:00:03 +0530 2014
+Served asset /ckeditor/ckeditor.js - 200 OK (0ms)
+
+
+Started GET "/main/news/2" for 127.0.0.1 at Tue Aug 12 16:00:05 +0530 2014
+Processing by MainController#news as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mTopic Load (1.0ms)[0m  [1mSELECT `topics`.* FROM `topics` WHERE `topics`.`id` = 2 ORDER BY topics.order LIMIT 1[0m
+  [1m[35mNews Load (1.0ms)[0m  SELECT `news`.* FROM `news` WHERE (topics_id=2)
+Completed 500 Internal Server Error in 13.0ms
+
+ActionView::MissingTemplate (Missing template main/news, application/news with {:formats=>[:html], :handlers=>[:builder, :erb], :locale=>[:en]}. Searched in:
+  * "C:/CMS/app/views"
+  * "C:/Ruby187/lib/ruby/gems/1.8/gems/ckeditor-4.0.11/app/views"
+):
+  actionpack (3.2.18) lib/action_view/path_set.rb:58:in `find'
+  actionpack (3.2.18) lib/action_view/lookup_context.rb:122:in `find_template'
+  C:0:in `__send__'
+  C:0:in `find_template'
+  actionpack (3.2.18) lib/action_view/renderer/template_renderer.rb:34:in `determine_template'
+  actionpack (3.2.18) lib/action_view/renderer/template_renderer.rb:10:in `render'
+  actionpack (3.2.18) lib/action_view/renderer/renderer.rb:36:in `render_template'
+  actionpack (3.2.18) lib/action_view/renderer/renderer.rb:17:in `render'
+  actionpack (3.2.18) lib/abstract_controller/rendering.rb:110:in `_render_template'
+  actionpack (3.2.18) lib/action_controller/metal/streaming.rb:225:in `_render_template'
+  actionpack (3.2.18) lib/abstract_controller/rendering.rb:103:in `render_to_body'
+  actionpack (3.2.18) lib/action_controller/metal/renderers.rb:28:in `render_to_body'
+  actionpack (3.2.18) lib/action_controller/metal/compatibility.rb:50:in `render_to_body'
+  actionpack (3.2.18) lib/abstract_controller/rendering.rb:88:in `render'
+  actionpack (3.2.18) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (3.2.18) lib/action_controller/metal/instrumentation.rb:40:in `render'
+  activesupport (3.2.18) lib/active_support/core_ext/benchmark.rb:5:in `ms'
+  C:/Ruby187/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+  activesupport (3.2.18) lib/active_support/core_ext/benchmark.rb:5:in `ms'
+  actionpack (3.2.18) lib/action_controller/metal/instrumentation.rb:40:in `render'
+  actionpack (3.2.18) lib/action_controller/metal/instrumentation.rb:83:in `cleanup_view_runtime'
+  activerecord (3.2.18) lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+  actionpack (3.2.18) lib/action_controller/metal/instrumentation.rb:39:in `render'
+  actionpack (3.2.18) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (3.2.18) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (3.2.18) lib/abstract_controller/base.rb:167:in `process_action'
+  actionpack (3.2.18) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (3.2.18) lib/abstract_controller/callbacks.rb:18:in `process_action'
+  activesupport (3.2.18) lib/active_support/callbacks.rb:425:in `_run__541337272__process_action__786923074__callbacks'
+  activesupport (3.2.18) lib/active_support/callbacks.rb:405:in `send'
+  activesupport (3.2.18) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.18) lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
+  activesupport (3.2.18) lib/active_support/callbacks.rb:81:in `send'
+  activesupport (3.2.18) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.18) lib/abstract_controller/callbacks.rb:17:in `process_action'
+  actionpack (3.2.18) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (3.2.18) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  activesupport (3.2.18) lib/active_support/notifications.rb:123:in `instrument'
+  activesupport (3.2.18) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (3.2.18) lib/active_support/notifications.rb:123:in `instrument'
+  actionpack (3.2.18) lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+  actionpack (3.2.18) lib/action_controller/metal/params_wrapper.rb:207:in `process_action'
+  activerecord (3.2.18) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (3.2.18) lib/abstract_controller/base.rb:121:in `process'
+  actionpack (3.2.18) lib/abstract_controller/rendering.rb:45:in `process'
+  actionpack (3.2.18) lib/action_controller/metal.rb:203:in `dispatch'
+  actionpack (3.2.18) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.18) lib/action_controller/metal.rb:246:in `action'
+  actionpack (3.2.18) lib/action_dispatch/routing/route_set.rb:73:in `call'
+  actionpack (3.2.18) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (3.2.18) lib/action_dispatch/routing/route_set.rb:36:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.18) lib/action_dispatch/routing/route_set.rb:608:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.5) lib/rack/etag.rb:23:in `call'
+  rack (1.4.5) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:210:in `context'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:205:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/cookies.rb:341:in `call'
+  activerecord (3.2.18) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.18) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+  activesupport (3.2.18) lib/active_support/callbacks.rb:405:in `_run__80996221__call__4__callbacks'
+  activesupport (3.2.18) lib/active_support/callbacks.rb:405:in `send'
+  activesupport (3.2.18) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.18) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.18) lib/active_support/callbacks.rb:81:in `send'
+  activesupport (3.2.18) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.18) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.18) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.18) lib/rails/rack/logger.rb:16:in `call'
+  activesupport (3.2.18) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.18) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.18) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.18) lib/rails/engine.rb:484:in `call'
+  railties (3.2.18) lib/rails/application.rb:231:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.18) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  rack (1.4.5) lib/rack/handler/webrick.rb:13:in `run'
+  rack (1.4.5) lib/rack/server.rb:268:in `start'
+  railties (3.2.18) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.18) lib/rails/commands.rb:55
+  railties (3.2.18) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.18) lib/rails/commands.rb:50
+  script/rails:6:in `require'
+  script/rails:6
+
+
+  Rendered C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-3.2.18/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.0ms)
+
+
+Started GET "/news" for 127.0.0.1 at Tue Aug 12 16:00:45 +0530 2014
+Processing by MainController#mainpage as HTML
+  [1m[36mTopic Load (1.0ms)[0m  [1mSELECT `topics`.* FROM `topics` ORDER BY topics.order, updated_at desc[0m
+  [1m[35mTopic Load (0.0ms)[0m  SELECT `topics`.* FROM `topics` WHERE `topics`.`id` = ? ORDER BY topics.order LIMIT 1  [["id", 1]]
+  [1m[36mNews Load (1.0ms)[0m  [1mSELECT `news`.* FROM `news` WHERE (topics_id=1) ORDER BY updated_at desc[0m
+  Rendered main/_newslist.html.erb (8.0ms)
+  Rendered main/mainpage.html.erb within layouts/main (15.0ms)
+  Rendered layouts/_main_form.html.erb (1.0ms)
+Completed 200 OK in 33.0ms (Views: 26.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/ckeditor/ckeditor.js" for 127.0.0.1 at Tue Aug 12 16:00:45 +0530 2014
+Served asset /ckeditor/ckeditor.js - 200 OK (0ms)
+
+
+Started GET "/news" for 127.0.0.1 at Tue Aug 12 16:01:03 +0530 2014
+Processing by MainController#mainpage as HTML
+  [1m[35mTopic Load (0.0ms)[0m  SELECT `topics`.* FROM `topics` ORDER BY topics.order, updated_at desc
+  [1m[36mTopic Load (0.0ms)[0m  [1mSELECT `topics`.* FROM `topics` WHERE `topics`.`id` = ? ORDER BY topics.order LIMIT 1[0m  [["id", 1]]
+  [1m[35mNews Load (2.0ms)[0m  SELECT `news`.* FROM `news` WHERE (topics_id=1) ORDER BY updated_at desc
+  Rendered main/_newslist.html.erb (9.0ms)
+  Rendered main/mainpage.html.erb within layouts/main (18.0ms)
+  Rendered layouts/_main_form.html.erb (2.0ms)
+Completed 200 OK in 45.0ms (Views: 32.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/ckeditor/ckeditor.js" for 127.0.0.1 at Tue Aug 12 16:01:03 +0530 2014
+Served asset /ckeditor/ckeditor.js - 200 OK (0ms)
+
+
+Started GET "/main/news/2.js" for 127.0.0.1 at Tue Aug 12 16:01:05 +0530 2014
+Processing by MainController#news as JS
+  Parameters: {"id"=>"2"}
+  [1m[36mTopic Load (1.0ms)[0m  [1mSELECT `topics`.* FROM `topics` WHERE `topics`.`id` = 2 ORDER BY topics.order LIMIT 1[0m
+  [1m[35mNews Load (0.0ms)[0m  SELECT `news`.* FROM `news` WHERE (topics_id=2)
+  Rendered main/_newslist.html.erb (10.0ms)
+  Rendered main/news.js.erb (15.0ms)
+Completed 200 OK in 39.0ms (Views: 32.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/news" for 127.0.0.1 at Tue Aug 12 16:01:47 +0530 2014
+Processing by MainController#mainpage as HTML
+  [1m[36mTopic Load (1.0ms)[0m  [1mSELECT `topics`.* FROM `topics` ORDER BY topics.order, updated_at desc[0m
+  [1m[35mTopic Load (1.0ms)[0m  SELECT `topics`.* FROM `topics` WHERE `topics`.`id` = ? ORDER BY topics.order LIMIT 1  [["id", 1]]
+  [1m[36mNews Load (1.0ms)[0m  [1mSELECT `news`.* FROM `news` WHERE (topics_id=1) ORDER BY updated_at desc[0m
+  Rendered main/_newslist.html.erb (51.0ms)
+  Rendered main/mainpage.html.erb within layouts/main (55.0ms)
+  Rendered layouts/_main_form.html.erb (1.0ms)
+Completed 200 OK in 107.0ms (Views: 65.0ms | ActiveRecord: 7.0ms)
+
+
+Started GET "/assets/ckeditor/ckeditor.js" for 127.0.0.1 at Tue Aug 12 16:01:48 +0530 2014
+Served asset /ckeditor/ckeditor.js - 304 Not Modified (1ms)
+
+
+Started GET "/news" for 127.0.0.1 at Tue Aug 12 16:02:17 +0530 2014
+Processing by MainController#mainpage as HTML
+  [1m[35mTopic Load (1.0ms)[0m  SELECT `topics`.* FROM `topics` ORDER BY topics.order, updated_at desc
+  [1m[36mTopic Load (15.0ms)[0m  [1mSELECT `topics`.* FROM `topics` WHERE `topics`.`id` = ? ORDER BY topics.order LIMIT 1[0m  [["id", 1]]
+  [1m[35mNews Load (1.0ms)[0m  SELECT `news`.* FROM `news` WHERE (topics_id=1) ORDER BY updated_at desc
+  Rendered main/_newslist.html.erb (9.0ms)
+  Rendered main/mainpage.html.erb within layouts/main (14.0ms)
+  Rendered layouts/_main_form.html.erb (1.0ms)
+Completed 200 OK in 45.0ms (Views: 23.0ms | ActiveRecord: 17.0ms)
+
+
+Started GET "/assets/ckeditor/ckeditor.js" for 127.0.0.1 at Tue Aug 12 16:02:17 +0530 2014
+Served asset /ckeditor/ckeditor.js - 200 OK (0ms)
+
+
+Started GET "/main/news/1" for 127.0.0.1 at Tue Aug 12 16:02:21 +0530 2014
+Processing by MainController#news as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTopic Load (1.0ms)[0m  [1mSELECT `topics`.* FROM `topics` WHERE `topics`.`id` = 1 ORDER BY topics.order LIMIT 1[0m
+  [1m[35mNews Load (1.0ms)[0m  SELECT `news`.* FROM `news` WHERE (topics_id=1)
+Completed 406 Not Acceptable in 7.0ms (ActiveRecord: 2.0ms)
+
+
+Started GET "/main/news/1" for 127.0.0.1 at Tue Aug 12 16:02:24 +0530 2014
+Processing by MainController#news as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTopic Load (1.0ms)[0m  [1mSELECT `topics`.* FROM `topics` WHERE `topics`.`id` = 1 ORDER BY topics.order LIMIT 1[0m
+  [1m[35mNews Load (1.0ms)[0m  SELECT `news`.* FROM `news` WHERE (topics_id=1)
+Completed 406 Not Acceptable in 7.0ms (ActiveRecord: 2.0ms)
+
+
+Started GET "/news" for 127.0.0.1 at Tue Aug 12 16:02:54 +0530 2014
+Processing by MainController#mainpage as HTML
+  [1m[36mTopic Load (0.0ms)[0m  [1mSELECT `topics`.* FROM `topics` ORDER BY topics.order, updated_at desc[0m
+  [1m[35mTopic Load (1.0ms)[0m  SELECT `topics`.* FROM `topics` WHERE `topics`.`id` = ? ORDER BY topics.order LIMIT 1  [["id", 1]]
+  [1m[36mNews Load (1.0ms)[0m  [1mSELECT `news`.* FROM `news` WHERE (topics_id=1) ORDER BY updated_at desc[0m
+  Rendered main/_newslist.html.erb (9.0ms)
+  Rendered main/mainpage.html.erb within layouts/main (15.0ms)
+  Rendered layouts/_main_form.html.erb (1.0ms)
+Completed 200 OK in 34.0ms (Views: 27.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/ckeditor/ckeditor.js" for 127.0.0.1 at Tue Aug 12 16:02:54 +0530 2014
+Served asset /ckeditor/ckeditor.js - 200 OK (0ms)
+
+
+Started GET "/main/news/1" for 127.0.0.1 at Tue Aug 12 16:03:00 +0530 2014
+Processing by MainController#news as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mTopic Load (0.0ms)[0m  SELECT `topics`.* FROM `topics` WHERE `topics`.`id` = 1 ORDER BY topics.order LIMIT 1
+  [1m[36mNews Load (0.0ms)[0m  [1mSELECT `news`.* FROM `news` WHERE (topics_id=1)[0m
+Completed 406 Not Acceptable in 7.0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/news" for 127.0.0.1 at Tue Aug 12 16:04:05 +0530 2014
+Processing by MainController#mainpage as HTML
+  [1m[35mTopic Load (1.0ms)[0m  SELECT `topics`.* FROM `topics` ORDER BY topics.order, updated_at desc
+  [1m[36mTopic Load (0.0ms)[0m  [1mSELECT `topics`.* FROM `topics` WHERE `topics`.`id` = ? ORDER BY topics.order LIMIT 1[0m  [["id", 1]]
+  [1m[35mNews Load (1.0ms)[0m  SELECT `news`.* FROM `news` WHERE (topics_id=1) ORDER BY updated_at desc
+  Rendered main/_newslist.html.erb (8.0ms)
+  Rendered main/mainpage.html.erb within layouts/main (13.0ms)
+  Rendered layouts/_main_form.html.erb (2.0ms)
+Completed 200 OK in 76.0ms (Views: 24.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/ckeditor/ckeditor.js" for 127.0.0.1 at Tue Aug 12 16:04:06 +0530 2014
+Served asset /ckeditor/ckeditor.js - 200 OK (0ms)
+
+
+Started GET "/main/news/1" for 127.0.0.1 at Tue Aug 12 16:04:07 +0530 2014
+Processing by MainController#news as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTopic Load (0.0ms)[0m  [1mSELECT `topics`.* FROM `topics` WHERE `topics`.`id` = 1 ORDER BY topics.order LIMIT 1[0m
+  [1m[35mNews Load (1.0ms)[0m  SELECT `news`.* FROM `news` WHERE (topics_id=1)
+Completed 406 Not Acceptable in 7.0ms (ActiveRecord: 1.0ms)
+
+
+Started GET "/main/news/2" for 127.0.0.1 at Tue Aug 12 16:04:09 +0530 2014
+Processing by MainController#news as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mTopic Load (1.0ms)[0m  [1mSELECT `topics`.* FROM `topics` WHERE `topics`.`id` = 2 ORDER BY topics.order LIMIT 1[0m
+  [1m[35mNews Load (2.0ms)[0m  SELECT `news`.* FROM `news` WHERE (topics_id=2)
+Completed 406 Not Acceptable in 8.0ms (ActiveRecord: 3.0ms)

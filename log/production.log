@@ -1,0 +1,1776 @@
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Started GET "/" for 127.0.0.1 at 2014-08-04 12:00:45 +0530
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/main (208.0ms)
+  Rendered layouts/_main_form.html.erb (2.0ms)
+Completed 200 OK in 2069.3ms (Views: 897.1ms | ActiveRecord: 985.1ms)
+Started GET "/" for 223.30.134.182 at 2014-08-04 12:01:03 +0530
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/main (0.0ms)
+  Rendered layouts/_main_form.html.erb (0.0ms)
+Completed 200 OK in 31.2ms (Views: 31.2ms | ActiveRecord: 0.0ms)
+Started GET "/assets/application-7edfc23afaad8c818d5c2355239039bd.js" for 223.30.134.182 at 2014-08-04 12:01:04 +0530
+Served asset /application-7edfc23afaad8c818d5c2355239039bd.js - 200 OK (0ms)
+Started GET "/assets/ckeditor/ckeditor-b69af33836ce386b4d367d4f35c51c27.js" for 223.30.134.182 at 2014-08-04 12:01:07 +0530
+Served asset /ckeditor/ckeditor-b69af33836ce386b4d367d4f35c51c27.js - 200 OK (0ms)
+Started GET "/" for 223.30.134.182 at 2014-08-04 12:01:25 +0530
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/main (0.0ms)
+  Rendered layouts/_main_form.html.erb (0.0ms)
+Completed 200 OK in 31.2ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+Started GET "/" for 223.30.134.182 at 2014-08-04 12:01:52 +0530
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/main (15.6ms)
+  Rendered layouts/_main_form.html.erb (0.0ms)
+Completed 200 OK in 31.2ms (Views: 31.2ms | ActiveRecord: 0.0ms)
+Started GET "/" for 223.30.134.182 at 2014-08-04 12:02:30 +0530
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/main (15.6ms)
+  Rendered layouts/_main_form.html.erb (0.0ms)
+Completed 200 OK in 31.2ms (Views: 31.2ms | ActiveRecord: 0.0ms)
+Started GET "/" for 223.30.134.182 at 2014-08-04 12:03:40 +0530
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/main (0.0ms)
+  Rendered layouts/_main_form.html.erb (0.0ms)
+Completed 200 OK in 31.2ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+Started GET "/" for 223.30.134.182 at 2014-08-04 12:03:45 +0530
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/main (15.6ms)
+  Rendered layouts/_main_form.html.erb (0.0ms)
+Completed 200 OK in 15.6ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+Started GET "/" for 223.30.134.182 at 2014-08-04 12:03:53 +0530
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/main (15.6ms)
+  Rendered layouts/_main_form.html.erb (0.0ms)
+Completed 200 OK in 31.2ms (Views: 31.2ms | ActiveRecord: 0.0ms)
+Started GET "/" for 223.30.134.182 at 2014-08-04 12:03:58 +0530
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/main (15.6ms)
+  Rendered layouts/_main_form.html.erb (0.0ms)
+Completed 200 OK in 31.2ms (Views: 31.2ms | ActiveRecord: 0.0ms)
+Started GET "/" for 223.30.134.182 at 2014-08-04 12:04:06 +0530
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/main (15.6ms)
+  Rendered layouts/_main_form.html.erb (0.0ms)
+Completed 200 OK in 31.2ms (Views: 31.2ms | ActiveRecord: 0.0ms)
+Started GET "/" for 223.30.134.182 at 2014-08-04 12:04:25 +0530
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/main (15.6ms)
+  Rendered layouts/_main_form.html.erb (0.0ms)
+Completed 200 OK in 46.8ms (Views: 15.6ms | ActiveRecord: 31.2ms)
+Started GET "/" for 223.30.134.182 at 2014-08-04 12:04:28 +0530
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/main (0.0ms)
+  Rendered layouts/_main_form.html.erb (0.0ms)
+Completed 200 OK in 15.6ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+Started GET "/" for 223.30.134.182 at 2014-08-04 12:04:34 +0530
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/main (15.6ms)
+  Rendered layouts/_main_form.html.erb (0.0ms)
+Completed 200 OK in 31.2ms (Views: 31.2ms | ActiveRecord: 0.0ms)
+Started GET "/" for 223.30.134.182 at 2014-08-04 12:04:46 +0530
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/main (15.6ms)
+  Rendered layouts/_main_form.html.erb (0.0ms)
+Completed 200 OK in 31.2ms (Views: 31.2ms | ActiveRecord: 0.0ms)
+Started GET "/" for 223.30.134.182 at 2014-08-04 12:05:05 +0530
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/main (15.6ms)
+  Rendered layouts/_main_form.html.erb (0.0ms)
+Completed 200 OK in 31.2ms (Views: 31.2ms | ActiveRecord: 0.0ms)
+Started GET "/" for 223.30.134.182 at 2014-08-04 12:05:19 +0530
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/main (15.6ms)
+  Rendered layouts/_main_form.html.erb (0.0ms)
+Completed 200 OK in 46.8ms (Views: 31.2ms | ActiveRecord: 15.6ms)
+Started GET "/" for 223.30.134.182 at 2014-08-04 12:05:25 +0530
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/main (15.6ms)
+  Rendered layouts/_main_form.html.erb (0.0ms)
+Completed 200 OK in 15.6ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+Started GET "/" for 223.30.134.182 at 2014-08-04 12:05:31 +0530
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/main (0.0ms)
+  Rendered layouts/_main_form.html.erb (0.0ms)
+Completed 200 OK in 62.4ms (Views: 62.4ms | ActiveRecord: 0.0ms)
+Started GET "/" for 223.30.134.182 at 2014-08-04 12:05:34 +0530
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/main (0.0ms)
+  Rendered layouts/_main_form.html.erb (0.0ms)
+Completed 200 OK in 31.2ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+Started GET "/" for 223.30.134.182 at 2014-08-04 12:06:22 +0530
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/main (0.0ms)
+  Rendered layouts/_main_form.html.erb (0.0ms)
+Completed 200 OK in 15.6ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+Started GET "/" for 223.30.134.182 at 2014-08-04 12:06:39 +0530
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/main (15.6ms)
+  Rendered layouts/_main_form.html.erb (0.0ms)
+Completed 200 OK in 15.6ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+Started GET "/" for 223.30.134.182 at 2014-08-04 12:07:09 +0530
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/main (31.2ms)
+  Rendered layouts/_main_form.html.erb (0.0ms)
+Completed 200 OK in 62.4ms (Views: 46.8ms | ActiveRecord: 0.0ms)
+Started GET "/" for 223.30.134.182 at 2014-08-04 12:08:08 +0530
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/main (0.0ms)
+  Rendered layouts/_main_form.html.erb (0.0ms)
+Completed 200 OK in 31.2ms (Views: 15.6ms | ActiveRecord: 15.6ms)
+Started GET "/" for 223.30.134.182 at 2014-08-04 12:08:21 +0530
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/main (15.6ms)
+  Rendered layouts/_main_form.html.erb (0.0ms)
+Completed 200 OK in 15.6ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+Started GET "/" for 223.30.134.182 at 2014-08-04 12:08:41 +0530
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/main (15.6ms)
+  Rendered layouts/_main_form.html.erb (0.0ms)
+Completed 200 OK in 31.2ms (Views: 31.2ms | ActiveRecord: 0.0ms)
+Started GET "/" for 223.30.134.182 at 2014-08-04 12:09:07 +0530
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/main (15.6ms)
+  Rendered layouts/_main_form.html.erb (0.0ms)
+Completed 200 OK in 15.6ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+Started GET "/" for 223.30.134.182 at 2014-08-04 12:09:12 +0530
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/main (15.6ms)
+  Rendered layouts/_main_form.html.erb (0.0ms)
+Completed 200 OK in 31.2ms (Views: 31.2ms | ActiveRecord: 0.0ms)
+Started GET "/" for 223.30.134.182 at 2014-08-04 12:09:15 +0530
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/main (15.6ms)
+  Rendered layouts/_main_form.html.erb (0.0ms)
+Completed 200 OK in 31.2ms (Views: 31.2ms | ActiveRecord: 0.0ms)
+Started GET "/" for 223.30.134.182 at 2014-08-04 12:09:22 +0530
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/main (15.6ms)
+  Rendered layouts/_main_form.html.erb (0.0ms)
+Completed 200 OK in 31.2ms (Views: 31.2ms | ActiveRecord: 0.0ms)
+Started GET "/" for 223.30.134.182 at 2014-08-04 12:09:35 +0530
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/main (15.6ms)
+  Rendered layouts/_main_form.html.erb (0.0ms)
+Completed 200 OK in 31.2ms (Views: 31.2ms | ActiveRecord: 0.0ms)
+Started GET "/" for 223.30.134.182 at 2014-08-04 12:09:40 +0530
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/main (15.6ms)
+  Rendered layouts/_main_form.html.erb (0.0ms)
+Completed 200 OK in 31.2ms (Views: 31.2ms | ActiveRecord: 0.0ms)
+Started GET "/" for 223.30.134.182 at 2014-08-04 12:10:08 +0530
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/main (0.0ms)
+  Rendered layouts/_main_form.html.erb (0.0ms)
+Completed 200 OK in 15.6ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+Started GET "/" for 223.30.134.182 at 2014-08-04 12:10:12 +0530
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/main (15.6ms)
+  Rendered layouts/_main_form.html.erb (0.0ms)
+Completed 200 OK in 31.2ms (Views: 31.2ms | ActiveRecord: 0.0ms)
+Started GET "/" for 223.30.134.182 at 2014-08-04 12:10:24 +0530
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/main (0.0ms)
+  Rendered layouts/_main_form.html.erb (0.0ms)
+Completed 200 OK in 31.2ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+Started GET "/" for 223.30.134.182 at 2014-08-04 12:10:43 +0530
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/main (0.0ms)
+  Rendered layouts/_main_form.html.erb (0.0ms)
+Completed 200 OK in 31.2ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+Started GET "/" for 223.30.134.182 at 2014-08-04 12:10:50 +0530
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/main (0.0ms)
+  Rendered layouts/_main_form.html.erb (0.0ms)
+Completed 200 OK in 31.2ms (Views: 15.6ms | ActiveRecord: 15.6ms)
+Started GET "/" for 223.30.134.182 at 2014-08-04 12:10:55 +0530
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/main (0.0ms)
+  Rendered layouts/_main_form.html.erb (0.0ms)
+Completed 200 OK in 31.2ms (Views: 15.6ms | ActiveRecord: 15.6ms)
+Started GET "/" for 223.30.134.182 at 2014-08-04 12:11:01 +0530
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/main (0.0ms)
+  Rendered layouts/_main_form.html.erb (0.0ms)
+Completed 200 OK in 31.2ms (Views: 15.6ms | ActiveRecord: 15.6ms)
+Connecting to database specified by database.yml
+Started GET "/" for 127.0.0.1 at 2014-08-04 13:51:09 +0530
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/main (166.0ms)
+  Rendered layouts/_main_form.html.erb (2.0ms)
+Completed 200 OK in 784.1ms (Views: 657.1ms | ActiveRecord: 59.0ms)
+Started GET "/" for 127.0.0.1 at 2014-08-04 14:16:25 +0530
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/main (15.6ms)
+  Rendered layouts/_main_form.html.erb (0.0ms)
+Completed 200 OK in 15.6ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+Started GET "/" for 127.0.0.1 at 2014-08-04 14:16:56 +0530
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/main (0.0ms)
+  Rendered layouts/_main_form.html.erb (0.0ms)
+Completed 200 OK in 15.6ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+Started GET "/" for 127.0.0.1 at 2014-08-04 14:17:58 +0530
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/main (0.0ms)
+  Rendered layouts/_main_form.html.erb (0.0ms)
+Completed 200 OK in 31.2ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+Started GET "/" for 127.0.0.1 at 2014-08-04 14:21:06 +0530
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/main (0.0ms)
+  Rendered layouts/_main_form.html.erb (0.0ms)
+Completed 200 OK in 15.6ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+Started GET "/" for 127.0.0.1 at 2014-08-04 14:21:53 +0530
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/main (4.0ms)
+  Rendered layouts/_main_form.html.erb (1.0ms)
+Completed 200 OK in 35.6ms (Views: 19.0ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+Started GET "/" for 127.0.0.1 at 2014-08-04 14:37:06 +0530
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/main (133.0ms)
+  Rendered layouts/_main_form.html.erb (2.0ms)
+Completed 200 OK in 998.1ms (Views: 768.1ms | ActiveRecord: 154.0ms)
+Started GET "/" for 127.0.0.1 at 2014-08-04 14:37:17 +0530
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/main (0.0ms)
+  Rendered layouts/_main_form.html.erb (0.0ms)
+Completed 200 OK in 33.6ms (Views: 33.6ms | ActiveRecord: 0.0ms)
+Started GET "/" for 127.0.0.1 at 2014-08-04 14:38:37 +0530
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/main (0.0ms)
+  Rendered layouts/_main_form.html.erb (0.0ms)
+Completed 200 OK in 31.2ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+Started GET "/" for 127.0.0.1 at 2014-08-04 14:40:23 +0530
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/main (0.0ms)
+  Rendered layouts/_main_form.html.erb (0.0ms)
+Completed 200 OK in 15.6ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+Started GET "/" for 127.0.0.1 at 2014-08-04 14:41:25 +0530
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/main (0.0ms)
+  Rendered layouts/_main_form.html.erb (0.0ms)
+Completed 200 OK in 15.6ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+Started GET "/" for 127.0.0.1 at 2014-08-04 14:42:00 +0530
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/main (15.6ms)
+  Rendered layouts/_main_form.html.erb (0.0ms)
+Completed 200 OK in 15.6ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+Started GET "/" for 127.0.0.1 at 2014-08-04 14:42:06 +0530
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/main (2.0ms)
+  Rendered layouts/_main_form.html.erb (1.0ms)
+Completed 200 OK in 32.0ms (Views: 17.0ms | ActiveRecord: 8.0ms)
+Connecting to database specified by database.yml
+Started GET "/" for 127.0.0.1 at 2014-08-04 14:42:48 +0530
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/main (79.0ms)
+  Rendered layouts/_main_form.html.erb (2.0ms)
+Completed 200 OK in 248.0ms (Views: 183.0ms | ActiveRecord: 23.0ms)
+Started GET "/" for 127.0.0.1 at 2014-08-04 14:43:28 +0530
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/main (5.0ms)
+  Rendered layouts/_main_form.html.erb (1.0ms)
+Completed 200 OK in 35.0ms (Views: 18.0ms | ActiveRecord: 9.0ms)
+Started GET "/" for 127.0.0.1 at 2014-08-04 14:44:02 +0530
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/main (3.0ms)
+  Rendered layouts/_main_form.html.erb (1.0ms)
+Completed 200 OK in 31.0ms (Views: 18.0ms | ActiveRecord: 6.0ms)
+Started GET "/" for 127.0.0.1 at 2014-08-04 14:44:13 +0530
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/main (0.0ms)
+  Rendered layouts/_main_form.html.erb (0.0ms)
+Completed 200 OK in 38.2ms (Views: 22.6ms | ActiveRecord: 15.6ms)
+Started GET "/" for 127.0.0.1 at 2014-08-04 14:44:29 +0530
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/main (4.0ms)
+  Rendered layouts/_main_form.html.erb (1.0ms)
+Completed 200 OK in 25.0ms (Views: 17.0ms | ActiveRecord: 4.0ms)
+Started GET "/" for 127.0.0.1 at 2014-08-04 14:45:44 +0530
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/main (5.0ms)
+  Rendered layouts/_main_form.html.erb (0.0ms)
+Completed 200 OK in 36.0ms (Views: 25.0ms | ActiveRecord: 5.0ms)
+Started GET "/" for 127.0.0.1 at 2014-08-04 14:46:48 +0530
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/main (3.0ms)
+  Rendered layouts/_main_form.html.erb (0.0ms)
+Completed 200 OK in 63.0ms (Views: 17.0ms | ActiveRecord: 40.0ms)
+Started GET "/" for 127.0.0.1 at 2014-08-04 14:47:22 +0530
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/main (4.0ms)
+  Rendered layouts/_main_form.html.erb (1.0ms)
+Completed 200 OK in 32.0ms (Views: 20.0ms | ActiveRecord: 5.0ms)
+Started GET "/" for 127.0.0.1 at 2014-08-04 14:48:48 +0530
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/main (3.0ms)
+  Rendered layouts/_main_form.html.erb (1.0ms)
+Completed 200 OK in 28.0ms (Views: 17.0ms | ActiveRecord: 5.0ms)
+Started GET "/" for 127.0.0.1 at 2014-08-04 14:49:10 +0530
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/main (3.0ms)
+  Rendered layouts/_main_form.html.erb (1.0ms)
+Completed 200 OK in 27.0ms (Views: 18.0ms | ActiveRecord: 1.0ms)
+Started GET "/" for 127.0.0.1 at 2014-08-04 14:50:39 +0530
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/main (3.0ms)
+  Rendered layouts/_main_form.html.erb (1.0ms)
+Completed 200 OK in 29.0ms (Views: 18.0ms | ActiveRecord: 5.0ms)
+Started GET "/" for 127.0.0.1 at 2014-08-04 14:52:59 +0530
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/main (3.0ms)
+  Rendered layouts/_main_form.html.erb (0.0ms)
+Completed 200 OK in 28.0ms (Views: 16.0ms | ActiveRecord: 3.0ms)
+Started GET "/" for 127.0.0.1 at 2014-08-04 14:53:28 +0530
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/main (5.0ms)
+  Rendered layouts/_main_form.html.erb (0.0ms)
+Completed 200 OK in 40.0ms (Views: 25.0ms | ActiveRecord: 5.0ms)
+Started GET "/" for 127.0.0.1 at 2014-08-04 14:53:36 +0530
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/main (5.0ms)
+  Rendered layouts/_main_form.html.erb (1.0ms)
+Completed 200 OK in 38.0ms (Views: 26.0ms | ActiveRecord: 4.0ms)
+Connecting to database specified by database.yml
+Started GET "/" for 127.0.0.1 at 2014-08-04 14:54:27 +0530
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/main (102.0ms)
+  Rendered layouts/_main_form.html.erb (1.0ms)
+Completed 200 OK in 349.0ms (Views: 252.0ms | ActiveRecord: 41.0ms)
+Started GET "/" for 127.0.0.1 at 2014-08-04 14:54:27 +0530
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/main (3.0ms)
+  Rendered layouts/_main_form.html.erb (0.0ms)
+Completed 200 OK in 27.0ms (Views: 16.0ms | ActiveRecord: 5.0ms)
+Started GET "/" for 127.0.0.1 at 2014-08-04 14:56:18 +0530
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/main (3.0ms)
+  Rendered layouts/_main_form.html.erb (0.0ms)
+Completed 200 OK in 25.0ms (Views: 16.0ms | ActiveRecord: 7.0ms)
+Started GET "/" for 127.0.0.1 at 2014-08-04 14:57:11 +0530
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/main (3.0ms)
+  Rendered layouts/_main_form.html.erb (1.0ms)
+Completed 200 OK in 31.0ms (Views: 18.0ms | ActiveRecord: 4.0ms)
+Started GET "/" for 127.0.0.1 at 2014-08-04 14:57:31 +0530
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/main (3.0ms)
+  Rendered layouts/_main_form.html.erb (1.0ms)
+Completed 200 OK in 29.0ms (Views: 20.0ms | ActiveRecord: 2.0ms)
+Started GET "/" for 127.0.0.1 at 2014-08-04 14:57:31 +0530
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/main (2.0ms)
+  Rendered layouts/_main_form.html.erb (1.0ms)
+Completed 200 OK in 26.0ms (Views: 16.0ms | ActiveRecord: 4.0ms)
+Started GET "/" for 127.0.0.1 at 2014-08-04 14:57:43 +0530
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/main (2.0ms)
+  Rendered layouts/_main_form.html.erb (1.0ms)
+Completed 200 OK in 22.0ms (Views: 15.0ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+Started GET "/" for 127.0.0.1 at 2014-08-04 14:58:38 +0530
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/main (78.0ms)
+  Rendered layouts/_main_form.html.erb (0.0ms)
+Completed 200 OK in 234.0ms (Views: 171.6ms | ActiveRecord: 15.6ms)
+Started GET "/" for 127.0.0.1 at 2014-08-04 14:58:57 +0530
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/main (2.0ms)
+  Rendered layouts/_main_form.html.erb (1.0ms)
+Completed 200 OK in 68.0ms (Views: 59.0ms | ActiveRecord: 5.0ms)
+Started GET "/" for 127.0.0.1 at 2014-08-04 14:59:28 +0530
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/main (3.0ms)
+  Rendered layouts/_main_form.html.erb (1.0ms)
+Completed 200 OK in 30.0ms (Views: 19.0ms | ActiveRecord: 4.0ms)
+Connecting to database specified by database.yml
+Started GET "/" for 127.0.0.1 at 2014-08-05 12:06:28 +0530
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/main (120.0ms)
+Compiled jquery.js  (4ms)  (pid 7488)
+Compiled jquery_ujs.js  (0ms)  (pid 7488)
+Compiled ckeditor/ckeditor.js  (12ms)  (pid 7488)
+Compiled ckeditor/init.js  (80ms)  (pid 7488)
+Compiled application.js  (211ms)  (pid 7488)
+  Rendered layouts/_main_form.html.erb (5.0ms)
+Completed 200 OK in 758.1ms (Views: 654.1ms | ActiveRecord: 51.0ms)
+Started GET "/" for 127.0.0.1 at 2014-08-05 12:06:31 +0530
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/main (3.0ms)
+  Rendered layouts/_main_form.html.erb (1.0ms)
+Completed 200 OK in 34.0ms (Views: 18.0ms | ActiveRecord: 9.0ms)
+Started GET "/" for 101.63.232.67 at 2014-08-05 12:09:02 +0530
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/main (15.6ms)
+  Rendered layouts/_main_form.html.erb (0.0ms)
+Completed 200 OK in 31.2ms (Views: 31.2ms | ActiveRecord: 0.0ms)
+Started GET "/assets/ckeditor/ckeditor-b69af33836ce386b4d367d4f35c51c27.js" for 101.63.232.67 at 2014-08-05 12:09:02 +0530
+Served asset /ckeditor/ckeditor-b69af33836ce386b4d367d4f35c51c27.js - 200 OK (0ms)
+Started GET "/assets/application-7edfc23afaad8c818d5c2355239039bd.js" for 101.63.232.67 at 2014-08-05 12:09:02 +0530
+Served asset /application-7edfc23afaad8c818d5c2355239039bd.js - 200 OK (0ms)
+Started GET "/" for 119.147.146.193 at 2014-08-05 12:09:12 +0530
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/main (5.0ms)
+  Rendered layouts/_main_form.html.erb (1.0ms)
+Completed 200 OK in 32.0ms (Views: 19.0ms | ActiveRecord: 7.0ms)
+Started GET "/" for 101.63.232.67 at 2014-08-05 12:09:47 +0530
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/main (4.0ms)
+  Rendered layouts/_main_form.html.erb (0.0ms)
+Completed 200 OK in 30.0ms (Views: 17.0ms | ActiveRecord: 7.0ms)
+Started GET "/" for 42.104.61.79 at 2014-08-05 12:13:11 +0530
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/main (0.0ms)
+  Rendered layouts/_main_form.html.erb (0.0ms)
+Completed 200 OK in 31.2ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+Started GET "/" for 106.51.189.243 at 2014-08-05 12:14:57 +0530
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/main (0.0ms)
+  Rendered layouts/_main_form.html.erb (0.0ms)
+Completed 200 OK in 31.2ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+Started GET "/" for 42.104.61.79 at 2014-08-05 12:14:57 +0530
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/main (15.6ms)
+  Rendered layouts/_main_form.html.erb (0.0ms)
+Completed 200 OK in 15.6ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+Started GET "/news" for 106.51.189.243 at 2014-08-05 12:17:45 +0530
+Processing by MainController#mainpage as HTML
+  Rendered main/_newslist.html.erb (15.6ms)
+  Rendered main/mainpage.html.erb within layouts/main (31.2ms)
+  Rendered layouts/_main_form.html.erb (0.0ms)
+Completed 200 OK in 46.8ms (Views: 46.8ms | ActiveRecord: 0.0ms)
+Started GET "/main/news/2" for 106.51.189.243 at 2014-08-05 12:17:52 +0530
+Processing by MainController#news as JS
+  Parameters: {"id"=>"2"}
+  Rendered main/_newslist.html.erb (6.0ms)
+  Rendered main/news.js.erb (9.0ms)
+Completed 200 OK in 53.0ms (Views: 46.0ms | ActiveRecord: 4.0ms)
+Started GET "/main/news/4" for 106.51.189.243 at 2014-08-05 12:17:59 +0530
+Processing by MainController#news as JS
+  Parameters: {"id"=>"4"}
+  Rendered main/_newslist.html.erb (9.0ms)
+  Rendered main/news.js.erb (10.0ms)
+Completed 200 OK in 17.0ms (Views: 11.0ms | ActiveRecord: 1.0ms)
+Started GET "/" for 127.0.0.1 at 2014-08-05 12:18:03 +0530
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/main (5.0ms)
+  Rendered layouts/_main_form.html.erb (1.0ms)
+Completed 200 OK in 39.0ms (Views: 25.0ms | ActiveRecord: 6.0ms)
+Started GET "/" for 127.0.0.1 at 2014-08-05 12:18:03 +0530
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/main (3.0ms)
+  Rendered layouts/_main_form.html.erb (0.0ms)
+Completed 200 OK in 30.0ms (Views: 17.0ms | ActiveRecord: 9.0ms)
+Started GET "/main/news/5" for 106.51.189.243 at 2014-08-05 12:18:08 +0530
+Processing by MainController#news as JS
+  Parameters: {"id"=>"5"}
+  Rendered main/_newslistv.html.erb (2.0ms)
+  Rendered main/news.js.erb (24.0ms)
+Completed 200 OK in 29.0ms (Views: 24.0ms | ActiveRecord: 2.0ms)
+Started GET "/" for 42.104.61.79 at 2014-08-05 12:19:25 +0530
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/main (3.0ms)
+  Rendered layouts/_main_form.html.erb (1.0ms)
+Completed 200 OK in 24.0ms (Views: 15.0ms | ActiveRecord: 5.0ms)
+Started GET "/" for 127.0.0.1 at 2014-08-05 12:20:13 +0530
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/main (3.0ms)
+  Rendered layouts/_main_form.html.erb (1.0ms)
+Completed 200 OK in 27.0ms (Views: 17.0ms | ActiveRecord: 3.0ms)
+Started GET "/" for 127.0.0.1 at 2014-08-05 12:21:29 +0530
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/main (3.0ms)
+  Rendered layouts/_main_form.html.erb (1.0ms)
+Completed 200 OK in 26.0ms (Views: 15.0ms | ActiveRecord: 6.0ms)
+Started GET "/" for 127.0.0.1 at 2014-08-05 12:21:29 +0530
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/main (3.0ms)
+  Rendered layouts/_main_form.html.erb (1.0ms)
+Completed 200 OK in 27.0ms (Views: 15.0ms | ActiveRecord: 7.0ms)
+Started GET "/" for 127.0.0.1 at 2014-08-05 12:21:40 +0530
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/main (3.0ms)
+  Rendered layouts/_main_form.html.erb (1.0ms)
+Completed 200 OK in 24.0ms (Views: 15.0ms | ActiveRecord: 4.0ms)
+Started GET "/" for 106.51.189.243 at 2014-08-05 12:26:17 +0530
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/main (3.0ms)
+  Rendered layouts/_main_form.html.erb (1.0ms)
+Completed 200 OK in 29.0ms (Views: 16.0ms | ActiveRecord: 5.0ms)
+Started GET "/news" for 106.51.189.243 at 2014-08-05 12:28:19 +0530
+Processing by MainController#mainpage as HTML
+  Rendered main/_newslist.html.erb (5.0ms)
+  Rendered main/mainpage.html.erb within layouts/main (7.0ms)
+  Rendered layouts/_main_form.html.erb (1.0ms)
+Completed 200 OK in 28.0ms (Views: 22.0ms | ActiveRecord: 3.0ms)
+Started GET "/" for 42.104.61.22 at 2014-08-05 12:30:35 +0530
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/main (4.0ms)
+  Rendered layouts/_main_form.html.erb (0.0ms)
+Completed 200 OK in 27.0ms (Views: 17.0ms | ActiveRecord: 6.0ms)
+Connecting to database specified by database.yml
+Started GET "/" for 115.241.24.193 at 2014-08-05 12:56:34 +0530
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/main (169.0ms)
+  Rendered layouts/_main_form.html.erb (1.0ms)
+Completed 200 OK in 869.1ms (Views: 612.1ms | ActiveRecord: 192.0ms)
+Started GET "/assets/application-7edfc23afaad8c818d5c2355239039bd.js" for 115.241.24.193 at 2014-08-05 12:56:35 +0530
+Served asset /application-7edfc23afaad8c818d5c2355239039bd.js - 200 OK (0ms)
+Started GET "/assets/ckeditor/ckeditor-b69af33836ce386b4d367d4f35c51c27.js" for 115.241.24.193 at 2014-08-05 12:56:35 +0530
+Served asset /ckeditor/ckeditor-b69af33836ce386b4d367d4f35c51c27.js - 200 OK (0ms)
+Started GET "/" for 119.147.146.189 at 2014-08-05 12:56:45 +0530
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/main (3.0ms)
+  Rendered layouts/_main_form.html.erb (0.0ms)
+Completed 200 OK in 30.0ms (Views: 17.0ms | ActiveRecord: 9.0ms)
+Started GET "/" for 115.241.24.193 at 2014-08-05 12:57:04 +0530
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/main (5.0ms)
+  Rendered layouts/_main_form.html.erb (0.0ms)
+Completed 200 OK in 34.0ms (Views: 19.0ms | ActiveRecord: 7.0ms)
+Started GET "/" for 115.241.24.193 at 2014-08-05 12:57:17 +0530
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/main (4.0ms)
+  Rendered layouts/_main_form.html.erb (0.0ms)
+Completed 200 OK in 35.0ms (Views: 19.0ms | ActiveRecord: 9.0ms)
+Connecting to database specified by database.yml
+Started GET "/" for 127.0.0.1 at 2014-08-05 12:58:28 +0530
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/main (71.0ms)
+  Rendered layouts/_main_form.html.erb (2.0ms)
+Completed 200 OK in 311.0ms (Views: 237.0ms | ActiveRecord: 21.0ms)
+Started GET "/" for 115.241.24.193 at 2014-08-05 12:58:31 +0530
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/main (3.0ms)
+  Rendered layouts/_main_form.html.erb (0.0ms)
+Completed 200 OK in 27.0ms (Views: 17.0ms | ActiveRecord: 7.0ms)
+Connecting to database specified by database.yml
+Started GET "/topics/1/news/new" for 127.0.0.1 at 2014-08-05 21:11:27 +0530
+Processing by NewsController#new as HTML
+  Parameters: {"topic_id"=>"1"}
+  Rendered news/_form.html.erb (42.0ms)
+  Rendered news/new.html.erb within layouts/application (61.0ms)
+Compiled calendar_date_select/calendar_date_select.js  (1ms)  (pid 9500)
+Compiled calendar_date_select/blue.css  (0ms)  (pid 9500)
+  Rendered layouts/_main_menu.html.erb (1.0ms)
+Completed 200 OK in 300.0ms (Views: 222.0ms | ActiveRecord: 23.0ms)
+Started GET "/assets/ckeditor/ckeditor.js" for 127.0.0.1 at 2014-08-05 21:11:28 +0530
+Compiled ckeditor/ckeditor.js  (12ms)  (pid 9500)
+Served asset /ckeditor/ckeditor.js - 200 OK (86ms)
+Started GET "/assets/ckeditor/config.js?t=E2PC" for 127.0.0.1 at 2014-08-05 21:11:28 +0530
+Compiled ckeditor/config.js  (0ms)  (pid 9500)
+Served asset /ckeditor/config.js - 200 OK (51ms)
+Connecting to database specified by database.yml
+Started GET "/" for 127.0.0.1 at 2014-08-05 21:15:51 +0530
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/main (168.0ms)
+Compiled jquery.js  (3ms)  (pid 9496)
+Compiled jquery_ujs.js  (1ms)  (pid 9496)
+Compiled ckeditor/init.js  (21ms)  (pid 9496)
+Compiled application.js  (151ms)  (pid 9496)
+  Rendered layouts/_main_form.html.erb (1.0ms)
+Completed 200 OK in 1037.1ms (Views: 536.1ms | ActiveRecord: 393.0ms)
+Started GET "/topics/1/news/new" for 127.0.0.1 at 2014-08-05 21:15:53 +0530
+Processing by NewsController#new as HTML
+  Parameters: {"topic_id"=>"1"}
+  Rendered news/_form.html.erb (33.0ms)
+  Rendered news/new.html.erb within layouts/application (46.0ms)
+  Rendered layouts/_main_menu.html.erb (3.0ms)
+Completed 200 OK in 183.0ms (Views: 179.0ms | ActiveRecord: 2.0ms)
+Started GET "/assets/ckeditor/ckeditor.js" for 127.0.0.1 at 2014-08-05 21:15:53 +0530
+Served asset /ckeditor/ckeditor.js - 304 Not Modified (0ms)
+Started GET "/topics/1/news/new" for 127.0.0.1 at 2014-08-05 21:16:00 +0530
+Processing by NewsController#new as HTML
+  Parameters: {"topic_id"=>"1"}
+  Rendered news/_form.html.erb (3.0ms)
+  Rendered news/new.html.erb within layouts/application (3.0ms)
+Compiled calendar_date_select/format_american.js  (0ms)  (pid 9496)
+  Rendered layouts/_main_menu.html.erb (1.0ms)
+Completed 200 OK in 63.0ms (Views: 58.0ms | ActiveRecord: 1.0ms)
+Started GET "/assets/ckeditor/ckeditor.js" for 127.0.0.1 at 2014-08-05 21:16:00 +0530
+Served asset /ckeditor/ckeditor.js - 304 Not Modified (1ms)
+Started GET "/assets/ckeditor/config.js?t=E2PC" for 127.0.0.1 at 2014-08-05 21:16:00 +0530
+Served asset /ckeditor/config.js - 304 Not Modified (48ms)
+Started GET "/topics/1/news/1/edit" for 127.0.0.1 at 2014-08-05 21:16:04 +0530
+Processing by NewsController#edit as HTML
+  Parameters: {"topic_id"=>"1", "id"=>"1"}
+  Rendered news/_form1.html.erb (4.0ms)
+  Rendered news/edit.html.erb within layouts/application (12.0ms)
+  Rendered layouts/_main_menu.html.erb (1.0ms)
+Completed 200 OK in 43.0ms (Views: 38.0ms | ActiveRecord: 2.0ms)
+Started GET "/assets/ckeditor/ckeditor.js" for 127.0.0.1 at 2014-08-05 21:16:04 +0530
+Served asset /ckeditor/ckeditor.js - 304 Not Modified (0ms)
+Started GET "/assets/ckeditor/config.js?t=E2PC" for 127.0.0.1 at 2014-08-05 21:16:04 +0530
+Served asset /ckeditor/config.js - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Started GET "/" for 127.0.0.1 at 2014-08-07 11:37:25 +0530
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/main (109.0ms)
+Completed 500 Internal Server Error in 217.0ms
+
+ActionView::Template::Error (undefined method `link' for nil:NilClass):
+    8:     <div id="slider2">
+    9:            <ul>
+    10:                 <li id="first" class="firstanimation">
+    11:                     <%= raw(youtube_embed(@videos.last.link)) %>
+    12:                 </li>
+    13:             </ul>
+    14:         </div>
+  app/views/main/index.html.erb:11:in `_app_views_main_index_html_erb___770312897_39174216'
+  app/controllers/main_controller.rb:16:in `index'
+
+
+Started GET "/adminpalet" for 127.0.0.1 at 2014-08-07 11:37:38 +0530
+Processing by UserController#login as HTML
+  Rendered user/login.html.erb within layouts/login (20.0ms)
+Completed 200 OK in 109.0ms (Views: 107.0ms | ActiveRecord: 0.0ms)
+Started GET "/" for 127.0.0.1 at 2014-08-07 11:37:49 +0530
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/main (1.0ms)
+Completed 500 Internal Server Error in 30.0ms
+
+ActionView::Template::Error (undefined method `link' for nil:NilClass):
+    8:     <div id="slider2">
+    9:            <ul>
+    10:                 <li id="first" class="firstanimation">
+    11:                     <%= raw(youtube_embed(@videos.last.link)) %>
+    12:                 </li>
+    13:             </ul>
+    14:         </div>
+  app/views/main/index.html.erb:11:in `_app_views_main_index_html_erb___770312897_39174216'
+  app/controllers/main_controller.rb:16:in `index'
+
+
+Started GET "/adminpalet" for 127.0.0.1 at 2014-08-07 11:37:51 +0530
+Processing by UserController#login as HTML
+  Rendered user/login.html.erb within layouts/login (1.0ms)
+Completed 200 OK in 17.0ms (Views: 17.0ms | ActiveRecord: 0.0ms)
+Started GET "/assets/defaults.js" for 127.0.0.1 at 2014-08-07 11:37:51 +0530
+Served asset /defaults.js - 404 Not Found (1ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/defaults.js"):
+  actionpack (3.2.18) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.18) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.18) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.18) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.18) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.18) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/static.rb:63:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.18) lib/rails/engine.rb:484:in `call'
+  railties (3.2.18) lib/rails/application.rb:231:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.18) lib/rails/rack/log_tailer.rb:17:in `call'
+  thin (1.6.2) lib/thin/connection.rb:86:in `block in pre_process'
+  thin (1.6.2) lib/thin/connection.rb:84:in `catch'
+  thin (1.6.2) lib/thin/connection.rb:84:in `pre_process'
+  thin (1.6.2) lib/thin/connection.rb:53:in `process'
+  thin (1.6.2) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine-1.0.3-x86 (mingw32) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine-1.0.3-x86 (mingw32) lib/eventmachine.rb:187:in `run'
+  thin (1.6.2) lib/thin/backends/base.rb:73:in `start'
+  thin (1.6.2) lib/thin/server.rb:162:in `start'
+  rack (1.4.5) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.5) lib/rack/server.rb:268:in `start'
+  railties (3.2.18) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.18) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.18) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.18) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+Started GET "/assets/stylesheets/img/bg.png" for 127.0.0.1 at 2014-08-07 11:37:51 +0530
+Served asset /stylesheets/img/bg.png - 404 Not Found (3ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/stylesheets/img/bg.png"):
+  actionpack (3.2.18) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.18) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.18) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.18) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.18) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.18) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/static.rb:63:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.18) lib/rails/engine.rb:484:in `call'
+  railties (3.2.18) lib/rails/application.rb:231:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.18) lib/rails/rack/log_tailer.rb:17:in `call'
+  thin (1.6.2) lib/thin/connection.rb:86:in `block in pre_process'
+  thin (1.6.2) lib/thin/connection.rb:84:in `catch'
+  thin (1.6.2) lib/thin/connection.rb:84:in `pre_process'
+  thin (1.6.2) lib/thin/connection.rb:53:in `process'
+  thin (1.6.2) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine-1.0.3-x86 (mingw32) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine-1.0.3-x86 (mingw32) lib/eventmachine.rb:187:in `run'
+  thin (1.6.2) lib/thin/backends/base.rb:73:in `start'
+  thin (1.6.2) lib/thin/server.rb:162:in `start'
+  rack (1.4.5) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.5) lib/rack/server.rb:268:in `start'
+  railties (3.2.18) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.18) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.18) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.18) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+Started POST "/adminpalet" for 127.0.0.1 at 2014-08-07 11:37:56 +0530
+Processing by UserController#login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"vmaIGUlyjBAWbbFodac4JOpnDovPtOLdveI7cjKCvXo=", "user"=>{"username"=>"admin", "password"=>"[FILTERED]"}}
+Redirected to http://localhost:3000/user/dashboard
+Completed 302 Found in 38.0ms (ActiveRecord: 22.0ms)
+Started GET "/user/dashboard" for 127.0.0.1 at 2014-08-07 11:37:56 +0530
+Processing by UserController#dashboard as HTML
+  Rendered user/dashboard.html.erb within layouts/dashboard (2.0ms)
+  Rendered layouts/_main_menu.html.erb (1.0ms)
+Completed 200 OK in 212.0ms (Views: 209.0ms | ActiveRecord: 0.0ms)
+Started GET "/images/application/profile.png" for 127.0.0.1 at 2014-08-07 11:37:57 +0530
+
+ActionController::RoutingError (No route matches [GET] "/images/application/profile.png"):
+  actionpack (3.2.18) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.18) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.18) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.18) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.18) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.18) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/static.rb:63:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.18) lib/rails/engine.rb:484:in `call'
+  railties (3.2.18) lib/rails/application.rb:231:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.18) lib/rails/rack/log_tailer.rb:17:in `call'
+  thin (1.6.2) lib/thin/connection.rb:86:in `block in pre_process'
+  thin (1.6.2) lib/thin/connection.rb:84:in `catch'
+  thin (1.6.2) lib/thin/connection.rb:84:in `pre_process'
+  thin (1.6.2) lib/thin/connection.rb:53:in `process'
+  thin (1.6.2) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine-1.0.3-x86 (mingw32) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine-1.0.3-x86 (mingw32) lib/eventmachine.rb:187:in `run'
+  thin (1.6.2) lib/thin/backends/base.rb:73:in `start'
+  thin (1.6.2) lib/thin/server.rb:162:in `start'
+  rack (1.4.5) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.5) lib/rack/server.rb:268:in `start'
+  railties (3.2.18) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.18) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.18) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.18) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+Started GET "/images/application/logout.png" for 127.0.0.1 at 2014-08-07 11:37:57 +0530
+
+ActionController::RoutingError (No route matches [GET] "/images/application/logout.png"):
+  actionpack (3.2.18) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.18) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.18) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.18) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.18) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.18) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/static.rb:63:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.18) lib/rails/engine.rb:484:in `call'
+  railties (3.2.18) lib/rails/application.rb:231:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.18) lib/rails/rack/log_tailer.rb:17:in `call'
+  thin (1.6.2) lib/thin/connection.rb:86:in `block in pre_process'
+  thin (1.6.2) lib/thin/connection.rb:84:in `catch'
+  thin (1.6.2) lib/thin/connection.rb:84:in `pre_process'
+  thin (1.6.2) lib/thin/connection.rb:53:in `process'
+  thin (1.6.2) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine-1.0.3-x86 (mingw32) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine-1.0.3-x86 (mingw32) lib/eventmachine.rb:187:in `run'
+  thin (1.6.2) lib/thin/backends/base.rb:73:in `start'
+  thin (1.6.2) lib/thin/server.rb:162:in `start'
+  rack (1.4.5) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.5) lib/rack/server.rb:268:in `start'
+  railties (3.2.18) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.18) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.18) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.18) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+Started GET "/topics" for 127.0.0.1 at 2014-08-07 11:38:00 +0530
+Processing by TopicsController#index as HTML
+  Rendered topics/index.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_main_menu.html.erb (1.0ms)
+Completed 200 OK in 120.0ms (Views: 115.0ms | ActiveRecord: 2.0ms)
+Started GET "/assets/ckeditor/ckeditor.js" for 127.0.0.1 at 2014-08-07 11:38:00 +0530
+Served asset /ckeditor/ckeditor.js - 304 Not Modified (0ms)
+Started GET "/topics/new" for 127.0.0.1 at 2014-08-07 11:38:10 +0530
+Processing by TopicsController#new as HTML
+  Rendered topics/_form.html.erb (4.0ms)
+  Rendered topics/new.html.erb within layouts/application (13.0ms)
+  Rendered layouts/_main_menu.html.erb (1.0ms)
+Completed 200 OK in 88.0ms (Views: 77.0ms | ActiveRecord: 2.0ms)
+Started GET "/assets/ckeditor/ckeditor.js" for 127.0.0.1 at 2014-08-07 11:38:11 +0530
+Served asset /ckeditor/ckeditor.js - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+Started GET "/" for 127.0.0.1 at 2014-08-07 11:39:16 +0530
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/main (119.0ms)
+  Rendered layouts/_main_form.html.erb (2.0ms)
+Completed 200 OK in 331.0ms (Views: 231.0ms | ActiveRecord: 49.0ms)
+Started GET "/news" for 127.0.0.1 at 2014-08-07 11:39:24 +0530
+Processing by MainController#mainpage as HTML
+  Rendered main/_newslist.html.erb (23.0ms)
+  Rendered main/mainpage.html.erb within layouts/main (33.0ms)
+  Rendered layouts/_main_form.html.erb (1.0ms)
+Completed 200 OK in 96.0ms (Views: 91.0ms | ActiveRecord: 2.0ms)
+Started GET "/main/news/2" for 127.0.0.1 at 2014-08-07 11:39:29 +0530
+Processing by MainController#news as JS
+  Parameters: {"id"=>"2"}
+  Rendered main/_newslist.html.erb (5.0ms)
+  Rendered main/news.js.erb (7.0ms)
+Completed 200 OK in 43.0ms (Views: 39.0ms | ActiveRecord: 2.0ms)
+Started GET "/main/news/4" for 127.0.0.1 at 2014-08-07 11:39:29 +0530
+Processing by MainController#news as JS
+  Parameters: {"id"=>"4"}
+  Rendered main/_newslist.html.erb (6.0ms)
+  Rendered main/news.js.erb (7.0ms)
+Completed 200 OK in 12.0ms (Views: 8.0ms | ActiveRecord: 3.0ms)
+Started GET "/main/news/3" for 127.0.0.1 at 2014-08-07 11:39:30 +0530
+Processing by MainController#news as JS
+  Parameters: {"id"=>"3"}
+  Rendered main/_newslist.html.erb (41.0ms)
+  Rendered main/news.js.erb (42.0ms)
+Completed 200 OK in 45.0ms (Views: 43.0ms | ActiveRecord: 2.0ms)
+Started GET "/main/news/5" for 127.0.0.1 at 2014-08-07 11:39:30 +0530
+Processing by MainController#news as JS
+  Parameters: {"id"=>"5"}
+  Rendered main/_newslistv.html.erb (2.0ms)
+  Rendered main/news.js.erb (8.0ms)
+Completed 200 OK in 13.0ms (Views: 9.0ms | ActiveRecord: 1.0ms)
+Started GET "/" for 127.0.0.1 at 2014-08-07 12:17:07 +0530
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/main (3.0ms)
+  Rendered layouts/_main_form.html.erb (0.0ms)
+Completed 200 OK in 25.0ms (Views: 15.0ms | ActiveRecord: 5.0ms)
+Started GET "/adminpalet" for 127.0.0.1 at 2014-08-07 12:17:15 +0530
+Processing by UserController#login as HTML
+  Rendered user/login.html.erb within layouts/login (3.0ms)
+Completed 200 OK in 26.0ms (Views: 25.0ms | ActiveRecord: 0.0ms)
+Started GET "/adminpalet" for 127.0.0.1 at 2014-08-07 12:17:19 +0530
+Processing by UserController#login as HTML
+  Rendered user/login.html.erb within layouts/login (2.0ms)
+Completed 200 OK in 22.0ms (Views: 21.0ms | ActiveRecord: 0.0ms)
+Started GET "/" for 127.0.0.1 at 2014-08-07 12:17:48 +0530
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/main (4.0ms)
+  Rendered layouts/_main_form.html.erb (1.0ms)
+Completed 200 OK in 26.0ms (Views: 15.0ms | ActiveRecord: 3.0ms)
+Started GET "/adminpalet" for 127.0.0.1 at 2014-08-07 12:17:49 +0530
+Processing by UserController#login as HTML
+  Rendered user/login.html.erb within layouts/login (2.0ms)
+Completed 200 OK in 17.0ms (Views: 17.0ms | ActiveRecord: 0.0ms)
+Started GET "/assets/defaults.js" for 127.0.0.1 at 2014-08-07 12:17:49 +0530
+Served asset /defaults.js - 404 Not Found (1ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/defaults.js"):
+  actionpack (3.2.18) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.18) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.18) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.18) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.18) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.18) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/static.rb:63:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.18) lib/rails/engine.rb:484:in `call'
+  railties (3.2.18) lib/rails/application.rb:231:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.18) lib/rails/rack/log_tailer.rb:17:in `call'
+  thin (1.6.2) lib/thin/connection.rb:86:in `block in pre_process'
+  thin (1.6.2) lib/thin/connection.rb:84:in `catch'
+  thin (1.6.2) lib/thin/connection.rb:84:in `pre_process'
+  thin (1.6.2) lib/thin/connection.rb:53:in `process'
+  thin (1.6.2) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine-1.0.3-x86 (mingw32) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine-1.0.3-x86 (mingw32) lib/eventmachine.rb:187:in `run'
+  thin (1.6.2) lib/thin/backends/base.rb:73:in `start'
+  thin (1.6.2) lib/thin/server.rb:162:in `start'
+  rack (1.4.5) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.5) lib/rack/server.rb:268:in `start'
+  railties (3.2.18) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.18) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.18) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.18) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+Started GET "/assets/stylesheets/img/bg.png" for 127.0.0.1 at 2014-08-07 12:17:49 +0530
+Served asset /stylesheets/img/bg.png - 404 Not Found (6ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/stylesheets/img/bg.png"):
+  actionpack (3.2.18) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.18) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.18) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.18) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.18) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.18) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/static.rb:63:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.18) lib/rails/engine.rb:484:in `call'
+  railties (3.2.18) lib/rails/application.rb:231:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.18) lib/rails/rack/log_tailer.rb:17:in `call'
+  thin (1.6.2) lib/thin/connection.rb:86:in `block in pre_process'
+  thin (1.6.2) lib/thin/connection.rb:84:in `catch'
+  thin (1.6.2) lib/thin/connection.rb:84:in `pre_process'
+  thin (1.6.2) lib/thin/connection.rb:53:in `process'
+  thin (1.6.2) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine-1.0.3-x86 (mingw32) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine-1.0.3-x86 (mingw32) lib/eventmachine.rb:187:in `run'
+  thin (1.6.2) lib/thin/backends/base.rb:73:in `start'
+  thin (1.6.2) lib/thin/server.rb:162:in `start'
+  rack (1.4.5) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.5) lib/rack/server.rb:268:in `start'
+  railties (3.2.18) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.18) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.18) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.18) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+Started POST "/adminpalet" for 127.0.0.1 at 2014-08-07 12:17:53 +0530
+Processing by UserController#login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"LWBXkbBJedhKTjE7OVNGbHSWCo9/eNBOpdsd5mAKQjE=", "user"=>{"username"=>"admin", "password"=>"[FILTERED]"}}
+Redirected to http://localhost:3000/user/dashboard
+Completed 302 Found in 72.0ms (ActiveRecord: 59.0ms)
+Started GET "/user/dashboard" for 127.0.0.1 at 2014-08-07 12:17:53 +0530
+Processing by UserController#dashboard as HTML
+  Rendered user/dashboard.html.erb within layouts/dashboard (2.0ms)
+  Rendered layouts/_main_menu.html.erb (1.0ms)
+Completed 200 OK in 65.0ms (Views: 62.0ms | ActiveRecord: 1.0ms)
+Started GET "/images/application/profile.png" for 127.0.0.1 at 2014-08-07 12:17:54 +0530
+
+ActionController::RoutingError (No route matches [GET] "/images/application/profile.png"):
+  actionpack (3.2.18) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.18) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.18) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.18) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.18) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.18) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/static.rb:63:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.18) lib/rails/engine.rb:484:in `call'
+  railties (3.2.18) lib/rails/application.rb:231:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.18) lib/rails/rack/log_tailer.rb:17:in `call'
+  thin (1.6.2) lib/thin/connection.rb:86:in `block in pre_process'
+  thin (1.6.2) lib/thin/connection.rb:84:in `catch'
+  thin (1.6.2) lib/thin/connection.rb:84:in `pre_process'
+  thin (1.6.2) lib/thin/connection.rb:53:in `process'
+  thin (1.6.2) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine-1.0.3-x86 (mingw32) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine-1.0.3-x86 (mingw32) lib/eventmachine.rb:187:in `run'
+  thin (1.6.2) lib/thin/backends/base.rb:73:in `start'
+  thin (1.6.2) lib/thin/server.rb:162:in `start'
+  rack (1.4.5) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.5) lib/rack/server.rb:268:in `start'
+  railties (3.2.18) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.18) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.18) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.18) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+Started GET "/images/application/logout.png" for 127.0.0.1 at 2014-08-07 12:17:54 +0530
+
+ActionController::RoutingError (No route matches [GET] "/images/application/logout.png"):
+  actionpack (3.2.18) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.18) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.18) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.18) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.18) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.18) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/static.rb:63:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.18) lib/rails/engine.rb:484:in `call'
+  railties (3.2.18) lib/rails/application.rb:231:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.18) lib/rails/rack/log_tailer.rb:17:in `call'
+  thin (1.6.2) lib/thin/connection.rb:86:in `block in pre_process'
+  thin (1.6.2) lib/thin/connection.rb:84:in `catch'
+  thin (1.6.2) lib/thin/connection.rb:84:in `pre_process'
+  thin (1.6.2) lib/thin/connection.rb:53:in `process'
+  thin (1.6.2) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine-1.0.3-x86 (mingw32) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine-1.0.3-x86 (mingw32) lib/eventmachine.rb:187:in `run'
+  thin (1.6.2) lib/thin/backends/base.rb:73:in `start'
+  thin (1.6.2) lib/thin/server.rb:162:in `start'
+  rack (1.4.5) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.5) lib/rack/server.rb:268:in `start'
+  railties (3.2.18) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.18) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.18) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.18) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+Started GET "/images/application/top-link-bg.png" for 127.0.0.1 at 2014-08-07 12:17:55 +0530
+
+ActionController::RoutingError (No route matches [GET] "/images/application/top-link-bg.png"):
+  actionpack (3.2.18) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.18) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.18) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.18) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.18) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.18) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/static.rb:63:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.18) lib/rails/engine.rb:484:in `call'
+  railties (3.2.18) lib/rails/application.rb:231:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.18) lib/rails/rack/log_tailer.rb:17:in `call'
+  thin (1.6.2) lib/thin/connection.rb:86:in `block in pre_process'
+  thin (1.6.2) lib/thin/connection.rb:84:in `catch'
+  thin (1.6.2) lib/thin/connection.rb:84:in `pre_process'
+  thin (1.6.2) lib/thin/connection.rb:53:in `process'
+  thin (1.6.2) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine-1.0.3-x86 (mingw32) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine-1.0.3-x86 (mingw32) lib/eventmachine.rb:187:in `run'
+  thin (1.6.2) lib/thin/backends/base.rb:73:in `start'
+  thin (1.6.2) lib/thin/server.rb:162:in `start'
+  rack (1.4.5) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.5) lib/rack/server.rb:268:in `start'
+  railties (3.2.18) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.18) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.18) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.18) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+Started GET "/profile" for 127.0.0.1 at 2014-08-07 12:17:56 +0530
+Processing by UserController#profile as HTML
+  Rendered user/profile.html.erb within layouts/application (5.0ms)
+  Rendered layouts/_main_menu.html.erb (1.0ms)
+Completed 200 OK in 71.0ms (Views: 66.0ms | ActiveRecord: 2.0ms)
+Started GET "/assets/ckeditor/ckeditor.js" for 127.0.0.1 at 2014-08-07 12:17:56 +0530
+Served asset /ckeditor/ckeditor.js - 304 Not Modified (0ms)
+Started GET "/change_password" for 127.0.0.1 at 2014-08-07 12:17:58 +0530
+Processing by UserController#change_password as HTML
+  Rendered user/change_password.html.erb within layouts/application (4.0ms)
+  Rendered layouts/_main_menu.html.erb (1.0ms)
+Completed 200 OK in 54.0ms (Views: 49.0ms | ActiveRecord: 1.0ms)
+Started GET "/assets/ckeditor/ckeditor.js" for 127.0.0.1 at 2014-08-07 12:17:58 +0530
+Served asset /ckeditor/ckeditor.js - 304 Not Modified (0ms)
+Started PUT "/password_update/1" for 127.0.0.1 at 2014-08-07 12:18:07 +0530
+Processing by UserController#password_update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"LWBXkbBJedhKTjE7OVNGbHSWCo9/eNBOpdsd5mAKQjE=", "user"=>{"new_password"=>"[FILTERED]", "confirm_password"=>"[FILTERED]"}, "commit"=>"Update Password", "id"=>"1"}
+Redirected to http://localhost:3000/user/dashboard
+Completed 302 Found in 79.0ms (ActiveRecord: 28.0ms)
+Started GET "/user/dashboard" for 127.0.0.1 at 2014-08-07 12:18:07 +0530
+Processing by UserController#dashboard as HTML
+  Rendered user/dashboard.html.erb within layouts/dashboard (0.0ms)
+  Rendered layouts/_main_menu.html.erb (0.0ms)
+Completed 200 OK in 17.0ms (Views: 15.0ms | ActiveRecord: 0.0ms)
+Started GET "/images/application/profile.png" for 127.0.0.1 at 2014-08-07 12:18:07 +0530
+
+ActionController::RoutingError (No route matches [GET] "/images/application/profile.png"):
+  actionpack (3.2.18) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.18) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.18) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.18) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.18) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.18) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/static.rb:63:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.18) lib/rails/engine.rb:484:in `call'
+  railties (3.2.18) lib/rails/application.rb:231:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.18) lib/rails/rack/log_tailer.rb:17:in `call'
+  thin (1.6.2) lib/thin/connection.rb:86:in `block in pre_process'
+  thin (1.6.2) lib/thin/connection.rb:84:in `catch'
+  thin (1.6.2) lib/thin/connection.rb:84:in `pre_process'
+  thin (1.6.2) lib/thin/connection.rb:53:in `process'
+  thin (1.6.2) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine-1.0.3-x86 (mingw32) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine-1.0.3-x86 (mingw32) lib/eventmachine.rb:187:in `run'
+  thin (1.6.2) lib/thin/backends/base.rb:73:in `start'
+  thin (1.6.2) lib/thin/server.rb:162:in `start'
+  rack (1.4.5) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.5) lib/rack/server.rb:268:in `start'
+  railties (3.2.18) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.18) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.18) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.18) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+Started GET "/images/application/logout.png" for 127.0.0.1 at 2014-08-07 12:18:07 +0530
+
+ActionController::RoutingError (No route matches [GET] "/images/application/logout.png"):
+  actionpack (3.2.18) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.18) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.18) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.18) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.18) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.18) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/static.rb:63:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.18) lib/rails/engine.rb:484:in `call'
+  railties (3.2.18) lib/rails/application.rb:231:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.18) lib/rails/rack/log_tailer.rb:17:in `call'
+  thin (1.6.2) lib/thin/connection.rb:86:in `block in pre_process'
+  thin (1.6.2) lib/thin/connection.rb:84:in `catch'
+  thin (1.6.2) lib/thin/connection.rb:84:in `pre_process'
+  thin (1.6.2) lib/thin/connection.rb:53:in `process'
+  thin (1.6.2) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine-1.0.3-x86 (mingw32) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine-1.0.3-x86 (mingw32) lib/eventmachine.rb:187:in `run'
+  thin (1.6.2) lib/thin/backends/base.rb:73:in `start'
+  thin (1.6.2) lib/thin/server.rb:162:in `start'
+  rack (1.4.5) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.5) lib/rack/server.rb:268:in `start'
+  railties (3.2.18) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.18) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.18) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.18) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+Started GET "/images/application/top-link-bg.png" for 127.0.0.1 at 2014-08-07 12:18:10 +0530
+
+ActionController::RoutingError (No route matches [GET] "/images/application/top-link-bg.png"):
+  actionpack (3.2.18) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.18) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.18) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.18) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.18) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.18) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/static.rb:63:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.18) lib/rails/engine.rb:484:in `call'
+  railties (3.2.18) lib/rails/application.rb:231:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.18) lib/rails/rack/log_tailer.rb:17:in `call'
+  thin (1.6.2) lib/thin/connection.rb:86:in `block in pre_process'
+  thin (1.6.2) lib/thin/connection.rb:84:in `catch'
+  thin (1.6.2) lib/thin/connection.rb:84:in `pre_process'
+  thin (1.6.2) lib/thin/connection.rb:53:in `process'
+  thin (1.6.2) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine-1.0.3-x86 (mingw32) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine-1.0.3-x86 (mingw32) lib/eventmachine.rb:187:in `run'
+  thin (1.6.2) lib/thin/backends/base.rb:73:in `start'
+  thin (1.6.2) lib/thin/server.rb:162:in `start'
+  rack (1.4.5) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.5) lib/rack/server.rb:268:in `start'
+  railties (3.2.18) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.18) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.18) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.18) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+Started GET "/user/logout" for 127.0.0.1 at 2014-08-07 12:18:11 +0530
+Processing by UserController#logout as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 4.0ms (ActiveRecord: 1.0ms)
+Started GET "/" for 127.0.0.1 at 2014-08-07 12:18:11 +0530
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/main (3.0ms)
+  Rendered layouts/_main_form.html.erb (0.0ms)
+Completed 200 OK in 25.0ms (Views: 15.0ms | ActiveRecord: 4.0ms)
+Started GET "/adminpalet" for 127.0.0.1 at 2014-08-07 12:18:15 +0530
+Processing by UserController#login as HTML
+  Rendered user/login.html.erb within layouts/login (1.0ms)
+Completed 200 OK in 15.0ms (Views: 15.0ms | ActiveRecord: 0.0ms)
+Started GET "/assets/defaults.js" for 127.0.0.1 at 2014-08-07 12:18:16 +0530
+Served asset /defaults.js - 404 Not Found (2ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/defaults.js"):
+  actionpack (3.2.18) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.18) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.18) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.18) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.18) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.18) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/static.rb:63:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.18) lib/rails/engine.rb:484:in `call'
+  railties (3.2.18) lib/rails/application.rb:231:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.18) lib/rails/rack/log_tailer.rb:17:in `call'
+  thin (1.6.2) lib/thin/connection.rb:86:in `block in pre_process'
+  thin (1.6.2) lib/thin/connection.rb:84:in `catch'
+  thin (1.6.2) lib/thin/connection.rb:84:in `pre_process'
+  thin (1.6.2) lib/thin/connection.rb:53:in `process'
+  thin (1.6.2) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine-1.0.3-x86 (mingw32) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine-1.0.3-x86 (mingw32) lib/eventmachine.rb:187:in `run'
+  thin (1.6.2) lib/thin/backends/base.rb:73:in `start'
+  thin (1.6.2) lib/thin/server.rb:162:in `start'
+  rack (1.4.5) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.5) lib/rack/server.rb:268:in `start'
+  railties (3.2.18) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.18) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.18) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.18) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+Started GET "/assets/stylesheets/img/bg.png" for 127.0.0.1 at 2014-08-07 12:18:16 +0530
+Served asset /stylesheets/img/bg.png - 404 Not Found (2ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/stylesheets/img/bg.png"):
+  actionpack (3.2.18) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.18) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.18) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.18) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.18) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.18) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/static.rb:63:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.18) lib/rails/engine.rb:484:in `call'
+  railties (3.2.18) lib/rails/application.rb:231:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.18) lib/rails/rack/log_tailer.rb:17:in `call'
+  thin (1.6.2) lib/thin/connection.rb:86:in `block in pre_process'
+  thin (1.6.2) lib/thin/connection.rb:84:in `catch'
+  thin (1.6.2) lib/thin/connection.rb:84:in `pre_process'
+  thin (1.6.2) lib/thin/connection.rb:53:in `process'
+  thin (1.6.2) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine-1.0.3-x86 (mingw32) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine-1.0.3-x86 (mingw32) lib/eventmachine.rb:187:in `run'
+  thin (1.6.2) lib/thin/backends/base.rb:73:in `start'
+  thin (1.6.2) lib/thin/server.rb:162:in `start'
+  rack (1.4.5) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.5) lib/rack/server.rb:268:in `start'
+  railties (3.2.18) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.18) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.18) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.18) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+Started GET "/adminpalet" for 127.0.0.1 at 2014-08-07 12:18:16 +0530
+Processing by UserController#login as HTML
+  Rendered user/login.html.erb within layouts/login (1.0ms)
+Completed 200 OK in 17.0ms (Views: 17.0ms | ActiveRecord: 0.0ms)
+Started GET "/assets/defaults.js" for 127.0.0.1 at 2014-08-07 12:18:16 +0530
+Served asset /defaults.js - 404 Not Found (2ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/defaults.js"):
+  actionpack (3.2.18) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.18) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.18) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.18) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.18) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.18) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/static.rb:63:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.18) lib/rails/engine.rb:484:in `call'
+  railties (3.2.18) lib/rails/application.rb:231:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.18) lib/rails/rack/log_tailer.rb:17:in `call'
+  thin (1.6.2) lib/thin/connection.rb:86:in `block in pre_process'
+  thin (1.6.2) lib/thin/connection.rb:84:in `catch'
+  thin (1.6.2) lib/thin/connection.rb:84:in `pre_process'
+  thin (1.6.2) lib/thin/connection.rb:53:in `process'
+  thin (1.6.2) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine-1.0.3-x86 (mingw32) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine-1.0.3-x86 (mingw32) lib/eventmachine.rb:187:in `run'
+  thin (1.6.2) lib/thin/backends/base.rb:73:in `start'
+  thin (1.6.2) lib/thin/server.rb:162:in `start'
+  rack (1.4.5) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.5) lib/rack/server.rb:268:in `start'
+  railties (3.2.18) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.18) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.18) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.18) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+Started GET "/assets/stylesheets/img/bg.png" for 127.0.0.1 at 2014-08-07 12:18:16 +0530
+Served asset /stylesheets/img/bg.png - 404 Not Found (3ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/stylesheets/img/bg.png"):
+  actionpack (3.2.18) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.18) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.18) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.18) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.18) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.18) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/static.rb:63:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.18) lib/rails/engine.rb:484:in `call'
+  railties (3.2.18) lib/rails/application.rb:231:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.18) lib/rails/rack/log_tailer.rb:17:in `call'
+  thin (1.6.2) lib/thin/connection.rb:86:in `block in pre_process'
+  thin (1.6.2) lib/thin/connection.rb:84:in `catch'
+  thin (1.6.2) lib/thin/connection.rb:84:in `pre_process'
+  thin (1.6.2) lib/thin/connection.rb:53:in `process'
+  thin (1.6.2) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine-1.0.3-x86 (mingw32) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine-1.0.3-x86 (mingw32) lib/eventmachine.rb:187:in `run'
+  thin (1.6.2) lib/thin/backends/base.rb:73:in `start'
+  thin (1.6.2) lib/thin/server.rb:162:in `start'
+  rack (1.4.5) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.5) lib/rack/server.rb:268:in `start'
+  railties (3.2.18) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.18) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.18) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.18) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+Started POST "/adminpalet" for 127.0.0.1 at 2014-08-07 12:18:22 +0530
+Processing by UserController#login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"LWBXkbBJedhKTjE7OVNGbHSWCo9/eNBOpdsd5mAKQjE=", "user"=>{"username"=>"admin", "password"=>"[FILTERED]"}}
+  Rendered user/login.html.erb within layouts/login (2.0ms)
+Completed 200 OK in 23.0ms (Views: 20.0ms | ActiveRecord: 1.0ms)
+Started GET "/assets/defaults.js" for 127.0.0.1 at 2014-08-07 12:18:22 +0530
+Served asset /defaults.js - 404 Not Found (1ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/defaults.js"):
+  actionpack (3.2.18) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.18) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.18) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.18) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.18) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.18) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/static.rb:63:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.18) lib/rails/engine.rb:484:in `call'
+  railties (3.2.18) lib/rails/application.rb:231:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.18) lib/rails/rack/log_tailer.rb:17:in `call'
+  thin (1.6.2) lib/thin/connection.rb:86:in `block in pre_process'
+  thin (1.6.2) lib/thin/connection.rb:84:in `catch'
+  thin (1.6.2) lib/thin/connection.rb:84:in `pre_process'
+  thin (1.6.2) lib/thin/connection.rb:53:in `process'
+  thin (1.6.2) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine-1.0.3-x86 (mingw32) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine-1.0.3-x86 (mingw32) lib/eventmachine.rb:187:in `run'
+  thin (1.6.2) lib/thin/backends/base.rb:73:in `start'
+  thin (1.6.2) lib/thin/server.rb:162:in `start'
+  rack (1.4.5) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.5) lib/rack/server.rb:268:in `start'
+  railties (3.2.18) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.18) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.18) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.18) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+Started POST "/adminpalet" for 127.0.0.1 at 2014-08-07 12:18:26 +0530
+Processing by UserController#login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"LWBXkbBJedhKTjE7OVNGbHSWCo9/eNBOpdsd5mAKQjE=", "user"=>{"username"=>"admin", "password"=>"[FILTERED]"}}
+Redirected to http://localhost:3000/user/dashboard
+Completed 302 Found in 3.0ms (ActiveRecord: 1.0ms)
+Started GET "/user/dashboard" for 127.0.0.1 at 2014-08-07 12:18:26 +0530
+Processing by UserController#dashboard as HTML
+  Rendered user/dashboard.html.erb within layouts/dashboard (1.0ms)
+  Rendered layouts/_main_menu.html.erb (0.0ms)
+Completed 200 OK in 15.0ms (Views: 13.0ms | ActiveRecord: 1.0ms)
+Started GET "/images/application/profile.png" for 127.0.0.1 at 2014-08-07 12:18:27 +0530
+
+ActionController::RoutingError (No route matches [GET] "/images/application/profile.png"):
+  actionpack (3.2.18) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.18) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.18) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.18) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.18) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.18) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/static.rb:63:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.18) lib/rails/engine.rb:484:in `call'
+  railties (3.2.18) lib/rails/application.rb:231:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.18) lib/rails/rack/log_tailer.rb:17:in `call'
+  thin (1.6.2) lib/thin/connection.rb:86:in `block in pre_process'
+  thin (1.6.2) lib/thin/connection.rb:84:in `catch'
+  thin (1.6.2) lib/thin/connection.rb:84:in `pre_process'
+  thin (1.6.2) lib/thin/connection.rb:53:in `process'
+  thin (1.6.2) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine-1.0.3-x86 (mingw32) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine-1.0.3-x86 (mingw32) lib/eventmachine.rb:187:in `run'
+  thin (1.6.2) lib/thin/backends/base.rb:73:in `start'
+  thin (1.6.2) lib/thin/server.rb:162:in `start'
+  rack (1.4.5) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.5) lib/rack/server.rb:268:in `start'
+  railties (3.2.18) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.18) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.18) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.18) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+Started GET "/images/application/logout.png" for 127.0.0.1 at 2014-08-07 12:18:27 +0530
+
+ActionController::RoutingError (No route matches [GET] "/images/application/logout.png"):
+  actionpack (3.2.18) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.18) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.18) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.18) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.18) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.18) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/static.rb:63:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.18) lib/rails/engine.rb:484:in `call'
+  railties (3.2.18) lib/rails/application.rb:231:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.18) lib/rails/rack/log_tailer.rb:17:in `call'
+  thin (1.6.2) lib/thin/connection.rb:86:in `block in pre_process'
+  thin (1.6.2) lib/thin/connection.rb:84:in `catch'
+  thin (1.6.2) lib/thin/connection.rb:84:in `pre_process'
+  thin (1.6.2) lib/thin/connection.rb:53:in `process'
+  thin (1.6.2) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine-1.0.3-x86 (mingw32) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine-1.0.3-x86 (mingw32) lib/eventmachine.rb:187:in `run'
+  thin (1.6.2) lib/thin/backends/base.rb:73:in `start'
+  thin (1.6.2) lib/thin/server.rb:162:in `start'
+  rack (1.4.5) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.5) lib/rack/server.rb:268:in `start'
+  railties (3.2.18) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.18) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.18) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.18) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+Started GET "/images/application/top-link-bg.png" for 127.0.0.1 at 2014-08-07 12:18:29 +0530
+
+ActionController::RoutingError (No route matches [GET] "/images/application/top-link-bg.png"):
+  actionpack (3.2.18) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.18) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.18) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.18) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.18) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.18) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/static.rb:63:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.18) lib/rails/engine.rb:484:in `call'
+  railties (3.2.18) lib/rails/application.rb:231:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.18) lib/rails/rack/log_tailer.rb:17:in `call'
+  thin (1.6.2) lib/thin/connection.rb:86:in `block in pre_process'
+  thin (1.6.2) lib/thin/connection.rb:84:in `catch'
+  thin (1.6.2) lib/thin/connection.rb:84:in `pre_process'
+  thin (1.6.2) lib/thin/connection.rb:53:in `process'
+  thin (1.6.2) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine-1.0.3-x86 (mingw32) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine-1.0.3-x86 (mingw32) lib/eventmachine.rb:187:in `run'
+  thin (1.6.2) lib/thin/backends/base.rb:73:in `start'
+  thin (1.6.2) lib/thin/server.rb:162:in `start'
+  rack (1.4.5) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.5) lib/rack/server.rb:268:in `start'
+  railties (3.2.18) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.18) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.18) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.18) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+Started GET "/user/logout" for 127.0.0.1 at 2014-08-07 12:18:29 +0530
+Processing by UserController#logout as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 3.0ms (ActiveRecord: 1.0ms)
+Started GET "/" for 127.0.0.1 at 2014-08-07 12:18:29 +0530
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/main (4.0ms)
+  Rendered layouts/_main_form.html.erb (0.0ms)
+Completed 200 OK in 30.0ms (Views: 18.0ms | ActiveRecord: 5.0ms)
+Connecting to database specified by database.yml
+Started GET "/" for 127.0.0.1 at 2014-08-07 15:29:57 +0530
+Processing by MainController#index as HTML
+Completed 500 Internal Server Error in 2.0ms
+
+ActiveRecord::StatementInvalid (Mysql2::Error: MySQL server has gone away: SHOW FULL FIELDS FROM `topics`):
+  app/controllers/main_controller.rb:9:in `index'
+
+
+Started GET "/adminpalet" for 127.0.0.1 at 2014-08-07 15:30:03 +0530
+Processing by UserController#login as HTML
+  Rendered user/login.html.erb within layouts/login (88.0ms)
+Completed 200 OK in 228.2ms (Views: 228.2ms | ActiveRecord: 0.0ms)
+Started GET "/" for 127.0.0.1 at 2014-08-07 16:14:51 +0530
+Processing by MainController#index as HTML
+Completed 500 Internal Server Error in 6.0ms
+
+ActiveRecord::StatementInvalid (Mysql2::Error: Table 'cms.topics' doesn't exist: SHOW FULL FIELDS FROM `topics`):
+  app/controllers/main_controller.rb:9:in `index'
+
+
+Connecting to database specified by database.yml
+Started GET "/" for 127.0.0.1 at 2014-08-07 16:19:35 +0530
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/main (155.0ms)
+  Rendered layouts/_main_form.html.erb (1.0ms)
+Completed 200 OK in 467.1ms (Views: 391.1ms | ActiveRecord: 16.0ms)
+Started GET "/" for 127.0.0.1 at 2014-08-07 16:20:20 +0530
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/main (37.0ms)
+  Rendered layouts/_main_form.html.erb (0.0ms)
+Completed 200 OK in 65.0ms (Views: 50.0ms | ActiveRecord: 7.0ms)
+Started GET "/" for 127.0.0.1 at 2014-08-07 16:20:20 +0530
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/main (3.0ms)
+  Rendered layouts/_main_form.html.erb (1.0ms)
+Completed 200 OK in 30.0ms (Views: 16.0ms | ActiveRecord: 8.0ms)
+Connecting to database specified by database.yml
+Started GET "/" for 127.0.0.1 at 2014-08-09 10:50:13 +0530
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/main (144.0ms)
+  Rendered layouts/_main_form.html.erb (2.0ms)
+Completed 200 OK in 587.1ms (Views: 370.0ms | ActiveRecord: 142.0ms)
+Started GET "/" for 127.0.0.1 at 2014-08-09 10:51:17 +0530
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/main (0.0ms)
+  Rendered layouts/_main_form.html.erb (0.0ms)
+Completed 200 OK in 31.2ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+Started GET "/news" for 127.0.0.1 at 2014-08-09 10:51:46 +0530
+Processing by MainController#mainpage as HTML
+  Rendered main/_newslist.html.erb (15.6ms)
+  Rendered main/mainpage.html.erb within layouts/main (36.2ms)
+  Rendered layouts/_main_form.html.erb (0.0ms)
+Completed 200 OK in 63.8ms (Views: 58.8ms | ActiveRecord: 1.0ms)
+Started GET "/main/news/1" for 127.0.0.1 at 2014-08-09 10:51:49 +0530
+Processing by MainController#news as HTML
+  Parameters: {"id"=>"1"}
+Completed 406 Not Acceptable in 4.0ms (ActiveRecord: 2.0ms)
+Started GET "/main/news/2" for 127.0.0.1 at 2014-08-09 10:51:50 +0530
+Processing by MainController#news as HTML
+  Parameters: {"id"=>"2"}
+Completed 406 Not Acceptable in 5.0ms (ActiveRecord: 2.0ms)
+Started GET "/main/news/4" for 127.0.0.1 at 2014-08-09 10:51:50 +0530
+Processing by MainController#news as HTML
+  Parameters: {"id"=>"4"}
+Completed 406 Not Acceptable in 5.0ms (ActiveRecord: 2.0ms)
+Started GET "/main/news/3" for 127.0.0.1 at 2014-08-09 10:51:53 +0530
+Processing by MainController#news as HTML
+  Parameters: {"id"=>"3"}
+Completed 406 Not Acceptable in 4.0ms (ActiveRecord: 2.0ms)
+Started GET "/main/news/5" for 127.0.0.1 at 2014-08-09 10:51:53 +0530
+Processing by MainController#news as HTML
+  Parameters: {"id"=>"5"}
+Completed 406 Not Acceptable in 4.0ms (ActiveRecord: 2.0ms)
+Started GET "/main/news/2" for 127.0.0.1 at 2014-08-09 10:51:56 +0530
+Processing by MainController#news as HTML
+  Parameters: {"id"=>"2"}
+Completed 406 Not Acceptable in 2.0ms (ActiveRecord: 2.0ms)
+Started GET "/main/news/1" for 127.0.0.1 at 2014-08-09 10:51:57 +0530
+Processing by MainController#news as HTML
+  Parameters: {"id"=>"1"}
+Completed 406 Not Acceptable in 5.0ms (ActiveRecord: 2.0ms)
+Started GET "/main/all/1" for 127.0.0.1 at 2014-08-09 10:52:02 +0530
+Processing by MainController#all as HTML
+  Parameters: {"id"=>"1"}
+  Rendered main/all.html.erb within layouts/main (12.0ms)
+  Rendered layouts/_main_form.html.erb (1.0ms)
+Completed 200 OK in 39.0ms (Views: 33.0ms | ActiveRecord: 4.0ms)
+Started GET "/main/all/1?page=2" for 127.0.0.1 at 2014-08-09 10:52:08 +0530
+Processing by MainController#all as HTML
+  Parameters: {"page"=>"2", "id"=>"1"}
+  Rendered main/all.html.erb within layouts/main (4.0ms)
+  Rendered layouts/_main_form.html.erb (1.0ms)
+Completed 200 OK in 62.0ms (Views: 57.0ms | ActiveRecord: 3.0ms)
+Started GET "/main/all/1?page=2" for 127.0.0.1 at 2014-08-09 10:52:10 +0530
+Processing by MainController#all as HTML
+  Parameters: {"page"=>"2", "id"=>"1"}
+  Rendered main/all.html.erb within layouts/main (3.0ms)
+  Rendered layouts/_main_form.html.erb (1.0ms)
+Completed 200 OK in 20.0ms (Views: 16.0ms | ActiveRecord: 1.0ms)
