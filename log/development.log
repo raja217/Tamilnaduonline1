@@ -4268,3 +4268,146 @@ Served asset /application.js - 304 Not Modified (0ms)
 
 Started GET "/assets/ckeditor/ckeditor.js" for 127.0.0.1 at 2014-08-20 21:41:33 +0530
 Served asset /ckeditor/ckeditor.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-20 22:05:06 +0530
+Processing by MainController#index as HTML
+  [1m[36mTopic Load (1.0ms)[0m  [1mSELECT `topics`.* FROM `topics` WHERE `topics`.`id` = 1 ORDER BY topics.order LIMIT 1[0m
+  [1m[35mTopic Load (0.0ms)[0m  SELECT `topics`.* FROM `topics` WHERE `topics`.`id` = 2 ORDER BY topics.order LIMIT 1
+  [1m[36mNews Load (1.0ms)[0m  [1mSELECT `news`.* FROM `news` WHERE (topics_id=1) ORDER BY updated_at desc[0m
+  [1m[35mNews Load (1.0ms)[0m  SELECT `news`.* FROM `news` WHERE (topics_id=2) ORDER BY updated_at desc
+Completed 404 Not Found in 54.0ms
+
+ActiveRecord::RecordNotFound (Couldn't find Topic without an ID):
+  app/controllers/main_controller.rb:13:in `index'
+
+
+  Rendered C:/Ruby193/lib/ruby/gems/1.9.1/gems/actionpack-3.2.18/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered C:/Ruby193/lib/ruby/gems/1.9.1/gems/actionpack-3.2.18/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered C:/Ruby193/lib/ruby/gems/1.9.1/gems/actionpack-3.2.18/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-20 22:05:47 +0530
+Processing by MainController#index as HTML
+  [1m[36mTopic Load (0.0ms)[0m  [1mSELECT `topics`.* FROM `topics` WHERE `topics`.`id` = 1 ORDER BY topics.order LIMIT 1[0m
+  [1m[35mTopic Load (0.0ms)[0m  SELECT `topics`.* FROM `topics` WHERE `topics`.`id` = 2 ORDER BY topics.order LIMIT 1
+  [1m[36mNews Load (0.0ms)[0m  [1mSELECT `news`.* FROM `news` WHERE (topics_id=1) ORDER BY updated_at desc[0m
+  [1m[35mNews Load (1.0ms)[0m  SELECT `news`.* FROM `news` WHERE (topics_id=2) ORDER BY updated_at desc
+Completed 404 Not Found in 73.0ms
+
+ActiveRecord::RecordNotFound (Couldn't find Topic without an ID):
+  app/controllers/main_controller.rb:13:in `index'
+
+
+  Rendered C:/Ruby193/lib/ruby/gems/1.9.1/gems/actionpack-3.2.18/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered C:/Ruby193/lib/ruby/gems/1.9.1/gems/actionpack-3.2.18/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered C:/Ruby193/lib/ruby/gems/1.9.1/gems/actionpack-3.2.18/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-20 22:05:48 +0530
+Processing by MainController#index as HTML
+  [1m[36mTopic Load (0.0ms)[0m  [1mSELECT `topics`.* FROM `topics` WHERE `topics`.`id` = 1 ORDER BY topics.order LIMIT 1[0m
+  [1m[35mTopic Load (1.0ms)[0m  SELECT `topics`.* FROM `topics` WHERE `topics`.`id` = 2 ORDER BY topics.order LIMIT 1
+  [1m[36mNews Load (1.0ms)[0m  [1mSELECT `news`.* FROM `news` WHERE (topics_id=1) ORDER BY updated_at desc[0m
+  [1m[35mNews Load (1.0ms)[0m  SELECT `news`.* FROM `news` WHERE (topics_id=2) ORDER BY updated_at desc
+Completed 404 Not Found in 7.0ms
+
+ActiveRecord::RecordNotFound (Couldn't find Topic without an ID):
+  app/controllers/main_controller.rb:13:in `index'
+
+
+  Rendered C:/Ruby193/lib/ruby/gems/1.9.1/gems/actionpack-3.2.18/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered C:/Ruby193/lib/ruby/gems/1.9.1/gems/actionpack-3.2.18/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered C:/Ruby193/lib/ruby/gems/1.9.1/gems/actionpack-3.2.18/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-20 22:06:03 +0530
+Processing by MainController#index as HTML
+  [1m[36mTopic Load (0.0ms)[0m  [1mSELECT `topics`.* FROM `topics` WHERE `topics`.`id` = 1 ORDER BY topics.order LIMIT 1[0m
+  [1m[35mTopic Load (26.0ms)[0m  SELECT `topics`.* FROM `topics` WHERE `topics`.`id` = 2 ORDER BY topics.order LIMIT 1
+  [1m[36mNews Load (1.0ms)[0m  [1mSELECT `news`.* FROM `news` WHERE (topics_id=1) ORDER BY updated_at desc[0m
+  [1m[35mNews Load (0.0ms)[0m  SELECT `news`.* FROM `news` WHERE (topics_id=2) ORDER BY updated_at desc
+  [1m[36mTopic Load (8.0ms)[0m  [1mSELECT `topics`.* FROM `topics` WHERE `topics`.`id` = 'all' AND (video=1) ORDER BY topics.order LIMIT 1[0m
+  [1m[35mNews Load (1.0ms)[0m  SELECT `news`.* FROM `news` WHERE (topics_id=NULL) ORDER BY updated_at asc
+  [1m[36mTopic Load (0.0ms)[0m  [1mSELECT `topics`.* FROM `topics` ORDER BY topics.order[0m
+  Rendered main/index.html.erb within layouts/main (3.0ms)
+Completed 500 Internal Server Error in 91.0ms
+
+ActionView::Template::Error (undefined method `link' for nil:NilClass):
+    8:     <div id="slider2">
+    9:            <ul>
+    10:                 <li id="first" class="firstanimation">
+    11:                     <%= raw(youtube_embed(@videos.last.link)) %>
+    12:                 </li>
+    13:             </ul>
+    14:         </div>
+  app/views/main/index.html.erb:11:in `_app_views_main_index_html_erb__953555462_39499608'
+  app/controllers/main_controller.rb:16:in `index'
+
+
+  Rendered C:/Ruby193/lib/ruby/gems/1.9.1/gems/actionpack-3.2.18/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered C:/Ruby193/lib/ruby/gems/1.9.1/gems/actionpack-3.2.18/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered C:/Ruby193/lib/ruby/gems/1.9.1/gems/actionpack-3.2.18/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (15.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-20 22:07:56 +0530
+Processing by MainController#index as HTML
+  [1m[35mTopic Load (0.0ms)[0m  SELECT `topics`.* FROM `topics` WHERE `topics`.`id` = 1 ORDER BY topics.order LIMIT 1
+  [1m[36mTopic Load (1.0ms)[0m  [1mSELECT `topics`.* FROM `topics` WHERE `topics`.`id` = 2 ORDER BY topics.order LIMIT 1[0m
+  [1m[35mNews Load (1.0ms)[0m  SELECT `news`.* FROM `news` WHERE (topics_id=1) ORDER BY updated_at desc
+  [1m[36mNews Load (1.0ms)[0m  [1mSELECT `news`.* FROM `news` WHERE (topics_id=2) ORDER BY updated_at desc[0m
+  [1m[35mTopic Load (0.0ms)[0m  SELECT `topics`.* FROM `topics` WHERE `id`.`conditions` IN ('video=1') ORDER BY topics.order LIMIT 1
+Mysql2::Error: Unknown column 'id.conditions' in 'where clause': SELECT  `topics`.* FROM `topics`  WHERE `id`.`conditions` IN ('video=1') ORDER BY topics.order LIMIT 1
+Completed 500 Internal Server Error in 49.0ms
+
+ActiveRecord::StatementInvalid (Mysql2::Error: Unknown column 'id.conditions' in 'where clause': SELECT  `topics`.* FROM `topics`  WHERE `id`.`conditions` IN ('video=1') ORDER BY topics.order LIMIT 1):
+  app/controllers/main_controller.rb:13:in `index'
+
+
+  Rendered C:/Ruby193/lib/ruby/gems/1.9.1/gems/actionpack-3.2.18/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered C:/Ruby193/lib/ruby/gems/1.9.1/gems/actionpack-3.2.18/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered C:/Ruby193/lib/ruby/gems/1.9.1/gems/actionpack-3.2.18/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-20 22:08:14 +0530
+Processing by MainController#index as HTML
+  [1m[36mTopic Load (1.0ms)[0m  [1mSELECT `topics`.* FROM `topics` WHERE `topics`.`id` = 1 ORDER BY topics.order LIMIT 1[0m
+  [1m[35mTopic Load (0.0ms)[0m  SELECT `topics`.* FROM `topics` WHERE `topics`.`id` = 2 ORDER BY topics.order LIMIT 1
+  [1m[36mNews Load (1.0ms)[0m  [1mSELECT `news`.* FROM `news` WHERE (topics_id=1) ORDER BY updated_at desc[0m
+  [1m[35mNews Load (1.0ms)[0m  SELECT `news`.* FROM `news` WHERE (topics_id=2) ORDER BY updated_at desc
+  [1m[36mTopic Load (0.0ms)[0m  [1mSELECT `topics`.* FROM `topics` ORDER BY topics.order DESC LIMIT 1[0m
+  [1m[35mNews Load (0.0ms)[0m  SELECT `news`.* FROM `news` WHERE (topics_id=5) ORDER BY updated_at asc
+  [1m[36mTopic Load (0.0ms)[0m  [1mSELECT `topics`.* FROM `topics` ORDER BY topics.order[0m
+  Rendered main/index.html.erb within layouts/main (2.0ms)
+  Rendered layouts/_main_form.html.erb (1.0ms)
+Completed 200 OK in 58.0ms (Views: 8.0ms | ActiveRecord: 16.0ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2014-08-20 22:08:14 +0530
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/ckeditor/ckeditor.js" for 127.0.0.1 at 2014-08-20 22:08:14 +0530
+Served asset /ckeditor/ckeditor.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-20 22:09:30 +0530
+Processing by MainController#index as HTML
+  [1m[35mTopic Load (0.0ms)[0m  SELECT `topics`.* FROM `topics` WHERE `topics`.`id` = 1 ORDER BY topics.order LIMIT 1
+  [1m[36mTopic Load (0.0ms)[0m  [1mSELECT `topics`.* FROM `topics` WHERE `topics`.`id` = 2 ORDER BY topics.order LIMIT 1[0m
+  [1m[35mNews Load (1.0ms)[0m  SELECT `news`.* FROM `news` WHERE (topics_id=1) ORDER BY updated_at desc
+  [1m[36mNews Load (1.0ms)[0m  [1mSELECT `news`.* FROM `news` WHERE (topics_id=2) ORDER BY updated_at desc[0m
+  [1m[35mTopic Load (1.0ms)[0m  SELECT `topics`.* FROM `topics` ORDER BY topics.order DESC LIMIT 1
+  [1m[36mNews Load (1.0ms)[0m  [1mSELECT `news`.* FROM `news` WHERE (topics_id=5) ORDER BY updated_at asc[0m
+  [1m[35mTopic Load (1.0ms)[0m  SELECT `topics`.* FROM `topics` ORDER BY topics.order
+  Rendered main/index.html.erb within layouts/main (2.0ms)
+  Rendered layouts/_main_form.html.erb (1.0ms)
+Completed 200 OK in 19.0ms (Views: 8.0ms | ActiveRecord: 5.0ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2014-08-20 22:09:30 +0530
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ckeditor/ckeditor.js" for 127.0.0.1 at 2014-08-20 22:09:30 +0530
+Served asset /ckeditor/ckeditor.js - 304 Not Modified (1ms)

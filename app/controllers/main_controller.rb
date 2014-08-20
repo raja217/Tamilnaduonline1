@@ -6,8 +6,8 @@ class MainController < ApplicationController
 		'main'
 	end
 	def index
-		@topic = Topic.find_by_order(1)
-		@topic1 = Topic.find_by_order(2)
+		@topic = Topic.find(1)
+		@topic1 = Topic.find(2)
 		@pictures = News.find(:all, :conditions => ['topics_id=?', @topic],:order=>'updated_at desc')
 		@pic = News.find(:all, :conditions => ['topics_id=?', @topic1],:order=>'updated_at desc')
 		@vid = Topic.last
