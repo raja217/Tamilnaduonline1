@@ -4412,3 +4412,80 @@ Served asset /application.js - 304 Not Modified (0ms)
 Started GET "/assets/ckeditor/ckeditor.js" for 127.0.0.1 at 2014-08-20 22:09:30 +0530
 Served asset /ckeditor/ckeditor.js - 304 Not Modified (1ms)
 Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-20 22:25:03 +0530
+Connecting to database specified by database.yml
+Processing by MainController#index as HTML
+  [1m[36mTopic Load (346.0ms)[0m  [1mSELECT "topics".* FROM "topics" WHERE "topics"."id" = 1 ORDER BY topics.order LIMIT 1[0m
+  [1m[35mTopic Load (322.0ms)[0m  SELECT "topics".* FROM "topics" WHERE "topics"."id" = 2 ORDER BY topics.order LIMIT 1
+  [1m[36mNews Load (352.0ms)[0m  [1mSELECT "news".* FROM "news" WHERE (topics_id=1) ORDER BY updated_at desc[0m
+  [1m[35mEXPLAIN (304.0ms)[0m  EXPLAIN SELECT "news".* FROM "news" WHERE (topics_id=1) ORDER BY updated_at desc
+EXPLAIN for: SELECT "news".* FROM "news"  WHERE (topics_id=1) ORDER BY updated_at desc
+                          QUERY PLAN
+--------------------------------------------------------------
+ Sort  (cost=10.25..10.25 rows=1 width=1132)
+   Sort Key: updated_at
+   ->  Seq Scan on news  (cost=0.00..10.24 rows=1 width=1132)
+         Filter: (topics_id = 1)
+(4 rows)
+
+  [1m[36mNews Load (341.0ms)[0m  [1mSELECT "news".* FROM "news" WHERE (topics_id=2) ORDER BY updated_at desc[0m
+Completed 500 Internal Server Error in 3775.5ms
+
+ActiveRecord::PreparedStatementInvalid (wrong number of bind variables (0 for 1) in: video=true?):
+  app/controllers/main_controller.rb:13:in `index'
+
+
+  Rendered C:/Ruby193/lib/ruby/gems/1.9.1/gems/actionpack-3.2.18/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered C:/Ruby193/lib/ruby/gems/1.9.1/gems/actionpack-3.2.18/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered C:/Ruby193/lib/ruby/gems/1.9.1/gems/actionpack-3.2.18/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (40.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-20 22:25:18 +0530
+Processing by MainController#index as HTML
+  [1m[35mTopic Load (314.0ms)[0m  SELECT "topics".* FROM "topics" WHERE "topics"."id" = 1 ORDER BY topics.order LIMIT 1
+  [1m[36mTopic Load (307.0ms)[0m  [1mSELECT "topics".* FROM "topics" WHERE "topics"."id" = 2 ORDER BY topics.order LIMIT 1[0m
+  [1m[35mNews Load (341.0ms)[0m  SELECT "news".* FROM "news" WHERE (topics_id=1) ORDER BY updated_at desc
+  [1m[36mNews Load (330.0ms)[0m  [1mSELECT "news".* FROM "news" WHERE (topics_id=2) ORDER BY updated_at desc[0m
+Completed 500 Internal Server Error in 1297.2ms
+
+ActiveRecord::PreparedStatementInvalid (wrong number of bind variables (0 for 1) in: video=true?):
+  app/controllers/main_controller.rb:13:in `index'
+
+
+  Rendered C:/Ruby193/lib/ruby/gems/1.9.1/gems/actionpack-3.2.18/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered C:/Ruby193/lib/ruby/gems/1.9.1/gems/actionpack-3.2.18/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/Ruby193/lib/ruby/gems/1.9.1/gems/actionpack-3.2.18/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (14.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-20 22:25:37 +0530
+Processing by MainController#index as HTML
+  [1m[35mTopic Load (319.0ms)[0m  SELECT "topics".* FROM "topics" WHERE "topics"."id" = 1 ORDER BY topics.order LIMIT 1
+  [1m[36mTopic Load (312.0ms)[0m  [1mSELECT "topics".* FROM "topics" WHERE "topics"."id" = 2 ORDER BY topics.order LIMIT 1[0m
+  [1m[35mNews Load (343.0ms)[0m  SELECT "news".* FROM "news" WHERE (topics_id=1) ORDER BY updated_at desc
+  [1m[36mEXPLAIN (346.0ms)[0m  [1mEXPLAIN SELECT "news".* FROM "news" WHERE (topics_id=1) ORDER BY updated_at desc[0m
+EXPLAIN for: SELECT "news".* FROM "news"  WHERE (topics_id=1) ORDER BY updated_at desc
+                          QUERY PLAN
+--------------------------------------------------------------
+ Sort  (cost=10.25..10.25 rows=1 width=1132)
+   Sort Key: updated_at
+   ->  Seq Scan on news  (cost=0.00..10.24 rows=1 width=1132)
+         Filter: (topics_id = 1)
+(4 rows)
+
+  [1m[35mNews Load (341.0ms)[0m  SELECT "news".* FROM "news" WHERE (topics_id=2) ORDER BY updated_at desc
+  [1m[36mTopic Load (330.0ms)[0m  [1mSELECT "topics".* FROM "topics" WHERE (video=true) ORDER BY topics.order[0m
+  [1m[35mNews Load (312.0ms)[0m  SELECT "news".* FROM "news" WHERE (topics_id=5) ORDER BY updated_at DESC LIMIT 1
+  [1m[36mTopic Load (333.0ms)[0m  [1mSELECT "topics".* FROM "topics" ORDER BY topics.order[0m
+  Rendered main/index.html.erb within layouts/main (76.0ms)
+  Rendered layouts/_main_form.html.erb (2.0ms)
+Completed 200 OK in 4827.6ms (Views: 90.0ms | ActiveRecord: 4686.6ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2014-08-20 22:25:42 +0530
+Served asset /application.js - 304 Not Modified (24ms)
+
+
+Started GET "/assets/ckeditor/ckeditor.js" for 127.0.0.1 at 2014-08-20 22:25:43 +0530
+Served asset /ckeditor/ckeditor.js - 304 Not Modified (10ms)
