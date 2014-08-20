@@ -1,25 +1,29 @@
 development:
-      host: 127.0.0.1
-      adapter: mysql2
-      database: cms
-      port: 3306
-      username: root
-      password: vinner
+   adapter: postgresql
+   host: ec2-54-204-36-244.compute-1.amazonaws.com
+   database: ddn9fmmv01cd6o
+   port: 5432
+   username: cutbpngohqknlr
+   password: 1bb0kA7wfNxxlfK1zRK3nnus_6
+   psql: heroku pg:psql --app cms1 black
+   URL:  postgres://cutbpngohqknlr:1bb0kA7wfNxxlfK1zRK3nnus_6@ec2-54-204-36-244.compute-1.amazonaws.com:5432/ddn9fmmv01cd6o
 
 test: &test
-      host: 127.0.0.1
-      adapter: mysql2
-      database: cms
-      port: 3306
-      username: root
-      password: vinner
+   adapter: postgresql
+   host: ec2-54-204-36-244.compute-1.amazonaws.com
+   database: ddn9fmmv01cd6o
+   port: 5432
+   username: cutbpngohqknlr
+   password: 1bb0kA7wfNxxlfK1zRK3nnus_6
+   psql: heroku pg:psql --app cms1 black
+   URL:  postgres://cutbpngohqknlr:1bb0kA7wfNxxlfK1zRK3nnus_6@ec2-54-204-36-244.compute-1.amazonaws.com:5432/ddn9fmmv01cd6o 
 
 production:
-      host: 127.0.0.1
-      adapter: mysql2
-      database: cms
-      port: 3306
-      username: root
-      password: vinner
-cucumber:
-  <<: *test
+   adapter: postgresql
+   host: ec2-54-204-36-244.compute-1.amazonaws.com
+   database: ddn9fmmv01cd6o
+   port: 5432
+   username: cutbpngohqknlr
+   password: 1bb0kA7wfNxxlfK1zRK3nnus_6
+   psql: heroku pg:psql --app cms1 black
+   URL:  postgres://cutbpngohqknlr:1bb0kA7wfNxxlfK1zRK3nnus_6@ec2-54-204-36-244.compute-1.amazonaws.com:5432/ddn9fmmv01cd6o
