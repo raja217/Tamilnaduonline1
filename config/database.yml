@@ -1,9 +1,9 @@
 production:
-  adapter: postgresql
-  host:      ec2-54-225-243-113.compute-1.amazonaws.com
-  database:  d53m34lo6eoc9e
-  user:      zqynafkimfldvw
+  adapter: 	 postgresql
+  host:      ec2-54-225-103-9.compute-1.amazonaws.com
+  database:  dbt29f7h55lo9
+  user:      wekaeygcqruqzk
   port:      5432
-  password:  L-ky3K0QmiTX1IdA9Zn7QTm3hP
-  psql:      heroku pg:psql --app heroku-postgres-feac77f7 purple
-  URL:       postgres://zqynafkimfldvw:L-ky3K0QmiTX1IdA9Zn7QTm3hP@ec2-54-225-243-113.compute-1.amazonaws.com:5432/d53m34lo6eoc9e
+  password:  N9B5k6pOKr57BSLkrICsBhmYjm
+  psql:      heroku pg:psql --app tamilnaduliveonline gold
+  URL:       postgres://wekaeygcqruqzk:N9B5k6pOKr57BSLkrICsBhmYjm@ec2-54-225-103-9.compute-1.amazonaws.com:5432/dbt29f7h55lo9
