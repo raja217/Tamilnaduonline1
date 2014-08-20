@@ -1,27 +1,27 @@
 development:
-  adapter: postgresql
-  host: ec2-54-197-241-91.compute-1.amazonaws.com
-  database: d8h40f8ekc8936
-  user: bpovpbioixdkmc
-  port: 5432
-  password: i-Meh0UmasLTPEab6hxyDCjsnf
-  psql: heroku pg:psql --app tamilnaduliveonline mauve
-  URL: postgres://bpovpbioixdkmc:i-Meh0UmasLTPEab6hxyDCjsnf@ec2-54-197-241-91.compute-1.amazonaws.com:5432/d8h40f8ekc8936
+  adapter:  postgresql
+  host:     ec2-54-204-36-244.compute-1.amazonaws.com
+  database: ddn9fmmv01cd6o
+  user:     cutbpngohqknlr
+  port:     5432
+  password: 1bb0kA7wfNxxlfK1zRK3nnus_6
+  psql:     heroku pg:psql --app cms1 black
+  URL:      postgres://cutbpngohqknlr:1bb0kA7wfNxxlfK1zRK3nnus_6@ec2-54-204-36-244.compute-1.amazonaws.com:5432/ddn9fmmv01cd6o
 test:
-  adapter: postgresql
-  host: ec2-54-197-241-91.compute-1.amazonaws.com
-  database: d8h40f8ekc8936
-  user: bpovpbioixdkmc
+adapter: postgresql
+  host: ec2-54-204-36-244.compute-1.amazonaws.com
+  database: ddn9fmmv01cd6o
+  user: cutbpngohqknlr
   port: 5432
-  password: i-Meh0UmasLTPEab6hxyDCjsnf
-  psql: heroku pg:psql --app tamilnaduliveonline mauve
-  URL: postgres://bpovpbioixdkmc:i-Meh0UmasLTPEab6hxyDCjsnf@ec2-54-197-241-91.compute-1.amazonaws.com:5432/d8h40f8ekc8936
+  password: 1bb0kA7wfNxxlfK1zRK3nnus_6
+  psql: heroku pg:psql --app cms1 black
+  URL:  postgres://cutbpngohqknlr:1bb0kA7wfNxxlfK1zRK3nnus_6@ec2-54-204-36-244.compute-1.amazonaws.com:5432/ddn9fmmv01cd6o
 production:
-  adapter: postgresql
-  host: ec2-54-197-241-91.compute-1.amazonaws.com
-  database: d8h40f8ekc8936
-  user: bpovpbioixdkmc
+adapter: postgresql
+  host: ec2-54-204-36-244.compute-1.amazonaws.com
+  database: ddn9fmmv01cd6o
+  user: cutbpngohqknlr
   port: 5432
-  password: i-Meh0UmasLTPEab6hxyDCjsnf
-  psql: heroku pg:psql --app tamilnaduliveonline mauve
-  URL: postgres://bpovpbioixdkmc:i-Meh0UmasLTPEab6hxyDCjsnf@ec2-54-197-241-91.compute-1.amazonaws.com:5432/d8h40f8ekc8936
+  password: 1bb0kA7wfNxxlfK1zRK3nnus_6
+  psql: heroku pg:psql --app cms1 black
+  URL:  postgres://cutbpngohqknlr:1bb0kA7wfNxxlfK1zRK3nnus_6@ec2-54-204-36-244.compute-1.amazonaws.com:5432/ddn9fmmv01cd6o
