@@ -1,5 +1,5 @@
 production:
-  adapter: 	 postgresql
+  adapter:   postgresql
   host:      ec2-54-225-103-9.compute-1.amazonaws.com
   database:  dbt29f7h55lo9
   user:      wekaeygcqruqzk
