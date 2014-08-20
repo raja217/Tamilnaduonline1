@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-
+gem 'rails', '3.2.18'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
@@ -19,7 +19,6 @@ gem 'ImageResize'
 gem 'rdoc'
 gem 'pg'
 gem 'jquery-rails'
-gem 'protected_attributes'
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
