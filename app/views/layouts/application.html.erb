@@ -32,10 +32,10 @@
           </div>
           <div id="header_link" >
             <div id="profile-link">
-              <%#= link_to @current_user.firstname, {:controller => 'user', :action => 'profile'}, :class=>"profile-link" %>
+              <%= link_to @current_user.firstname, {:controller => 'user', :action => 'profile'}, :class=>"profile-link" %>
             </div>
             <div id="logout-link">
-              <%#= link_to "Logout", :controller => 'user', :action => 'logout'%>
+              <%= link_to "Logout", :controller => 'user', :action => 'logout'%>
             </div>
           </div>
         </div>

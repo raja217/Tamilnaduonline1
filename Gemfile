@@ -20,6 +20,7 @@ gem 'rdoc'
 gem 'pg'
 gem 'jquery-rails'
 gem 'rails_12factor', group: :production
+gem 'thin'
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
