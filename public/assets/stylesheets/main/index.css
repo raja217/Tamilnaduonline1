@@ -304,7 +304,8 @@ height: auto
 #lower_ad {
 	background-color: #000;
 	width: 500px;
-height: 122px;
+	height: 122px;
+	margin-top: 178px;
 }
 #read {
 	background-color:#47D3AC ;
