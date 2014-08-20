@@ -4,57 +4,7 @@
 </div>
 
 <div class= "page" id = "page">
-  <div class="container2">
-    <div id="slider2">
-           <ul>
-                <li id="first" class="firstanimation">
-                    <%= raw(youtube_embed(@videos.last.link)) %>
-                </li>
-            </ul>
-        </div>
-  </div>
-  <div class="container">
-    <div id="content-slider">
-      <%= @topic.name%>
-    </div>
-    <% @pictures.last(1).each do |p| %>
-      <div id="slider">
-            <ul>
-                <li>
-                    <%= link_to image_tag(p.icon_url), {:action => 'content', :id => p.id }, :target => "_blank" %>
-                    <div class = "title">
-                        <%= p.title.html_safe %>
-                    </div>
-                    
-                </li>
-            </ul>
-        </div>
-    <% end %>
-     <div id = "lower_ad">
-      <div id="poweredby">
-          <a><%= t('powered_by') %> <%= "'GiNews and Media sevices' and 'HLISE'" %></a><br/>
-          <%= "Copyright © 2014. All rights reserved." %>
-        </div>
-    </div>
-  </div>
-  <div class="container1">
-    <div id="content-slider1">
-      <%= @topic1.name%>
-    </div>
-    <% @pic.last(2).each do |p| %>
-      <div id="slider1">
-            <ul>
-                <li>
-                  <%= image_tag(p.icon_url)%>
-                    <div class = "title1">
-                        <%= link_to simple_format(p.title).html_safe, {:action => 'content', :id => p.id }, :target => "_blank" %>
-                    </div>
-                    
-                </li>
-            </ul>
-        </div>
-    <% end %>
-  </div>
+  
    <div id = "read">
       <%= link_to "Go to Portal",{:action => 'mainpage' } %>
     </div>
