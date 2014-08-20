@@ -2723,3 +2723,841 @@ Served asset /calendar_date_select/calendar_date_select.js - 304 Not Modified (0
 
 Started GET "/assets/calendar_date_select/blue.css" for 127.0.0.1 at 2014-08-20 15:40:31 +0530
 Served asset /calendar_date_select/blue.css - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-20 19:43:02 +0530
+Connecting to database specified by database.yml
+
+PG::Error (FATAL:  password authentication failed for user "Rajasekar"
+FATAL:  no pg_hba.conf entry for host "101.63.172.17", user "Rajasekar", database "ddn9fmmv01cd6o", SSL off
+):
+  activerecord (3.2.18) lib/active_record/connection_adapters/postgresql_adapter.rb:1222:in `initialize'
+  activerecord (3.2.18) lib/active_record/connection_adapters/postgresql_adapter.rb:1222:in `new'
+  activerecord (3.2.18) lib/active_record/connection_adapters/postgresql_adapter.rb:1222:in `connect'
+  activerecord (3.2.18) lib/active_record/connection_adapters/postgresql_adapter.rb:324:in `initialize'
+  activerecord (3.2.18) lib/active_record/connection_adapters/postgresql_adapter.rb:28:in `new'
+  activerecord (3.2.18) lib/active_record/connection_adapters/postgresql_adapter.rb:28:in `postgresql_connection'
+  activerecord (3.2.18) lib/active_record/connection_adapters/abstract/connection_pool.rb:315:in `new_connection'
+  activerecord (3.2.18) lib/active_record/connection_adapters/abstract/connection_pool.rb:325:in `checkout_new_connection'
+  activerecord (3.2.18) lib/active_record/connection_adapters/abstract/connection_pool.rb:247:in `block (2 levels) in checkout'
+  activerecord (3.2.18) lib/active_record/connection_adapters/abstract/connection_pool.rb:242:in `loop'
+  activerecord (3.2.18) lib/active_record/connection_adapters/abstract/connection_pool.rb:242:in `block in checkout'
+  C:/Ruby193/lib/ruby/1.9.1/monitor.rb:211:in `mon_synchronize'
+  activerecord (3.2.18) lib/active_record/connection_adapters/abstract/connection_pool.rb:239:in `checkout'
+  activerecord (3.2.18) lib/active_record/connection_adapters/abstract/connection_pool.rb:102:in `block in connection'
+  C:/Ruby193/lib/ruby/1.9.1/monitor.rb:211:in `mon_synchronize'
+  activerecord (3.2.18) lib/active_record/connection_adapters/abstract/connection_pool.rb:101:in `connection'
+  activerecord (3.2.18) lib/active_record/connection_adapters/abstract/connection_pool.rb:410:in `retrieve_connection'
+  activerecord (3.2.18) lib/active_record/connection_adapters/abstract/connection_specification.rb:171:in `retrieve_connection'
+  activerecord (3.2.18) lib/active_record/connection_adapters/abstract/connection_specification.rb:145:in `connection'
+  activerecord (3.2.18) lib/active_record/query_cache.rb:67:in `rescue in call'
+  activerecord (3.2.18) lib/active_record/query_cache.rb:61:in `call'
+  activerecord (3.2.18) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.18) lib/active_support/callbacks.rb:405:in `_run__829838323__call__897894269__callbacks'
+  activesupport (3.2.18) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.18) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.18) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.18) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.18) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.18) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.18) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.18) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.18) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.18) lib/rails/engine.rb:484:in `call'
+  railties (3.2.18) lib/rails/application.rb:231:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.18) lib/rails/rack/log_tailer.rb:17:in `call'
+  thin (1.6.2) lib/thin/connection.rb:86:in `block in pre_process'
+  thin (1.6.2) lib/thin/connection.rb:84:in `catch'
+  thin (1.6.2) lib/thin/connection.rb:84:in `pre_process'
+  thin (1.6.2) lib/thin/connection.rb:53:in `process'
+  thin (1.6.2) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine-1.0.3-x86 (mingw32) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine-1.0.3-x86 (mingw32) lib/eventmachine.rb:187:in `run'
+  thin (1.6.2) lib/thin/backends/base.rb:73:in `start'
+  thin (1.6.2) lib/thin/server.rb:162:in `start'
+  rack (1.4.5) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.5) lib/rack/server.rb:268:in `start'
+  railties (3.2.18) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.18) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.18) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.18) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+  Rendered C:/Ruby193/lib/ruby/gems/1.9.1/gems/actionpack-3.2.18/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered C:/Ruby193/lib/ruby/gems/1.9.1/gems/actionpack-3.2.18/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (11.0ms)
+  Rendered C:/Ruby193/lib/ruby/gems/1.9.1/gems/actionpack-3.2.18/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (44.0ms)
+
+
+Started GET "/adminpalet" for 127.0.0.1 at 2014-08-20 19:43:14 +0530
+
+PG::Error (FATAL:  password authentication failed for user "Rajasekar"
+FATAL:  no pg_hba.conf entry for host "101.63.172.17", user "Rajasekar", database "ddn9fmmv01cd6o", SSL off
+):
+  activerecord (3.2.18) lib/active_record/connection_adapters/postgresql_adapter.rb:1222:in `initialize'
+  activerecord (3.2.18) lib/active_record/connection_adapters/postgresql_adapter.rb:1222:in `new'
+  activerecord (3.2.18) lib/active_record/connection_adapters/postgresql_adapter.rb:1222:in `connect'
+  activerecord (3.2.18) lib/active_record/connection_adapters/postgresql_adapter.rb:324:in `initialize'
+  activerecord (3.2.18) lib/active_record/connection_adapters/postgresql_adapter.rb:28:in `new'
+  activerecord (3.2.18) lib/active_record/connection_adapters/postgresql_adapter.rb:28:in `postgresql_connection'
+  activerecord (3.2.18) lib/active_record/connection_adapters/abstract/connection_pool.rb:315:in `new_connection'
+  activerecord (3.2.18) lib/active_record/connection_adapters/abstract/connection_pool.rb:325:in `checkout_new_connection'
+  activerecord (3.2.18) lib/active_record/connection_adapters/abstract/connection_pool.rb:247:in `block (2 levels) in checkout'
+  activerecord (3.2.18) lib/active_record/connection_adapters/abstract/connection_pool.rb:242:in `loop'
+  activerecord (3.2.18) lib/active_record/connection_adapters/abstract/connection_pool.rb:242:in `block in checkout'
+  C:/Ruby193/lib/ruby/1.9.1/monitor.rb:211:in `mon_synchronize'
+  activerecord (3.2.18) lib/active_record/connection_adapters/abstract/connection_pool.rb:239:in `checkout'
+  activerecord (3.2.18) lib/active_record/connection_adapters/abstract/connection_pool.rb:102:in `block in connection'
+  C:/Ruby193/lib/ruby/1.9.1/monitor.rb:211:in `mon_synchronize'
+  activerecord (3.2.18) lib/active_record/connection_adapters/abstract/connection_pool.rb:101:in `connection'
+  activerecord (3.2.18) lib/active_record/connection_adapters/abstract/connection_pool.rb:410:in `retrieve_connection'
+  activerecord (3.2.18) lib/active_record/connection_adapters/abstract/connection_specification.rb:171:in `retrieve_connection'
+  activerecord (3.2.18) lib/active_record/connection_adapters/abstract/connection_specification.rb:145:in `connection'
+  activerecord (3.2.18) lib/active_record/query_cache.rb:67:in `rescue in call'
+  activerecord (3.2.18) lib/active_record/query_cache.rb:61:in `call'
+  activerecord (3.2.18) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.18) lib/active_support/callbacks.rb:405:in `_run__829838323__call__897894269__callbacks'
+  activesupport (3.2.18) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.18) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.18) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.18) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.18) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.18) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.18) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.18) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.18) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.18) lib/rails/engine.rb:484:in `call'
+  railties (3.2.18) lib/rails/application.rb:231:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.18) lib/rails/rack/log_tailer.rb:17:in `call'
+  thin (1.6.2) lib/thin/connection.rb:86:in `block in pre_process'
+  thin (1.6.2) lib/thin/connection.rb:84:in `catch'
+  thin (1.6.2) lib/thin/connection.rb:84:in `pre_process'
+  thin (1.6.2) lib/thin/connection.rb:53:in `process'
+  thin (1.6.2) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine-1.0.3-x86 (mingw32) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine-1.0.3-x86 (mingw32) lib/eventmachine.rb:187:in `run'
+  thin (1.6.2) lib/thin/backends/base.rb:73:in `start'
+  thin (1.6.2) lib/thin/server.rb:162:in `start'
+  rack (1.4.5) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.5) lib/rack/server.rb:268:in `start'
+  railties (3.2.18) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.18) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.18) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.18) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+  Rendered C:/Ruby193/lib/ruby/gems/1.9.1/gems/actionpack-3.2.18/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered C:/Ruby193/lib/ruby/gems/1.9.1/gems/actionpack-3.2.18/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered C:/Ruby193/lib/ruby/gems/1.9.1/gems/actionpack-3.2.18/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (18.0ms)
+
+
+Started GET "/adminpalet" for 127.0.0.1 at 2014-08-20 19:43:21 +0530
+
+PG::Error (FATAL:  password authentication failed for user "Rajasekar"
+FATAL:  no pg_hba.conf entry for host "101.63.172.17", user "Rajasekar", database "ddn9fmmv01cd6o", SSL off
+):
+  activerecord (3.2.18) lib/active_record/connection_adapters/postgresql_adapter.rb:1222:in `initialize'
+  activerecord (3.2.18) lib/active_record/connection_adapters/postgresql_adapter.rb:1222:in `new'
+  activerecord (3.2.18) lib/active_record/connection_adapters/postgresql_adapter.rb:1222:in `connect'
+  activerecord (3.2.18) lib/active_record/connection_adapters/postgresql_adapter.rb:324:in `initialize'
+  activerecord (3.2.18) lib/active_record/connection_adapters/postgresql_adapter.rb:28:in `new'
+  activerecord (3.2.18) lib/active_record/connection_adapters/postgresql_adapter.rb:28:in `postgresql_connection'
+  activerecord (3.2.18) lib/active_record/connection_adapters/abstract/connection_pool.rb:315:in `new_connection'
+  activerecord (3.2.18) lib/active_record/connection_adapters/abstract/connection_pool.rb:325:in `checkout_new_connection'
+  activerecord (3.2.18) lib/active_record/connection_adapters/abstract/connection_pool.rb:247:in `block (2 levels) in checkout'
+  activerecord (3.2.18) lib/active_record/connection_adapters/abstract/connection_pool.rb:242:in `loop'
+  activerecord (3.2.18) lib/active_record/connection_adapters/abstract/connection_pool.rb:242:in `block in checkout'
+  C:/Ruby193/lib/ruby/1.9.1/monitor.rb:211:in `mon_synchronize'
+  activerecord (3.2.18) lib/active_record/connection_adapters/abstract/connection_pool.rb:239:in `checkout'
+  activerecord (3.2.18) lib/active_record/connection_adapters/abstract/connection_pool.rb:102:in `block in connection'
+  C:/Ruby193/lib/ruby/1.9.1/monitor.rb:211:in `mon_synchronize'
+  activerecord (3.2.18) lib/active_record/connection_adapters/abstract/connection_pool.rb:101:in `connection'
+  activerecord (3.2.18) lib/active_record/connection_adapters/abstract/connection_pool.rb:410:in `retrieve_connection'
+  activerecord (3.2.18) lib/active_record/connection_adapters/abstract/connection_specification.rb:171:in `retrieve_connection'
+  activerecord (3.2.18) lib/active_record/connection_adapters/abstract/connection_specification.rb:145:in `connection'
+  activerecord (3.2.18) lib/active_record/query_cache.rb:67:in `rescue in call'
+  activerecord (3.2.18) lib/active_record/query_cache.rb:61:in `call'
+  activerecord (3.2.18) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.18) lib/active_support/callbacks.rb:405:in `_run__829838323__call__897894269__callbacks'
+  activesupport (3.2.18) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.18) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.18) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.18) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.18) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.18) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.18) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.18) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.18) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.18) lib/rails/engine.rb:484:in `call'
+  railties (3.2.18) lib/rails/application.rb:231:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.18) lib/rails/rack/log_tailer.rb:17:in `call'
+  thin (1.6.2) lib/thin/connection.rb:86:in `block in pre_process'
+  thin (1.6.2) lib/thin/connection.rb:84:in `catch'
+  thin (1.6.2) lib/thin/connection.rb:84:in `pre_process'
+  thin (1.6.2) lib/thin/connection.rb:53:in `process'
+  thin (1.6.2) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine-1.0.3-x86 (mingw32) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine-1.0.3-x86 (mingw32) lib/eventmachine.rb:187:in `run'
+  thin (1.6.2) lib/thin/backends/base.rb:73:in `start'
+  thin (1.6.2) lib/thin/server.rb:162:in `start'
+  rack (1.4.5) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.5) lib/rack/server.rb:268:in `start'
+  railties (3.2.18) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.18) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.18) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.18) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+  Rendered C:/Ruby193/lib/ruby/gems/1.9.1/gems/actionpack-3.2.18/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered C:/Ruby193/lib/ruby/gems/1.9.1/gems/actionpack-3.2.18/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered C:/Ruby193/lib/ruby/gems/1.9.1/gems/actionpack-3.2.18/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (22.0ms)
+
+
+Started GET "/adminpalet" for 127.0.0.1 at 2014-08-20 19:44:25 +0530
+Connecting to database specified by database.yml
+Processing by UserController#login as HTML
+  Rendered user/login.html.erb within layouts/login (55.0ms)
+Completed 200 OK in 110.0ms (Views: 106.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/defaults.js" for 127.0.0.1 at 2014-08-20 19:44:26 +0530
+Served asset /defaults.js - 404 Not Found (16ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/defaults.js"):
+  actionpack (3.2.18) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.18) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.18) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.18) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.18) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.18) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.18) lib/rails/engine.rb:484:in `call'
+  railties (3.2.18) lib/rails/application.rb:231:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.18) lib/rails/rack/log_tailer.rb:17:in `call'
+  thin (1.6.2) lib/thin/connection.rb:86:in `block in pre_process'
+  thin (1.6.2) lib/thin/connection.rb:84:in `catch'
+  thin (1.6.2) lib/thin/connection.rb:84:in `pre_process'
+  thin (1.6.2) lib/thin/connection.rb:53:in `process'
+  thin (1.6.2) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine-1.0.3-x86 (mingw32) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine-1.0.3-x86 (mingw32) lib/eventmachine.rb:187:in `run'
+  thin (1.6.2) lib/thin/backends/base.rb:73:in `start'
+  thin (1.6.2) lib/thin/server.rb:162:in `start'
+  rack (1.4.5) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.5) lib/rack/server.rb:268:in `start'
+  railties (3.2.18) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.18) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.18) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.18) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+  Rendered C:/Ruby193/lib/ruby/gems/1.9.1/gems/actionpack-3.2.18/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/assets/stylesheets/img/bg.png" for 127.0.0.1 at 2014-08-20 19:44:26 +0530
+Served asset /stylesheets/img/bg.png - 404 Not Found (3ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/stylesheets/img/bg.png"):
+  actionpack (3.2.18) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.18) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.18) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.18) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.18) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.18) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.18) lib/rails/engine.rb:484:in `call'
+  railties (3.2.18) lib/rails/application.rb:231:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.18) lib/rails/rack/log_tailer.rb:17:in `call'
+  thin (1.6.2) lib/thin/connection.rb:86:in `block in pre_process'
+  thin (1.6.2) lib/thin/connection.rb:84:in `catch'
+  thin (1.6.2) lib/thin/connection.rb:84:in `pre_process'
+  thin (1.6.2) lib/thin/connection.rb:53:in `process'
+  thin (1.6.2) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine-1.0.3-x86 (mingw32) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine-1.0.3-x86 (mingw32) lib/eventmachine.rb:187:in `run'
+  thin (1.6.2) lib/thin/backends/base.rb:73:in `start'
+  thin (1.6.2) lib/thin/server.rb:162:in `start'
+  rack (1.4.5) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.5) lib/rack/server.rb:268:in `start'
+  railties (3.2.18) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.18) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.18) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.18) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+  Rendered C:/Ruby193/lib/ruby/gems/1.9.1/gems/actionpack-3.2.18/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started POST "/adminpalet" for 127.0.0.1 at 2014-08-20 19:44:30 +0530
+Processing by UserController#login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"jeSt0eDMWk8PVmiEmwNNbJpM0/M5NOEJGDRK3b1HTA8=", "user"=>{"username"=>"admin", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (53.0ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`username` = 'admin' LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`username` = 'admin' LIMIT 1
+Redirected to http://localhost:3000/user/dashboard
+Completed 302 Found in 405.1ms (ActiveRecord: 334.0ms)
+
+
+Started GET "/user/dashboard" for 127.0.0.1 at 2014-08-20 19:44:31 +0530
+Processing by UserController#dashboard as HTML
+  [1m[36mUser Load (11.0ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+  Rendered user/dashboard.html.erb within layouts/dashboard (2.0ms)
+  Rendered layouts/_main_menu.html.erb (1.0ms)
+Completed 200 OK in 67.0ms (Views: 38.0ms | ActiveRecord: 11.0ms)
+
+
+Started GET "/assets/ckeditor/ckeditor.js" for 127.0.0.1 at 2014-08-20 19:44:31 +0530
+Served asset /ckeditor/ckeditor.js - 304 Not Modified (40ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2014-08-20 19:44:31 +0530
+Served asset /application.js - 304 Not Modified (92ms)
+
+
+Started GET "/images/application/profile.png" for 127.0.0.1 at 2014-08-20 19:44:32 +0530
+
+ActionController::RoutingError (No route matches [GET] "/images/application/profile.png"):
+  actionpack (3.2.18) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.18) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.18) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.18) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.18) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.18) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.18) lib/rails/engine.rb:484:in `call'
+  railties (3.2.18) lib/rails/application.rb:231:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.18) lib/rails/rack/log_tailer.rb:17:in `call'
+  thin (1.6.2) lib/thin/connection.rb:86:in `block in pre_process'
+  thin (1.6.2) lib/thin/connection.rb:84:in `catch'
+  thin (1.6.2) lib/thin/connection.rb:84:in `pre_process'
+  thin (1.6.2) lib/thin/connection.rb:53:in `process'
+  thin (1.6.2) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine-1.0.3-x86 (mingw32) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine-1.0.3-x86 (mingw32) lib/eventmachine.rb:187:in `run'
+  thin (1.6.2) lib/thin/backends/base.rb:73:in `start'
+  thin (1.6.2) lib/thin/server.rb:162:in `start'
+  rack (1.4.5) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.5) lib/rack/server.rb:268:in `start'
+  railties (3.2.18) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.18) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.18) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.18) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+  Rendered C:/Ruby193/lib/ruby/gems/1.9.1/gems/actionpack-3.2.18/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started GET "/images/application/logout.png" for 127.0.0.1 at 2014-08-20 19:44:32 +0530
+
+ActionController::RoutingError (No route matches [GET] "/images/application/logout.png"):
+  actionpack (3.2.18) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.18) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.18) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.18) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.18) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.18) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.18) lib/rails/engine.rb:484:in `call'
+  railties (3.2.18) lib/rails/application.rb:231:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.18) lib/rails/rack/log_tailer.rb:17:in `call'
+  thin (1.6.2) lib/thin/connection.rb:86:in `block in pre_process'
+  thin (1.6.2) lib/thin/connection.rb:84:in `catch'
+  thin (1.6.2) lib/thin/connection.rb:84:in `pre_process'
+  thin (1.6.2) lib/thin/connection.rb:53:in `process'
+  thin (1.6.2) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine-1.0.3-x86 (mingw32) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine-1.0.3-x86 (mingw32) lib/eventmachine.rb:187:in `run'
+  thin (1.6.2) lib/thin/backends/base.rb:73:in `start'
+  thin (1.6.2) lib/thin/server.rb:162:in `start'
+  rack (1.4.5) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.5) lib/rack/server.rb:268:in `start'
+  railties (3.2.18) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.18) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.18) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.18) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+  Rendered C:/Ruby193/lib/ruby/gems/1.9.1/gems/actionpack-3.2.18/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/topics" for 127.0.0.1 at 2014-08-20 19:44:33 +0530
+Processing by TopicsController#index as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+  [1m[36mTopic Load (0.0ms)[0m  [1mSELECT `topics`.* FROM `topics` ORDER BY topics.order[0m
+  Rendered topics/index.html.erb within layouts/application (6.0ms)
+  Rendered layouts/_main_menu.html.erb (1.0ms)
+Completed 200 OK in 253.0ms (Views: 40.0ms | ActiveRecord: 165.0ms)
+
+
+Started GET "/assets/calendar_date_select/blue.css" for 127.0.0.1 at 2014-08-20 19:44:33 +0530
+Served asset /calendar_date_select/blue.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/ckeditor/ckeditor.js" for 127.0.0.1 at 2014-08-20 19:44:34 +0530
+Served asset /ckeditor/ckeditor.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/calendar_date_select/calendar_date_select.js" for 127.0.0.1 at 2014-08-20 19:44:34 +0530
+Served asset /calendar_date_select/calendar_date_select.js - 304 Not Modified (12ms)
+
+
+Started GET "/news/select_topic" for 127.0.0.1 at 2014-08-20 19:45:41 +0530
+Processing by NewsController#select_topic as HTML
+  [1m[35mUser Load (1.0ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+  [1m[36mTopic Load (1.0ms)[0m  [1mSELECT `topics`.* FROM `topics` ORDER BY topics.order[0m
+  Rendered news/select_topic.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_main_menu.html.erb (1.0ms)
+Completed 200 OK in 25.0ms (Views: 21.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/calendar_date_select/blue.css" for 127.0.0.1 at 2014-08-20 19:45:41 +0530
+Served asset /calendar_date_select/blue.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/ckeditor/ckeditor.js" for 127.0.0.1 at 2014-08-20 19:45:41 +0530
+Served asset /ckeditor/ckeditor.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/calendar_date_select/calendar_date_select.js" for 127.0.0.1 at 2014-08-20 19:45:42 +0530
+Served asset /calendar_date_select/calendar_date_select.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/calendar_date_select/format_american.js" for 127.0.0.1 at 2014-08-20 19:45:42 +0530
+Compiled calendar_date_select/format_american.js  (0ms)  (pid 4240)
+Served asset /calendar_date_select/format_american.js - 200 OK (52ms)
+
+
+Started GET "/topics/1/news" for 127.0.0.1 at 2014-08-20 19:45:43 +0530
+Processing by NewsController#index as HTML
+  Parameters: {"topic_id"=>"1"}
+  [1m[35mUser Load (1.0ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+  [1m[36mTopic Load (0.0ms)[0m  [1mSELECT `topics`.* FROM `topics` WHERE `topics`.`id` = 1 ORDER BY topics.order LIMIT 1[0m
+  [1m[35mNews Load (17.0ms)[0m  SELECT `news`.* FROM `news` WHERE (topics_id=1)
+  [1m[36mNews Load (2.0ms)[0m  [1mSELECT `news`.* FROM `news` WHERE (topics_id=1) LIMIT 5 OFFSET 0[0m
+  Rendered news/index.html.erb within layouts/application (85.0ms)
+  Rendered layouts/_main_menu.html.erb (0.0ms)
+Completed 200 OK in 268.0ms (Views: 99.0ms | ActiveRecord: 84.0ms)
+
+
+Started GET "/assets/ckeditor/ckeditor.js" for 127.0.0.1 at 2014-08-20 19:45:44 +0530
+Served asset /ckeditor/ckeditor.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/calendar_date_select/blue.css" for 127.0.0.1 at 2014-08-20 19:45:44 +0530
+Served asset /calendar_date_select/blue.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/calendar_date_select/calendar_date_select.js" for 127.0.0.1 at 2014-08-20 19:45:44 +0530
+Served asset /calendar_date_select/calendar_date_select.js - 304 Not Modified (0ms)
+
+
+Started GET "/topics/1/news/1/edit" for 127.0.0.1 at 2014-08-20 19:45:49 +0530
+Processing by NewsController#edit as HTML
+  Parameters: {"topic_id"=>"1", "id"=>"1"}
+  [1m[35mUser Load (0.0ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+  [1m[36mNews Load (1.0ms)[0m  [1mSELECT `news`.* FROM `news` WHERE `news`.`id` = 1 LIMIT 1[0m
+  [1m[35mTopic Load (1.0ms)[0m  SELECT `topics`.* FROM `topics` WHERE `topics`.`id` = 1 ORDER BY topics.order LIMIT 1
+  Rendered news/_form1.html.erb (11.0ms)
+  Rendered news/edit.html.erb within layouts/application (21.0ms)
+  Rendered layouts/_main_menu.html.erb (1.0ms)
+Completed 200 OK in 34.0ms (Views: 29.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/calendar_date_select/calendar_date_select.js" for 127.0.0.1 at 2014-08-20 19:45:50 +0530
+Served asset /calendar_date_select/calendar_date_select.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ckeditor/ckeditor.js" for 127.0.0.1 at 2014-08-20 19:45:50 +0530
+Served asset /ckeditor/ckeditor.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/calendar_date_select/blue.css" for 127.0.0.1 at 2014-08-20 19:45:50 +0530
+Served asset /calendar_date_select/blue.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/ckeditor/config.js?t=E2PC" for 127.0.0.1 at 2014-08-20 19:45:50 +0530
+Compiled ckeditor/config.js  (0ms)  (pid 4240)
+Served asset /ckeditor/config.js - 200 OK (30ms)
+
+
+Started GET "/assets/ckeditor/styles.js?t=E2PC" for 127.0.0.1 at 2014-08-20 19:45:50 +0530
+Served asset /ckeditor/styles.js - 200 OK (12ms)
+
+
+Started GET "/assets/ckeditor/contents.css?t=E2PC" for 127.0.0.1 at 2014-08-20 19:45:50 +0530
+Served asset /ckeditor/contents.css - 200 OK (14ms)
+
+
+Started GET "/news/select_topic" for 127.0.0.1 at 2014-08-20 19:47:13 +0530
+Processing by NewsController#select_topic as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  [1m[35mTopic Load (1.0ms)[0m  SELECT `topics`.* FROM `topics` ORDER BY topics.order
+  Rendered news/select_topic.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_main_menu.html.erb (1.0ms)
+Completed 200 OK in 14.0ms (Views: 10.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/calendar_date_select/blue.css" for 127.0.0.1 at 2014-08-20 19:47:13 +0530
+Served asset /calendar_date_select/blue.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/ckeditor/ckeditor.js" for 127.0.0.1 at 2014-08-20 19:47:13 +0530
+Served asset /ckeditor/ckeditor.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/calendar_date_select/calendar_date_select.js" for 127.0.0.1 at 2014-08-20 19:47:13 +0530
+Served asset /calendar_date_select/calendar_date_select.js - 304 Not Modified (0ms)
+
+
+Started GET "/topics/2/news" for 127.0.0.1 at 2014-08-20 19:47:15 +0530
+Processing by NewsController#index as HTML
+  Parameters: {"topic_id"=>"2"}
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  [1m[35mTopic Load (0.0ms)[0m  SELECT `topics`.* FROM `topics` WHERE `topics`.`id` = 2 ORDER BY topics.order LIMIT 1
+  [1m[36mNews Load (20.0ms)[0m  [1mSELECT `news`.* FROM `news` WHERE (topics_id=2)[0m
+  [1m[35mNews Load (1.0ms)[0m  SELECT `news`.* FROM `news` WHERE (topics_id=2) LIMIT 5 OFFSET 0
+  Rendered news/index.html.erb within layouts/application (7.0ms)
+  Rendered layouts/_main_menu.html.erb (1.0ms)
+Completed 200 OK in 41.0ms (Views: 14.0ms | ActiveRecord: 22.0ms)
+
+
+Started GET "/assets/calendar_date_select/blue.css" for 127.0.0.1 at 2014-08-20 19:47:15 +0530
+Served asset /calendar_date_select/blue.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ckeditor/ckeditor.js" for 127.0.0.1 at 2014-08-20 19:47:15 +0530
+Served asset /ckeditor/ckeditor.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/calendar_date_select/calendar_date_select.js" for 127.0.0.1 at 2014-08-20 19:47:16 +0530
+Served asset /calendar_date_select/calendar_date_select.js - 304 Not Modified (0ms)
+
+
+Started GET "/topics/2/news/4/edit" for 127.0.0.1 at 2014-08-20 19:47:28 +0530
+Processing by NewsController#edit as HTML
+  Parameters: {"topic_id"=>"2", "id"=>"4"}
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  [1m[35mNews Load (1.0ms)[0m  SELECT `news`.* FROM `news` WHERE `news`.`id` = 4 LIMIT 1
+  [1m[36mTopic Load (0.0ms)[0m  [1mSELECT `topics`.* FROM `topics` WHERE `topics`.`id` = 2 ORDER BY topics.order LIMIT 1[0m
+  Rendered news/_form1.html.erb (2.0ms)
+  Rendered news/edit.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_main_menu.html.erb (1.0ms)
+Completed 200 OK in 15.0ms (Views: 11.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/calendar_date_select/calendar_date_select.js" for 127.0.0.1 at 2014-08-20 19:47:29 +0530
+Served asset /calendar_date_select/calendar_date_select.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/ckeditor/ckeditor.js" for 127.0.0.1 at 2014-08-20 19:47:29 +0530
+Served asset /ckeditor/ckeditor.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/calendar_date_select/blue.css" for 127.0.0.1 at 2014-08-20 19:47:29 +0530
+Served asset /calendar_date_select/blue.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ckeditor/config.js?t=E2PC" for 127.0.0.1 at 2014-08-20 19:47:29 +0530
+Served asset /ckeditor/config.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ckeditor/styles.js?t=E2PC" for 127.0.0.1 at 2014-08-20 19:47:31 +0530
+Served asset /ckeditor/styles.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ckeditor/contents.css?t=E2PC" for 127.0.0.1 at 2014-08-20 19:47:33 +0530
+Served asset /ckeditor/contents.css - 304 Not Modified (0ms)
+
+
+Started GET "/news/select_topic" for 127.0.0.1 at 2014-08-20 19:48:07 +0530
+Processing by NewsController#select_topic as HTML
+  [1m[35mUser Load (0.0ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+  [1m[36mTopic Load (1.0ms)[0m  [1mSELECT `topics`.* FROM `topics` ORDER BY topics.order[0m
+  Rendered news/select_topic.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_main_menu.html.erb (0.0ms)
+Completed 200 OK in 13.0ms (Views: 10.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/calendar_date_select/blue.css" for 127.0.0.1 at 2014-08-20 19:48:07 +0530
+Served asset /calendar_date_select/blue.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ckeditor/ckeditor.js" for 127.0.0.1 at 2014-08-20 19:48:07 +0530
+Served asset /ckeditor/ckeditor.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/calendar_date_select/calendar_date_select.js" for 127.0.0.1 at 2014-08-20 19:48:07 +0530
+Served asset /calendar_date_select/calendar_date_select.js - 304 Not Modified (0ms)
+
+
+Started GET "/topics/2/news" for 127.0.0.1 at 2014-08-20 19:49:10 +0530
+Processing by NewsController#index as HTML
+  Parameters: {"topic_id"=>"2"}
+  [1m[35mUser Load (1.0ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+  [1m[36mTopic Load (1.0ms)[0m  [1mSELECT `topics`.* FROM `topics` WHERE `topics`.`id` = 2 ORDER BY topics.order LIMIT 1[0m
+  [1m[35mNews Load (1.0ms)[0m  SELECT `news`.* FROM `news` WHERE (topics_id=2)
+  [1m[36mNews Load (1.0ms)[0m  [1mSELECT `news`.* FROM `news` WHERE (topics_id=2) LIMIT 5 OFFSET 0[0m
+  Rendered news/index.html.erb within layouts/application (9.0ms)
+  Rendered layouts/_main_menu.html.erb (0.0ms)
+Completed 200 OK in 24.0ms (Views: 17.0ms | ActiveRecord: 4.0ms)
+
+
+Started GET "/assets/calendar_date_select/blue.css" for 127.0.0.1 at 2014-08-20 19:49:10 +0530
+Served asset /calendar_date_select/blue.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ckeditor/ckeditor.js" for 127.0.0.1 at 2014-08-20 19:49:10 +0530
+Served asset /ckeditor/ckeditor.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/calendar_date_select/calendar_date_select.js" for 127.0.0.1 at 2014-08-20 19:49:10 +0530
+Served asset /calendar_date_select/calendar_date_select.js - 304 Not Modified (1ms)
+
+
+Started GET "/news/select_topic" for 127.0.0.1 at 2014-08-20 19:49:58 +0530
+Processing by NewsController#select_topic as HTML
+  [1m[35mUser Load (0.0ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+  [1m[36mTopic Load (1.0ms)[0m  [1mSELECT `topics`.* FROM `topics` ORDER BY topics.order[0m
+  Rendered news/select_topic.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_main_menu.html.erb (0.0ms)
+Completed 200 OK in 14.0ms (Views: 10.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/calendar_date_select/blue.css" for 127.0.0.1 at 2014-08-20 19:49:59 +0530
+Served asset /calendar_date_select/blue.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ckeditor/ckeditor.js" for 127.0.0.1 at 2014-08-20 19:49:59 +0530
+Served asset /ckeditor/ckeditor.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/calendar_date_select/calendar_date_select.js" for 127.0.0.1 at 2014-08-20 19:49:59 +0530
+Served asset /calendar_date_select/calendar_date_select.js - 304 Not Modified (0ms)
+
+
+Started GET "/topics/5/news" for 127.0.0.1 at 2014-08-20 19:50:00 +0530
+Processing by NewsController#index as HTML
+  Parameters: {"topic_id"=>"5"}
+  [1m[35mUser Load (0.0ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+  [1m[36mTopic Load (0.0ms)[0m  [1mSELECT `topics`.* FROM `topics` WHERE `topics`.`id` = 5 ORDER BY topics.order LIMIT 1[0m
+  [1m[35mNews Load (1.0ms)[0m  SELECT `news`.* FROM `news` WHERE (topics_id=5)
+  [1m[36mNews Load (1.0ms)[0m  [1mSELECT `news`.* FROM `news` WHERE (topics_id=5) LIMIT 5 OFFSET 0[0m
+  Rendered news/index.html.erb within layouts/application (5.0ms)
+  Rendered layouts/_main_menu.html.erb (1.0ms)
+Completed 200 OK in 20.0ms (Views: 12.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/calendar_date_select/blue.css" for 127.0.0.1 at 2014-08-20 19:50:01 +0530
+Served asset /calendar_date_select/blue.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ckeditor/ckeditor.js" for 127.0.0.1 at 2014-08-20 19:50:01 +0530
+Served asset /ckeditor/ckeditor.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/calendar_date_select/calendar_date_select.js" for 127.0.0.1 at 2014-08-20 19:50:01 +0530
+Served asset /calendar_date_select/calendar_date_select.js - 304 Not Modified (0ms)
+
+
+Started GET "/topics/5/news/13/edit" for 127.0.0.1 at 2014-08-20 19:50:06 +0530
+Processing by NewsController#edit as HTML
+  Parameters: {"topic_id"=>"5", "id"=>"13"}
+  [1m[35mUser Load (0.0ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+  [1m[36mNews Load (0.0ms)[0m  [1mSELECT `news`.* FROM `news` WHERE `news`.`id` = 13 LIMIT 1[0m
+  [1m[35mTopic Load (1.0ms)[0m  SELECT `topics`.* FROM `topics` WHERE `topics`.`id` = 5 ORDER BY topics.order LIMIT 1
+  Rendered news/_form1.html.erb (3.0ms)
+  Rendered news/edit.html.erb within layouts/application (4.0ms)
+  Rendered layouts/_main_menu.html.erb (1.0ms)
+Completed 200 OK in 17.0ms (Views: 13.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/calendar_date_select/blue.css" for 127.0.0.1 at 2014-08-20 19:50:07 +0530
+Served asset /calendar_date_select/blue.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ckeditor/ckeditor.js" for 127.0.0.1 at 2014-08-20 19:50:07 +0530
+Served asset /ckeditor/ckeditor.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/calendar_date_select/calendar_date_select.js" for 127.0.0.1 at 2014-08-20 19:50:07 +0530
+Served asset /calendar_date_select/calendar_date_select.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ckeditor/config.js?t=E2PC" for 127.0.0.1 at 2014-08-20 19:50:07 +0530
+Served asset /ckeditor/config.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ckeditor/styles.js?t=E2PC" for 127.0.0.1 at 2014-08-20 19:50:08 +0530
+Served asset /ckeditor/styles.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ckeditor/contents.css?t=E2PC" for 127.0.0.1 at 2014-08-20 19:50:08 +0530
+Served asset /ckeditor/contents.css - 304 Not Modified (1ms)
+
+
+Started GET "/user/logout" for 127.0.0.1 at 2014-08-20 19:51:43 +0530
+Processing by UserController#logout as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 2.0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-20 19:51:43 +0530
+
+AbstractController::ActionNotFound (The action 'index' could not be found for UserController):
+  actionpack (3.2.18) lib/abstract_controller/base.rb:116:in `process'
+  actionpack (3.2.18) lib/abstract_controller/rendering.rb:45:in `process'
+  actionpack (3.2.18) lib/action_controller/metal.rb:203:in `dispatch'
+  actionpack (3.2.18) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.18) lib/action_controller/metal.rb:246:in `block in action'
+  actionpack (3.2.18) lib/action_dispatch/routing/route_set.rb:73:in `call'
+  actionpack (3.2.18) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (3.2.18) lib/action_dispatch/routing/route_set.rb:36:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.18) lib/action_dispatch/routing/route_set.rb:608:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.5) lib/rack/etag.rb:23:in `call'
+  rack (1.4.5) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:210:in `context'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:205:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/cookies.rb:341:in `call'
+  activerecord (3.2.18) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.18) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.18) lib/active_support/callbacks.rb:405:in `_run__834646642__call__460179222__callbacks'
+  activesupport (3.2.18) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.18) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.18) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.18) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.18) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.18) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.18) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.18) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.18) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.18) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.18) lib/rails/engine.rb:484:in `call'
+  railties (3.2.18) lib/rails/application.rb:231:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.18) lib/rails/rack/log_tailer.rb:17:in `call'
+  thin (1.6.2) lib/thin/connection.rb:86:in `block in pre_process'
+  thin (1.6.2) lib/thin/connection.rb:84:in `catch'
+  thin (1.6.2) lib/thin/connection.rb:84:in `pre_process'
+  thin (1.6.2) lib/thin/connection.rb:53:in `process'
+  thin (1.6.2) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine-1.0.3-x86 (mingw32) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine-1.0.3-x86 (mingw32) lib/eventmachine.rb:187:in `run'
+  thin (1.6.2) lib/thin/backends/base.rb:73:in `start'
+  thin (1.6.2) lib/thin/server.rb:162:in `start'
+  rack (1.4.5) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.5) lib/rack/server.rb:268:in `start'
+  railties (3.2.18) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.18) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.18) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.18) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+  Rendered C:/Ruby193/lib/ruby/gems/1.9.1/gems/actionpack-3.2.18/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-20 19:52:25 +0530
+Processing by MainController#index as HTML
+  [1m[35mTopic Load (1.0ms)[0m  SELECT `topics`.* FROM `topics` WHERE `topics`.`order` = 1 ORDER BY topics.order LIMIT 1
+  [1m[36mTopic Load (1.0ms)[0m  [1mSELECT `topics`.* FROM `topics` WHERE `topics`.`order` = 2 ORDER BY topics.order LIMIT 1[0m
+  [1m[35mNews Load (2.0ms)[0m  SELECT `news`.* FROM `news` WHERE (topics_id=1) ORDER BY updated_at desc
+  [1m[36mNews Load (1.0ms)[0m  [1mSELECT `news`.* FROM `news` WHERE (topics_id=2) ORDER BY updated_at desc[0m
+  [1m[35mTopic Load (1.0ms)[0m  SELECT `topics`.* FROM `topics` ORDER BY topics.order DESC LIMIT 1
+  [1m[36mNews Load (1.0ms)[0m  [1mSELECT `news`.* FROM `news` WHERE (topics_id=5) ORDER BY updated_at asc[0m
+  [1m[35mTopic Load (1.0ms)[0m  SELECT `topics`.* FROM `topics` ORDER BY topics.order
+  Rendered main/index.html.erb within layouts/main (5.0ms)
+  Rendered layouts/_main_form.html.erb (2.0ms)
+Completed 200 OK in 109.0ms (Views: 52.0ms | ActiveRecord: 22.0ms)
+
+
+Started GET "/assets/ckeditor/ckeditor.js" for 127.0.0.1 at 2014-08-20 19:52:25 +0530
+Served asset /ckeditor/ckeditor.js - 304 Not Modified (0ms)
