@@ -1,4 +1,4 @@
-production:
+development:
   adapter: postgresql
   host:     ec2-54-204-36-244.compute-1.amazonaws.com
   database: ddn9fmmv01cd6o
@@ -8,7 +8,7 @@ production:
   psql:     heroku pg:psql --app cms1 black
   URL:      postgres://cutbpngohqknlr:1bb0kA7wfNxxlfK1zRK3nnus_6@ec2-54-204-36-244.compute-1.amazonaws.com:5432/ddn9fmmv01cd6o
 test:
-  adapter: postgresql
+adapter: postgresql
   host: ec2-54-204-36-244.compute-1.amazonaws.com
   database: ddn9fmmv01cd6o
   user: cutbpngohqknlr
@@ -16,8 +16,8 @@ test:
   password: 1bb0kA7wfNxxlfK1zRK3nnus_6
   psql: heroku pg:psql --app cms1 black
   URL:  postgres://cutbpngohqknlr:1bb0kA7wfNxxlfK1zRK3nnus_6@ec2-54-204-36-244.compute-1.amazonaws.com:5432/ddn9fmmv01cd6o
-development:
-  adapter: postgresql
+production:
+adapter: postgresql
   host: ec2-54-204-36-244.compute-1.amazonaws.com
   database: ddn9fmmv01cd6o
   user: cutbpngohqknlr
