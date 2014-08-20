@@ -1,29 +1,8 @@
-development:
-  adapter: mysql2
-  host: localhost
-  encoding: utf8
-  pool: 10
-  username: <%= ENV['MYSQL_USER'] %>
-  password: <%= ENV['MYSQL_PASSWORD'] %>
-  database: development<%= ENV['TEST_ENV_NUMBER'] %>
-  socket: /var/run/mysqld/mysqld.sock
-test:
-  adapter: mysql2
-  host: localhost
-  encoding: utf8
-  pool: 10
-  username: <%= ENV['MYSQL_USER'] %>
-  password: <%= ENV['MYSQL_PASSWORD'] %>
-  database: test<%= ENV['TEST_ENV_NUMBER'] %>
-  socket: /var/run/mysqld/mysqld.sock
-
 production:
- adapter: mysql2
-  host: localhost
-  encoding: utf8
-  pool: 10
-  username: <%= ENV['MYSQL_USER'] %>
-  password: <%= ENV['MYSQL_PASSWORD'] %>
-  database: production<%= ENV['TEST_ENV_NUMBER'] %>
-  socket: /var/run/mysqld/mysqld.sock
-
+  host:      ec2-54-225-243-113.compute-1.amazonaws.com
+  database:  d53m34lo6eoc9e
+  user:      zqynafkimfldvw
+  port:      5432
+  password:  L-ky3K0QmiTX1IdA9Zn7QTm3hP
+  psql:      heroku pg:psql --app heroku-postgres-feac77f7 purple
+  URL:       postgres://zqynafkimfldvw:L-ky3K0QmiTX1IdA9Zn7QTm3hP@ec2-54-225-243-113.compute-1.amazonaws.com:5432/d53m34lo6eoc9e

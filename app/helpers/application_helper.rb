@@ -1,4 +1,3 @@
-
 module ApplicationHelper
 	def get_stylesheets
     @direction =  'stylesheets/'
